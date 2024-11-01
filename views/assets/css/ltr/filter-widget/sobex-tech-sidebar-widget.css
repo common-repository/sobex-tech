@@ -1,0 +1,1520 @@
+/*
+***
+* *** Widget Style *** *
+***
+* This Design is for main containers of widget
+* widget-sobex-main-container is the Container Div
+* widget-sobex-table-group is the small container for Table Groups
+* widget-sobex-content-container is container of Inputs
+* widget-sobex-loading-container is the conatiner of loading content
+* widget-sobex-loading-content is for close widget and load new fields
+***
+*/
+/** Widget Container **/
+.widget-sobex-main-container {
+  width: 100%;
+  height: 100% !important;
+  float: left;
+  padding: 2%;
+  direction: ltr;
+}
+
+.widget-sobex-main-container a {
+  text-decoration: none !important;
+}
+
+.widget-sobex-main-container i ,.widget-sobex-main-button-container i{
+  font-style: unset !important;
+}
+.sobex-menu-slide-main-container input,#sobex-menu-slide-menu input {
+  display: none !important;
+}
+/** Widget Table Container **/
+.widget-sobex-table-group {
+  width: 100%;
+  border: 0;
+  padding: 2%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  background-color: #f4f4f4;
+  float: right;
+  border-radius: 5px;
+}
+.widget-sobex-table-group input {
+  display: none !important;
+}
+.widget-sobex-avoid-control {
+  pointer-events: none !important;
+  background-color: rgb(185 212 255 / 70%) !important;
+  opacity: 40%;
+}
+.widget-sidebar-sobex-close-content, .widget-sidebar-sobex-error-content {
+  display: none;
+}
+.widget-sidebar-sobex-close-content p{
+  margin: 0px 0px 10px 5px !important;
+  padding: 0 !important;
+  color: #9f9f9f;
+}
+.widget-sidebar-sobex-error-content p{
+  margin: 0px 0px 10px 5px !important;
+  padding: 0 !important;
+  color: rgb(177, 5, 5);
+}
+.hido {
+  display: none;
+}
+
+/** Header widget **/
+.widget-sobex-table-title {
+  width: 90%;
+  float: left;
+  color: #0082f3;
+}
+
+.widget-sobex-table-title h3 {
+  padding: 0%;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-bottom: 1%;
+  margin-left: 0%;
+}
+
+.widget-sobex-table-title svg {
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin-left: 1%;
+}
+
+.widget-sobex-table-title-svg-cutom {
+  float: left;
+  height: 20px;
+  width: 20px;
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(1000deg) brightness(118%) contrast(119%);
+}
+
+.widget-sobex-left-header {
+  width: 10%;
+  float: right;
+}
+
+.widget-sobex-pointer-hidder {
+  pointer-events: none;
+  opacity: 60%;
+  background-color: rgba(93, 211, 205, 0.2) !important;
+  background: rgba(93, 211, 205, 0.2) !important;
+}
+
+.widget-sobex-pointer-hidder h3 {
+  opacity: 10%;
+}
+
+.widget-sobex-content-container {
+  width: 100%;
+  float: left;
+  height: auto;
+}
+
+.widget-sobex-header-content {
+  width: 100%;
+  float: left;
+}
+
+.widget-sobex-header-line {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/** Loading Content **/
+.widget-sobex-loading-container {
+  display: none;
+}
+
+.widget-sobex-loading-content {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.widget-sobex-loading-content p {
+  margin-left: 1%;
+}
+
+.widget-sobex-loading-content img {
+  width: 36px;
+  float: left;
+}
+
+.widget-sobex-table-table-icon {
+  float: left;
+  padding-right: 2%;
+}
+.widget-sobex-table-table-icon i {
+  color: #16a27b
+}
+.widget-sobex-table-text {
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  text-decoration: none;
+}
+a.widget-sobex-table-text {
+  color: #5d5d5d;
+}
+/** Arrow up & Down **/
+.widget-sobex-table-group-clicker {
+  width: 100%;
+  float: right;
+}
+
+.sobex-hide-table,
+.sobex-show-table {
+  font: 16px;
+  float: right;
+}
+.sobex-hide-table i,
+.sobex-show-table i{
+  color: #16a27b;
+}
+.widget-sobex-hidden-table {
+  display: none;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.widget-sobex-content-scroll {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: #aae2d6 #f4f4f4;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* Chrome, Edge, and Safari */
+.widget-sobex-content-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.widget-sobex-content-scroll::-webkit-scrollbar-track {
+  background: none;
+}
+.widget-sobex-content-scroll::-webkit-scrollbar-thumb {
+  background-color: #aae2d6;
+  border-radius: 10px;
+}
+
+/** Filter now Button **/
+.widget-sobex-buttons-container {
+  width: 100%;
+  display: none;
+  float: right;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(37, 158, 198);
+}
+.widget-sobex-filter-button.widget-sobex-filter-button-before-content a {
+  color: #636363;
+}
+.widget-sobex-filter-button {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.widet-sobex-clear-button-table-title,
+  .widet-sobex-filter-button-table-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+a.widet-sobex-filter-button-table-title > i {
+  color: #16a27b;
+}
+a.widet-sobex-clear-button-table-title > i {
+  color: #16a27b;
+}
+.widget-sobex-filter-button-table {
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.widget-sobex-clear-button-table {
+  width: 100%;
+  padding-right: 5%;
+  text-align: right;
+}
+.widget-sobex-filter-button-table,.widget-sobex-clear-button-table {
+  font-size: 12px;
+}
+
+.widget-sobex-filter-button i {
+  padding-right: 4%;
+}
+
+.widget-sobex-filter-button i:hover,.widget-sobex-filter-button-table:hover,.widget-sobex-clear-button-table:hover {
+  transform: scale(1.1);
+}
+
+.widget-sobex-filter-button-before-content {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #f4f4f4;
+  border: 0;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.widget-sobex-filter-button-before-content:hover {
+  background-color: #aae2d6;
+}
+
+.widget-sobex-filter-button-before-content:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.widget-sobex-filter-button-before-content:focus-visible {
+  box-shadow: none;
+}
+
+/*---------------- Responsive ---------------*/
+@media screen and (max-width: 600px) {
+  .widget-sobex-loading-content {
+    display: none;
+    float: right;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: -5px;
+  }
+
+  .widget-sobex-loading-content p {
+    float: right;
+    margin-top: 3%;
+    margin-right: 1%;
+  }
+
+  .widget-sobex-loading-content img {
+    width: 36px;
+    float: right;
+  }
+
+}
+
+@media only screen and (max-width: 370px) {
+  .widget-sobex-content-container {
+    padding-top: 4%;
+  }
+
+  .widget-sobex-loading-content {
+    display: none;
+    float: right;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    padding-left: 28%;
+    padding-right: 15%;
+  }
+
+  .widget-sobex-loading-content p {
+    float: right;
+    margin-top: 5%;
+    margin-right: 1%;
+  }
+
+  .widget-sobex-loading-content img {
+    width: 36px;
+    float: right;
+  }
+
+  /** Style One of Color **/
+  .widget-sobex-color-container-style-one-checkbox,
+  .widget-sobex-color-container-style-one-radio,
+  .widget-sobex-box-container-style-checkbox,
+  .widget-sobex-box-container-style-price,
+  .widget-sobex-box-container-style-radio {
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .widget-button-filter-now-container .widget-button-filter-part-text .widget-button-filter-text-label {
+    font-size: 12px !important;
+  }
+
+  .widget-button-clear-container .widget-button-clear-part-text .widget-button-clear-part-text-label {
+    font-size: 12px !important;
+  }
+
+  .sobex-checkbox-container-style-box,
+  .widget-sobex-box-container-style-radio {
+    padding-left: auto !important;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .widget-button-filter-now-container .widget-button-filter-part-text .widget-button-filter-text-label {
+    font-size: 11px !important;
+  }
+
+  .widget-button-filter-now-container .widget-button-filter-part-icon .widget-button-filter-image img {
+    width: 12px !important;
+    height: 20px !important;
+  }
+
+  .widget-button-clear-container .widget-button-clear-part-text .widget-button-clear-part-text-label {
+    font-size: 11px !important;
+  }
+
+  .widget-button-clear-container .widget-button-clear-part-icon .widget-button-clear-image img {
+    width: 12px !important;
+    height: 20px !important;
+  }
+
+  .widget-sobex-main-button-flex-container {
+    flex-direction: row-reverse !important;
+  }
+
+  .input-sobex-box-container-radio {
+    padding-left: auto !important;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .widget-sobex-main-button-flex-container {
+    flex-direction: column !important;
+  }
+
+  .widget-sobex-box-container-style-radio {
+    padding-left: 0 !important;
+  }
+
+  .widget-sobex-filter-button i {
+    font-size: 12px !important;
+  }
+
+  .widet-sobex-clear-button-table-title,
+  .widet-sobex-filter-button-table-title {
+    font-size: 12px !important;
+  }
+}
+
+/** Padding Each Group **/
+.widget-sobex-color-container-style-one-checkbox,
+.widget-sobex-color-container-style-one-radio,
+.widget-sobex-box-container-style-checkbox,
+.widget-sobex-box-container-style-price,
+.widget-sobex-box-container-style-radio {
+  padding-top: 0.2rem;
+}
+
+.widget-sobex-content-container {
+  padding-top: 0.6rem;
+}
+.widget-sobex-buttons-container a,.widget-button-filter-now-container .widget-button-filter-part-text .widget-button-filter-text-label,.widget-button-clear-container .widget-button-clear-part-text .widget-button-clear-part-text-label{
+  font-size: 14px;
+}
+/*---------------- End Responsive ---------------*/
+
+/*
+***
+* *** Sobex Checkbox & Radiobox Style One *** *
+***
+* This Design is For any attributes Filter by Checkbox & Radiobox
+* widget-sobex-main-container is the Container Div
+* sobex-widget-input-container is the small container for inputs
+* widget-sobex-fake-input is the fake box selector for input 
+***
+*/
+.sobex-widget-input-container *,
+.sobex-widget-input-container *::before,
+.sobex-widget-input-container *::after {
+  box-sizing: content-box !important;
+}
+
+.sobex-widget-input-container input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.sobex-widget-input-container span {
+  line-height: 1.54;
+  font-size: 14px;
+  font-family: inherit;
+  color: #5d5d5d;
+}
+
+.sobex-widget-input-container {
+  display: flex;
+  position: relative;
+  padding-left: 1.8rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.sobex-widget-input-container input[type="checkbox"]~.widget-sobex-fake-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  background: rgba(241, 245, 248, 1);
+  transition: background 250ms;
+  border: 1px solid rgba(184, 194, 204, 1);
+  border-radius: 0.125rem;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-box-shadow: 1px 0px 3px #d2d2d2;
+  -webkit-box-shadow: 1px 0px 3px #d2d2d2;
+  box-shadow: 1px 0px 3px #d2d2d2;
+}
+
+.sobex-widget-input-container input[type="radio"]~.widget-sobex-fake-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  background: rgba(241, 245, 248, 1);
+  transition: background 250ms;
+  border: 1px solid rgba(184, 194, 204, 1);
+  border-radius: 2rem;
+  -moz-box-shadow: 1px 0px 3px #d2d2d2;
+  -webkit-box-shadow: 1px 0px 3px #d2d2d2;
+  box-shadow: 1px 0px 3px #d2d2d2;
+}
+
+.sobex-widget-input-container input[type="checkbox"]~.widget-sobex-fake-input::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 0.45rem;
+  top: 0.18rem;
+  width: 0.25rem;
+  height: 0.6rem;
+  border: solid rgba(255, 255, 255, 1);
+  border-width: 0 2px 2px 0;
+  transition: background 250ms;
+  transform: rotate(45deg);
+}
+
+.sobex-widget-input-container input[type="radio"]~.widget-sobex-fake-input::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 0.25rem;
+  top: 0.25rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 1);
+  transition: background 250ms;
+}
+
+.sobex-widget-input-container input:disabled~.widget-sobex-fake-input::after {
+  border-color: rgba(135, 149, 161, 1);
+}
+
+.sobex-widget-input-container input:checked~.widget-sobex-fake-input::after {
+  display: block;
+}
+
+.sobex-widget-input-container:hover input~.widget-sobex-fake-input,
+.sobex-widget-input-container input:focus~.widget-sobex-fake-input {
+  background: rgb(231, 238, 243);
+}
+
+.sobex-widget-input-container input:focus~.widget-sobex-fake-input {
+  box-shadow: 0 0 0 2px rgba(52, 144, 220, 0.5);
+}
+
+.sobex-widget-input-container input:checked~.widget-sobex-fake-input {
+  background: rgba(0, 130, 243, 1);
+  border-color: rgba(0, 130, 243, 1);
+}
+
+.sobex-widget-input-container input[type="checkbox"]:disabled~.widget-sobex-fake-input {
+  background: rgba(241, 245, 248, 1);
+  border-color: rgba(184, 194, 204, 1);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sobex-widget-input-container input[type="radio"]:disabled~.widget-sobex-fake-input {
+  background: rgba(241, 245, 248, 1);
+  border-color: rgba(184, 194, 204, 1);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sobex-widget-input-container input[type="radio"]:disabled~.widget-sobex-fake-input::after {
+  background: rgba(135, 149, 161, 1);
+}
+
+.sobex-widget-input-container input:checked:focus~.widget-sobex-fake-input,
+.sobex-widget-input-container:hover input:not([disabled]):checked~.widget-sobex-fake-input {
+  background: rgba(13, 143, 255, 1);
+  border-color: rgba(13, 143, 255, 1);
+}
+
+.sobex-widget-input-container .widget-sobex-fake-input::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3rem;
+  height: 3rem;
+  margin-right: -0.85rem;
+  margin-top: -0.85rem;
+  background: rgba(0, 130, 243, 1);
+  border-radius: 2rem;
+  opacity: 0.6;
+  z-index: 99999;
+  transform: scale(0);
+}
+
+@keyframes b-ripple {
+  0% {
+    transform: scale(0);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes b-ripple-duplicate {
+  0% {
+    transform: scale(0);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.sobex-widget-input-container input+.widget-sobex-fake-input::before {
+  animation: b-ripple 250ms ease-out;
+}
+
+.sobex-widget-input-container input:checked+.widget-sobex-fake-input::before {
+  animation-name: b-ripple-duplicate;
+}
+
+.sobex-widget-input-container .widget-sobex-fake-input::before {
+  visibility: hidden;
+}
+
+.sobex-widget-input-container input:focus+.widget-sobex-fake-input::before {
+  visibility: visible;
+}
+
+.sobex-widget-input-container:first-child .widget-sobex-fake-input::before {
+  visibility: hidden;
+}
+
+/*
+***
+* *** Sobex Selectbox *** *
+***
+* This Design is For any attributes Filter by Checkbox & Radiobox
+* widget-sobex-content-container is the Container Div
+* widget-sobex-selectbox-container is the small container for inputs
+* widget-sobex-select_arrow is the arrow for select box 
+***
+*/
+.widget-sobex-selectbox-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+div.widget-sobex-selectbox-container div.widget-sobex-select-input {
+  padding-left: 2px !important;
+  position: unset !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  width: 100% !important;
+  cursor: pointer;
+  height: 43px;
+  padding: 0px 0px;
+  outline: 0;
+  border: none !important;
+  border-radius: 4px;
+  background: #f1f1f1;
+  color: #7e7e7e;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 1px 0px 3px #d2d2d2;
+  -webkit-box-shadow: 1px 0px 3px #d2d2d2;
+  -moz-box-shadow: 1px 0px 3px #d2d2d2;
+  background: none !important;
+  padding: 2%;
+}
+div.widget-sobex-selectbox-container select.widget-sobex-select-input {
+  padding-left: 2px !important;
+  position: unset !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  width: 100% !important;
+  cursor: pointer;
+  height: 43px;
+  padding: 0px 0px;
+  outline: 0;
+  border: none !important;
+  border-radius: 4px;
+  background: #f1f1f1;
+  color: #7e7e7e;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none !important;
+  box-shadow: 1px 0px 3px #d2d2d2;
+  -webkit-box-shadow: 1px 0px 3px #d2d2d2;
+  -moz-box-shadow: 1px 0px 3px #d2d2d2;
+  padding: 2%;
+}
+
+div.widget-sobex-selectbox-container .widget-sobex-select-input::-ms-expand {
+  display: none;
+}
+
+div.widget-sobex-selectbox-container .widget-sobex-select-input:hover,
+div.widget-sobex-selectbox-container .widget-sobex-select-input:focus {
+  color: #0082f3;
+  background: #f5f5f5;
+}
+
+div.widget-sobex-selectbox-container .widget-sobex-select-input:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.widget-sobex-select_arrow {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  width: 0px;
+  height: 0px;
+  border: solid #807d7d;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  color: #0082f3;
+}
+
+.widget-sobex-selectbox-container .widget-sobex-select-input:hover~.widget-sobex-select_arrow,
+.widget-sobex-selectbox-container .widget-sobex-select-input:focus~.widget-sobex-select_arrow {
+  border-color: #0082f3;
+}
+
+.widget-sobex-selectbox-container .widget-sobex-select-input:disabled~.widget-sobex-select_arrow {
+  border-top-color: #cccccc;
+}
+
+/*
+***
+* *** Sobex-color-style-1 for checkbox *** *
+***
+* This Design is only for color Selector by Checkbox
+* widget-sobex-color-container-style-one-checkbox is the Container Div
+* widget-sobex-checkbox-container is the small container for inputs
+* widget-sobex-fake-checkbox is the fake box selector for input 
+***
+*/
+.widget-sobex-color-container-style-one-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2%;
+}
+
+.widget-sobex-checkbox-container {
+  position: relative;
+  padding-left: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0.5rem 0.4rem;
+}
+
+.widget-sobex-checkbox-container input {
+  opacity: 0;
+}
+
+.widget-sobex-checkbox-container .widget-sobex-fake-checkbox {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  background: #bdbdbd;
+  border-radius: 5%;
+  border: 2px solid rgb(167 167 167);
+}
+
+.widget-sobex-checkbox-container .widget-sobex-fake-checkbox::before {
+  content: "\2713";
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-70%, -60%) rotate(10deg);
+  height: px;
+  width: 0px;
+  border: solid white;
+  border-width: 0 0px 0px 0;
+  transition: all 150ms ease;
+  opacity: 0;
+  mix-blend-mode: difference;
+  color:white;
+}
+
+.widget-sobex-checkbox-container input:checked~.widget-sobex-fake-checkbox::before {
+  height: 70%;
+  width: 70%;
+  opacity: 1;
+}
+
+.widget-sobex-checkbox-container input:checked + .widget-sobex-fake-checkbox{
+  border: 2px solid rgb(117, 117, 117);
+}
+
+.widget-sobex-checkbox-container input:disabled~.widget-sobex-fake-checkbox::before {
+  height: 70%;
+  width: 70%;
+  opacity: 0.7;
+}
+
+.widget-sobex-checkbox-container input:disabled~.widget-sobex-fake-checkbox {
+  opacity: 0.7;
+}
+
+/*
+***
+* *** Sobex-color-style-1 for radio  *** *
+***
+* This Design is only for color Selector by radio
+* widget-sobex-color-container-style-one-radio is the Container Div
+* widget-sobex-radio-container is the small container for inputs
+* widget-sobex-fake-radio is the fake box selector for input
+***
+*/
+.widget-sobex-color-container-style-one-radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget-sobex-radio-container {
+  position: relative;
+  padding-left: 30px;
+  height: 20px;
+  cursor: pointer;
+  margin: 0.5rem 0.3rem;
+}
+
+.widget-sobex-radio-container input {
+  opacity: 0;
+}
+
+.widget-sobex-radio-container .widget-sobex-fake-radio {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 2px solid rgb(167 167 167);
+}
+
+.widget-sobex-radio-container .widget-sobex-fake-radio:hover {
+  width: 33px;
+  height: 33px;
+}
+
+.widget-sobex-radio-container input:disabled~.widget-sobex-fake-radio:hover {
+  height: 30px;
+  width: 30px;
+}
+
+.widget-sobex-radio-container .widget-sobex-fake-radio::before {
+  content: "\2713";
+  position: absolute;
+  left: 0%;
+  /* top: 15%; */
+  transition: all 150ms ease;
+  opacity: 0;
+  mix-blend-mode: difference;
+  color:white;
+  transition: all 180ms cubic-bezier(0, 0, 0.83, 0.06);
+}
+
+.widget-sobex-radio-container input:checked~.widget-sobex-fake-radio::before {
+  height: 70%;
+  width: 70%;
+  opacity: 1;
+}
+
+.widget-sobex-radio-container input:checked + .widget-sobex-fake-radio{
+  border: 2px solid rgb(117, 117, 117);
+}
+
+.widget-sobex-radio-container input:disabled~.widget-sobex-fake-radio {
+  border: 2px solid grey;
+  opacity: 0.5;
+}
+
+/*
+***
+* *** Sobex-box-style-1 for checkbox  *** *
+***
+* This Design is only for box Selector by radio
+* widget-sobex-box-container-style-checkbox is the Container Div
+* sobex-checkbox-container-style-box is the small container for inputs
+* widget-sobex-fake-input-box-checkbox is the fake box selector for input
+***
+*/
+.widget-sobex-box-container-style-checkbox {
+  display: flex;
+  flex-wrap: wrap; 
+
+}
+.widget-sobex-box-container-style-checkbox input {
+  display: none !important;
+}
+.sobex-checkbox-container-style-box input {
+  display: none !important;
+}
+.sobex-checkbox-container-style-box {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.sobex-checkbox-container-style-box input {
+  display: none !important;
+}
+
+.widget-sobex-fake-input-box-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: baseline;
+}
+
+.sobex-checkbox-container-style-box .widget-sobex-fake-input-box-checkbox {
+  height: 38px;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #f8f8f8;
+  background: rgb(221 221 221); 
+  color: black;
+  position: relative;
+  font-size: 12px !important;
+}
+
+.sobex-checkbox-container-style-box .widget-sobex-fake-input-box-checkbox::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  height: 0px;
+  width: 0px;
+  border: solid #b49c9c;
+  border-width: 0 0px 0px 0;
+  transition: all 150ms ease;
+  opacity: 0;
+  background-color: whitesmoke;
+}
+
+.sobex-checkbox-container-style-box input:checked~.widget-sobex-fake-input-box-checkbox::before {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background: #a7a7a7d9;
+  border: 3px solid #9b9b9b;
+}
+
+.sobex-checkbox-container-style-box input:disabled~.widget-sobex-fake-input-box-checkbox::before {
+  opacity: 0.7;
+}
+
+.sobex-checkbox-container-style-box input:disabled~.widget-sobex-fake-input-box-checkbox {
+  opacity: 0.7;
+}
+
+/*
+***
+* *** Sobex-box-style-1 for radio  *** *
+***
+* This Design is only for box Selector by radio
+* widget-sobex-box-container-style-radio is the Container Div
+* input-sobex-box-container-radio is the small container for inputs
+* widget-sobex-fake-input-box-radio is the fake box selector for input
+***
+*/
+.widget-sobex-box-container-style-radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.widget-sobex-box-container-style-radio input {
+  display: none !important;
+}
+.input-sobex-box-container-radio {
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.input-sobex-box-container-radio input {
+  display: none;
+}
+
+.widget-sobex-fake-input-box-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-sobex-box-container-radio .widget-sobex-fake-input-box-radio {
+  position: relative;
+  height: 38px;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #f8f8f8;
+  background: rgb(221 221 221);
+  color: black;
+}
+
+.input-sobex-box-container-radio .widget-sobex-fake-input-box-radio::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  height: 0px;
+  width: 0px;
+  border: solid #b49c9c;
+  border-width: 0 0px 0px 0;
+  transition: all 150ms ease;
+  opacity: 0;
+  background-color: whitesmoke;
+}
+
+.input-sobex-box-container-radio input:checked~.widget-sobex-fake-input-box-radio::before {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background: #a7a7a7d9;
+  border: 3px solid #9b9b9b;
+}
+
+.input-sobex-box-container-radio input:disabled~.widget-sobex-fake-input-box-radio {
+  border: 1px solid grey;
+  opacity: 0.5;
+}
+
+/*
+***
+* *** Sobex Filter Now Button  *** *
+***
+* This Design is only for Buttons
+* widget-sobex-main-button-container is the Container Div
+* widget-button-filter-now-container for Filter Button
+* widget-button-filter-now-row the container of Parts
+* widget-button-filter-part-text Is for Part text
+* widget-button-filter-part-icon Is for Part Icon
+***
+*/
+.widget-sobex-main-button-container {
+  width: 100%;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.widget-sobex-main-button-flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.widget-button-filter-now-container {
+  width: 100%;
+  color: black !important;
+  border-radius: 6px;
+  border-color: rgba(85, 98, 219, 1);
+  border-width: 0px;
+  border-style: solid;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.widget-button-filter-now-container .widget-button-filter-now-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 0;
+  align-content: flex-start;
+}
+.widget-button-filter-image i {
+  color: #16a27b;
+}
+.widget-button-filter-now-row:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.widget-button-filter-now-container .widget-button-filter-part-icon {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+.widget-button-filter-now-container .widget-button-filter-part-icon .widget-button-filter-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.widget-button-filter-now-container .widget-button-filter-part-icon .widget-button-filter-image img {
+  width: 22px;
+  height: 24px;
+  transform: scale(1) rotate(0deg);
+  opacity: 1;
+  filter: invert(0);
+  object-fit: contain;
+  object-position: center;
+}
+
+.widget-button-filter-now-container .widget-button-filter-part-text {
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 1px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.widget-button-filter-now-container .widget-button-filter-part-text .widget-button-filter-text-label {
+  display: block;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 106%;
+  text-align: right;
+  color: #3f3f3f;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+***
+* *** Sobex Clear All Button  *** *
+***
+* This Design is only for Buttons
+* widget-sobex-main-button-container is the Container Div
+* widget-button-clear-container for Filter Button
+* widget-button-clear-row the container of Parts
+* widget-button-clear-part-text Is for Part text
+* widget-button-clear-part-icon Is for Part Icon
+***
+*/
+.widget-button-clear-container {
+  width: 100%;
+  color: black !important;
+  border-radius: 6px;
+  border-color: rgba(85, 98, 219, 1);
+  border-width: 0px;
+  border-style: solid;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.widget-button-clear-container .widget-button-clear-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 0;
+  align-content: flex-start;
+}
+.widget-button-clear-image i {
+  color: #16a27b;
+}
+.widget-button-clear-row:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.widget-button-clear-container .widget-button-clear-part-icon {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+.widget-button-clear-container .widget-button-clear-part-icon .widget-button-clear-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.widget-button-clear-container .widget-button-clear-part-icon .widget-button-clear-image img {
+  width: 22px;
+  height: 24px;
+  transform: scale(1) rotate(0deg);
+  opacity: 1;
+  filter: invert(0);
+  object-fit: contain;
+  object-position: center;
+}
+
+.widget-button-clear-container .widget-button-clear-part-text {
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.widget-button-clear-container .widget-button-clear-part-text .widget-button-clear-part-text-label {
+  display: block;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 106%;
+  text-align: right;
+  color: #3f3f3f;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+***
+* *** Sobex Filter Price  *** *
+***
+* This Design is only for Price
+* widget-sobex-box-container-style-price is the Container Div
+* widget-sobex-price-input  the number value div
+* widget-sobex-price-separator Is separated Div
+* widget-sobex-price-range-input-sidebar the range value div
+***
+*/
+.widget-sobex-box-container-style-price {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.widget-sobex-price-wrapper {
+  width: 100%;
+  border-radius: 10px;
+  padding: 2% 2% 2%;
+}
+.sobex-tech-price-two-side-slider-container {
+  width: 100%;
+  padding: 4%;
+}
+
+
+.sobex-tech-price-two-side-slider-slider-labels {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sobex-tech-price-two-side-slider-slider-labels strong, .sobex-tech-price-two-side-slider-slider-labels span{
+  color: #84888f;
+}
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+/* Fix 401 */
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  transition: left 0.3s,top .3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base,.noUi-handle {
+  transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 18px !important;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -7px;
+  background-color: rgb(33 150 243) !important;
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background: #D6D7D9;
+}
+
+.noUi-connect {
+  background: #17A2B8;
+  transition: background 450ms;
+}
+
+.noUi-origin {
+  border-radius: 2px;
+}
+
+.noUi-target {
+  border-radius: 2px;
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+
+.noUi-handle {
+  cursor: default;
+  box-sizing: content-box !important;
+}
+
+.noUi-handle:active {
+  border: 8px solid #345DBB;
+  border: 8px solid rgba(53,93,187,0.38);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-origin,[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+/*
+***
+* *** Sobex Show Less & More  *** *
+***
+* This Design is only SLIDE UP AND DOWN
+***
+*/
+.widget-sobex-table-group-more {
+  width: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 35px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.widget-sobex-table-group-more:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.widget-sobex-table-group-more:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.widget-sobex-table-group-more:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}

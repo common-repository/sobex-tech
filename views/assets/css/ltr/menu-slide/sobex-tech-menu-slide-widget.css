@@ -1,0 +1,377 @@
+.sobex-menu-arrowclass,#sobex-menu-arrow-slide {
+  width: 22px;
+  left: unset !important;  
+  right: 0 !important;
+  padding-left: 0.5rem;
+  transform: rotate(180deg) !important;
+}
+
+.sobex-menu-slide-main-container {
+  width: 100% !important;
+  background: #fcfcfc;
+  border: 0 !important;
+  direction: ltr;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobex-menu-slide-buttons-container {
+  width: 100%;
+  display: flex;
+}
+i#sobex-menu-arrow-slide {
+  right: 5px !important;
+  color: rgb(201, 201, 201);
+}
+.sobex-menu-slide-main-container a {
+  text-decoration: none !important;
+}
+
+.sobex-menu-slide-main-container i {
+  font-style: unset !important;
+}
+/* Firefox */
+.sobex-menu-slide-menu {
+  scrollbar-width: thin !important;
+  scrollbar-color: #aae2d6 #fcfcfc;
+  height: 235px !important;
+  width: 100% !important;
+  position: relative !important;
+  z-index: 40;
+  overflow-y: auto !important;
+}
+
+/* Chrome, Edge, and Safari */
+.sobex-menu-slide-menu::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.sobex-menu-slide-menu::-webkit-scrollbar-track {
+  background: #aae2d6 
+}
+
+.sobex-menu-slide-menu::-webkit-scrollbar-thumb {
+  background-color: #aae2d6;
+  border-radius: 9px !important;
+}
+
+.sobex-menu-slide-menu .sobex-accoslider-ul-filter {
+  /*menu ULs*/
+  font-size: 13px !important;
+  margin: 0 ;
+  padding: 0 ;
+  list-style-type: none ;
+  background-color: #FFF;
+  right: 0 !important;
+}
+.sobex-menu-slide-menu .sobex-accoslider-ul-filter:not(:first-child) {
+  height: 100% !important;
+}
+.sobex-menu-slide-menu .sobex-accoslider-li-filter a {
+  /*menu links*/
+  color: black !important;
+  text-decoration: none;
+  padding: 5px ;
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  text-decoration: none ;
+  display: flex ;
+  border-bottom: 1px solid #E6E6E6;
+  font-weight: normal;
+}
+.sobex-accoslider-li-filter {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.sobex-accoslider-li-filter label {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+* html .sobex-menu-slide-menu .sobex-accoslider-li-filter {
+  /*IE6 CSS hack*/
+  display: inline-block ;
+}
+
+.sobex-menu-slide-menu .sobex-accoslider-li-filter .sobex-main-menu-names:hover {
+  background: #d8d8d8;
+  color: black;
+  cursor: pointer;
+}
+
+li.backcontroltitle {
+  /*style of top level menu title*/
+  background: black ;
+  color: white ;
+  padding: 4px ;
+}
+
+li.backcontrol {
+  /*style of back button control that gets added to the top of each sub UL*/
+  height: 15px ;
+  color: black ;
+  padding: 4px ;
+  cursor: pointer ;
+  text-align: right ;
+  position: relative ;
+  padding: 10px ;
+  border-bottom: 1px solid gray ;
+  background: rgb(245 245 245) ;
+  font-weight: bold ;
+  flex-direction: row-reverse ;
+  justify-content: space-between ;
+  align-items: center ;
+  align-content: center ;
+  flex-wrap: wrap ;
+}
+
+.sobex-main-menu-names {
+  display: flex ;
+  justify-content: flex-start ;
+  flex-direction: row ;
+  align-items: center ;
+  flex-wrap: nowrap ;
+  color: #7a7a7a;
+}
+
+.sobex-main-menu-names i {
+  padding-right: 5px ;
+  float: left ;
+}
+
+.sobex-menu-breadcrumb {
+  width: 100% ;
+  list-style: none ;
+  padding: 0 ;
+  display: inline-flex ;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li {
+  display: inline-block ;
+  position: relative ;
+  line-height: 30px ;
+  background: #E6E6E6;
+  margin-right: 18px ;
+  font-size: 14px ;
+  float: left !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:before {
+  content: "" ;
+  display: block ;
+  position: absolute ;
+  top: 0 ;
+  left: -15px ;
+  width: 0 ;
+  height: 0 ;
+  border-top: 15px solid #E6E6E6 ;
+  border-left: 15px solid transparent ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: -15px !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-bottom: 15px solid #E6E6E6 ;
+  border-left: 15px solid transparent !important;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li .sobex-menu-breadcrumb-a {
+  display: block ;
+  color: #6d6d6d;
+  text-decoration: none ;
+  padding: 0 9.5px ;
+  width: 0px ;
+  white-space: nowrap ;
+  overflow: hidden ;
+  background-color: #E6E6E6;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li .sobex-menu-breadcrumb-a:after {
+  content: "" ;
+  transform: rotate(0deg) ;
+  display: block ;
+  position: absolute ;
+  bottom: 0 ;
+  right: -30px ;
+  width: 0 ;
+  height: 0 ;
+  border-width: 15px ;
+  border-style: solid ;
+  border-color: transparent transparent transparent #E6E6E6 ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:first-child {
+  -moz-border-radius-topleft: 5px ;
+  -webkit-border-top-left-radius: 5px ;
+  border-top-left-radius: 5px ;
+  -moz-border-radius-bottomleft: 5px ;
+  -webkit-border-bottom-left-radius: 5px ;
+  border-bottom-left-radius: 5px ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:first-child:before,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:first-child:after {
+  display: none !important;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:first-child .sobex-menu-breadcrumb-a:before {
+  content: "" ;
+  display: inline-block ;
+  width: 7.5px ;
+  height: 7.5px ;
+  margin-right: 7.5px ;
+  background: #888 ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child {
+  background-color: #aae2d6 ;
+  padding: 0 7.5px ;
+  display: none ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child .sobex-menu-breadcrumb-a {
+  -moz-border-radius-topright: 5px ;
+  -webkit-border-top-right-radius: 5px ;
+  border-top-right-radius: 5px ;
+  -moz-border-radius-bottomright: 5px ;
+  -webkit-border-bottom-right-radius: 5px ;
+  border-bottom-right-radius: 5px ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child .sobex-menu-breadcrumb-a:after {
+  display: none ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child:before,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child:after,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover:before,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover:after {
+  border-top-color: #aae2d6;
+  border-bottom-color: #aae2d6;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child .sobex-menu-breadcrumb-a,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover .sobex-menu-breadcrumb-a {
+  background: #aae2d6;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child .sobex-menu-breadcrumb-a:after,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover .sobex-menu-breadcrumb-a:after {
+  border-left-color: #aae2d6;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child+li {
+  background: #aae2d6;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:first-child .sobex-menu-breadcrumb-a,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:last-child .sobex-menu-breadcrumb-a,
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover .sobex-menu-breadcrumb-a {
+  width: auto ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:nth-child(2) .sobex-menu-breadcrumb-a {
+  width: 1ch ;
+  overflow: hidden ;
+  white-space: nowrap ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:nth-child(3) .sobex-menu-breadcrumb-a {
+  width: 2ch ;
+  overflow: hidden ;
+  white-space: nowrap ;
+}
+
+.sobex-menu-breadcrumb .sobex-menu-breadcrumb-li:hover .sobex-menu-breadcrumb-a {
+  /* transform: scale(1.1) ; */
+}
+
+.sobex-menu-slide-yes-edit {
+  display: block ;
+}
+
+.sobex-menu-slide-no-edit {
+  display: none !important;
+}
+
+.sobex-menu-slide-main-container input {
+  display: none !important;
+}
+
+.sobex-menu-check-with-label:checked+.sobex-main-menu-names {
+  font-weight: bold !important;
+  background: #aae2d6;
+  color: black !important;
+  cursor: pointer !important;
+}
+
+
+.backcontrol {
+  display: none;
+}
+
+.sobex-menu-slide-clear-button,
+.sobex-menu-slide-filter-button {
+  position: relative;
+  display: none;
+  z-index: 40;
+  background-color: #f4f4f4;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #8e8e8e;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.sobex-menu-slide-clear-button:hover,
+.sobex-menu-slide-filter-button:hover {
+  background-color: #eaeaea;
+}
+
+.sobex-menu-slide-clear-button:focus,
+.sobex-menu-slide-filter-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.sobex-menu-slide-clear-button:focus-visible,
+.sobex-menu-slide-filter-button:focus-visible {
+  box-shadow: none;
+}
+.sobex-menu-slide-clear-button i,
+.sobex-menu-slide-filter-button i{
+  padding-left: 0.2rem;
+  color: #00820f;
+}
+.sobex-menu-slide-pointer-hidder {
+  background: #f3f3f3;
+  opacity: 0.6;
+  pointer-events: none;
+}
+#sobex-menu-arrow-slide i {
+  color: #c9c9c9;
+}

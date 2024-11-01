@@ -1,0 +1,1290 @@
+@charset "utf-8";
+#wpcontent, #wpfooter {
+	background-color: #16a27b !important;
+}
+/************************* ST SEARCH TABS STYLE ***************************/
+/*** header **/
+
+.admin-header-sobex {
+background-color: #23232a;
+width: 100%;
+height: 120px;
+border: dashed 0px #000000;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomleft: 0px;
+-moz-border-radius-bottomright: 0px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+background-image: url(../../images/admin_pages/header-sobex.png);
+background-repeat: no-repeat;
+background-position: left top;
+-moz-box-shadow: 0px 0px 5px #282828;
+-webkit-box-shadow: 0px 0px 5px #282828;
+box-shadow: 0px 0px 5px #282828;
+}
+.tab-head li a{
+	font-size: 14px !important;
+}
+.admin-logo-sobex {
+float: right;
+margin-right: 1%;
+margin-top: 2%;
+}
+.admin-logo-sobex img {
+height: 54px;
+width: 160px;
+
+}
+
+.left-header-text {
+	float: left;
+	margin-top: 1.0%;
+	margin-left: 2%;
+	text-align: center;
+	width: 200px;
+}
+.left-header-text p {
+font-size: 14px;
+color: white !important;
+padding: 0;
+margin: 0;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+padding: 0.5%;
+background-color: rgba(1, 0, 0, 0.4);
+background: rgba(1, 0, 0, 0.4);
+color: rgba(1, 0, 0, 0.4);
+margin-top: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px; 
+
+}
+.left-header-text a {
+color: #F7F7F7;
+border-bottom: none;
+text-decoration: none;
+}
+
+.versionplugins{
+font-size: 12px;
+color: #FFF;
+float: right;
+width:100%;
+padding-right: 5px;
+padding-left: 5px;
+text-align: center;
+background-color: rgba(1, 0, 0, 0.4);
+background: rgba(1, 0, 0, 0.4);
+color: rgba(1, 0, 0, 0.4);
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomleft: 5px;
+-moz-border-radius-bottomright: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+} 
+.versionplugins p {
+font-size: 12px;
+color: #FFF;
+
+} 
+.versionplugins a{
+color: #F7F7F7;
+border-bottom: none;
+text-decoration: none;
+} 	 
+
+.versionplugins .sohedsvg{
+height: 15px;
+width: 15px;
+margin-left: 10px;
+margin-top: 3px;
+} 	 
+/*** Padding Content **/
+#tab-1 {
+	padding: 0 !important;
+}
+.section-content-left {
+	width: 85%;
+	float: left;
+}
+/*** /footer **/
+/*** footer **/
+
+.admin-footer-sobex {
+	background-color: #23232a;
+	width: 100%;
+	height: 50px;
+	border: dashed 0px #000000;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-image: url(../../images/admin_pages/admin-footer-sobex.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	-moz-box-shadow: 0px 0px 5px #282828;
+	-webkit-box-shadow: 0px 0px 5px #282828;
+	box-shadow: 0px 0px 5px #282828;
+	font-size: 14px;
+}
+
+
+.admin-footer-sobex p {
+float: right;
+margin-top: 1%;
+margin-right: 1%;
+color: #F4F4F4;
+}
+.admin-footer-sobex a {
+float: left;
+margin-top: 1%;
+color: #FFFFFF;
+margin-right: 2%;
+margin-left: 2%;
+border-bottom: none;
+text-decoration: none;
+}
+.admin-footer-sobex a:hover{
+color: #0C6;
+text-decoration: underline;
+}
+.admin-footer-sobex img{
+height: 30px;
+width: 30px;
+}
+
+
+/*** Tab R **/
+/*** Tab R **/
+/*** Tab R **/
+
+.sobextechcontent {
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+background-color: #16a27b;
+color: #1a1a1a;
+font-size: 1.1rem;
+line-height: 1.5;
+direction: rtl;
+width: 100%;
+}
+
+.tabsebox-r-container {
+padding: 2rem;
+
+}
+
+
+/*** Tabs Block ***/
+.tabsebox-r-block {
+align-items: center;
+justify-content: center;
+background-color:#f9f9f9;	
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+-moz-box-shadow: 0px 0px 5px #282828;
+-webkit-box-shadow: 0px 0px 5px #282828;
+box-shadow: 0px 0px 5px #282828;
+
+}
+
+/*** Tabs **/
+.tabsebox-r {
+	width: 100%;
+	display: flex;
+}
+
+.tabsebox-r > ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 15%;
+background-color: #16a27b;
+}
+
+.tabsebox-r > ul li {
+display: block;
+margin-bottom: 0 !important;
+}
+
+.tabsebox-r > ul li:not(:last-child) {
+border-bottom: 1px solid #1ddda7
+}
+
+.tabsebox-r > ul li a,
+.tabsebox-r > ul li a:visited {
+display: flex;
+border-bottom: none;
+text-decoration: none;
+background-color: #000;
+color: #fff;
+padding: 1rem 1.5rem;
+transition: all 0.2s ease-in-out;
+word-wrap: break-word;
+background-color: #16a27b;
+}
+
+.tabsebox-r > ul li a:hover,
+.tabsebox-r > ul li a:focus,
+.tabsebox-r > ul li a:active {
+border-bottom: none;
+outline: 0;
+}
+
+.tabsebox-r > ul li a.active {
+background-color: #F9F9F9;
+color: #333333;
+}
+
+.tabsebox-r > ul li a:hover:not(.active) {
+color: #FF9900;
+}
+
+.tabsebox-r > ul li a > span {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 14px !important;
+}
+
+.tabsebox-r > ul li a > span.tab-label {
+display: none;
+}
+
+.tabsebox-r section {
+width: 100%;
+/* padding: 1rem; */
+display: none;
+word-wrap: break-word;
+}
+
+
+
+.tabsebox-r section > *:nth-child(1) {
+transition-delay: 0.2s;
+}
+
+.tabsebox-r section > *:nth-child(2) {
+transition-delay: 0.3s;
+}
+
+.tabsebox-r section > *:nth-child(3) {
+transition-delay: 0.4s;
+}
+
+.tabsebox-r section > *:nth-child(4) {
+transition-delay: 0.5s;
+}
+
+.tabsebox-r section > *:nth-child(5) {
+transition-delay: 0.6s;
+}
+
+.tabsebox-r section > *:nth-child(6) {
+transition-delay: 0.7s;
+}
+
+.tabsebox-r section > *:nth-child(7) {
+transition-delay: 0.8s;
+}
+
+.tabsebox-r section > *:nth-child(8) {
+transition-delay: 0.9s;
+}
+
+.tabsebox-r section > *:nth-child(9) {
+transition-delay: 1s;
+}
+
+.tabsebox-r section > *:nth-child(10) {
+transition-delay: 1.1s;
+}
+
+.tabsebox-r section > *:nth-child(11) {
+transition-delay: 1.2s;
+}
+
+.tabsebox-r section > *:nth-child(12) {
+transition-delay: 1.3s;
+}
+
+.tabsebox-r section > *:nth-child(13) {
+transition-delay: 1.4s;
+}
+
+.tabsebox-r section > *:nth-child(14) {
+transition-delay: 1.5s;
+}
+
+.tabsebox-r section > *:nth-child(15) {
+transition-delay: 1.6s;
+}
+
+.tabsebox-r section > *:nth-child(16) {
+transition-delay: 1.7s;
+}
+
+.tabsebox-r section > *:nth-child(17) {
+transition-delay: 1.8s;
+}
+
+.tabsebox-r section > *:nth-child(18) {
+transition-delay: 1.9s;
+}
+
+.tabsebox-r section > *:nth-child(19) {
+transition-delay: 2s;
+}
+
+.tabsebox-r section > *:nth-child(20) {
+transition-delay: 2.1s;
+}
+
+.tabsebox-r section.active {
+display: block;
+}
+
+.tabsebox-r section.active-content > * {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+
+
+
+
+
+/*--------  top tab -------*/
+/*--------  top tab -------*/
+/*--------  top tab -------*/
+/*--------  top tab -------*/
+/*--------  top tab -------*/
+
+
+
+/*-------- ac top tab -------*/
+.tabsobxup > input[type="radio"] {
+	position: absolute;
+	/* left: -200vw; */
+	visibility: hidden;
+}
+
+.tabsobxup .tab-sobex-inso {
+display: none;
+}
+
+.tabsobxup > input:first-child:checked ~ .tab-sobex-act > .tab-sobex-inso:first-child,
+.tabsobxup > input:nth-child(3):checked ~ .tab-sobex-act > .tab-sobex-inso:nth-child(2),
+.tabsobxup > input:nth-child(5):checked ~ .tab-sobex-act > .tab-sobex-inso:nth-child(3),
+.tabsobxup > input:nth-child(7):checked ~ .tab-sobex-act > .tab-sobex-inso:nth-child(4),
+.tabsobxup > input:nth-child(9):checked ~ .tab-sobex-act > .tab-sobex-inso:nth-child(5),
+.tabsobxup > input:nth-child(11):checked ~ .tab-sobex-act > .tab-sobex-inso:nth-child(6) {
+display: block;
+}
+.tabsobxup_icon {
+float: right;
+height: 20px;
+width: 20px;
+margin-left: 3px;
+}
+
+
+/*--------  skin  top tab  ------------- */
+
+
+.tabsobxup > label {
+position: relative;
+display: inline-block;
+padding: 15px 15px 25px;
+border: 1px solid transparent;
+border-bottom: 0;
+cursor: pointer;
+font-weight: 600;
+background: rgb(237,237,237);
+background: linear-gradient(185deg, rgba(237,237,237,1) 0%, rgba(255,255,255,0.14887953472404591) 80%);
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomleft:0px;
+-moz-border-radius-bottomright:0px;
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+-webkit-border-bottom-left-radius:0px;
+-webkit-border-bottom-right-radius:0px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+
+}
+
+.tabsobxup > label::after {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	width: 22px;
+	height: 4px;
+	
+	background: #8d8d8d;
+	right: 20%;
+}
+
+.tabsobxup > label:hover,
+.tabsobxup > input:focus + label {
+color: #1CBB8F;
+}
+
+.tabsobxup > label:hover::after,
+.tabsobxup > input:focus + label::after,
+.tabsobxup > input:checked + label::after {
+background: #1CBB8F;
+
+}
+
+.tabsobxup > input:checked + label {
+border-color: #ccc;
+border-bottom: 1px solid #f9f9f9;
+margin-bottom: -1px;
+}
+
+.tab-sobex-inso {
+padding: 30px 0;
+border-top: 1px solid #ccc;
+}
+
+.tabsobxup {
+max-width: 100%;
+direction:rtl;
+
+}
+
+
+/* On screens that are 576px or less, set the background color to olive */
+@media screen and (max-width: 576px) {
+.admin-header-sobex {
+	height: 200px;
+	background-repeat: repeat;
+
+}
+.admin-logo-sobex {
+text-align: center;
+width: 100%;
+}
+.admin-logo-sobex img {
+height: 50px;
+width: 150px;
+}
+.left-header-text {
+	float: right;
+	color: white;
+	text-align: center;
+	width: 80%;
+	padding-top: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+
+.admin-footer-sobex {
+	width: 100%;
+	height: 50px;
+	font-size: 10px;
+	padding-top: 3%;
+}
+.admin-footer-sobex p {
+float: right;
+
+}
+.admin-footer-sobex a {
+float: right;
+
+}
+}
+/************************* /ST SEARCH TABS STYLE ***************************/
+
+/************************* Container SEARCH TABS STYLE ***************************/
+
+.tab-left {
+  width: 50%;
+  float: left;
+	padding-bottom: 30px;
+}
+
+.tab-left a {
+  width: 100%;
+  float: right;
+  margin-top: 37px;
+  font-size: 20px;
+  color: #74777b;
+}
+
+.tab-left img {
+  float: left;
+  width: 70%;
+}
+
+.tab-right {
+  width: 50%;
+  float: right;
+}
+
+.tab-right a {
+  float: right;
+  margin-bottom: 0.5em;
+  margin-top: 20px;
+  color: #5a68c4;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/** Wordpress Admin Dashbaord **/
+#wpcontent, #wpfooter {
+  background-color: #f4f6fa;
+}
+
+#setting-error-settings_updated p {
+  margin: 0;
+  padding: 8px 0;
+  color: rgba(120, 88, 217, 0.52);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/** Home Page Setting admin **/
+.st-search-description {
+  margin: 0;
+  padding: 0.75em 0;
+  color: rgba(0, 0, 0, 0.43);
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.tab-middel {
+  width: 100%;
+  float: right;
+}
+/************************* /Container SEARCH TABS STYLE ***************************/
+
+/************************* Attributes  ***************************/
+.custom-table {
+  min-width: 900px;
+}
+
+.custom-table thead tr, .custom-table thead th {
+  border-top: none;
+  border-bottom: none !important;
+  color: #fff;
+}
+
+.custom-table tbody th, .custom-table tbody td {
+  color: #777;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.custom-table tbody th small, .custom-table tbody td small {
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+.custom-table tbody tr:not(.spacer) {
+  border-radius: 7px;
+  overflow: hidden;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.custom-table tbody tr:not(.spacer):hover {
+  -webkit-box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table tbody tr th, .custom-table tbody tr td {
+  background: #25252b;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.custom-table tbody tr th a, .custom-table tbody tr td a {
+  color: #b3b3b3;
+}
+
+.custom-table tbody tr th:first-child, .custom-table tbody tr td:first-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.custom-table tbody tr th:last-child, .custom-table tbody tr td:last-child {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.custom-table tbody tr.spacer td {
+  padding: 0 !important;
+  height: 3px;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.custom-table tbody tr.active th, .custom-table tbody tr.active td, .custom-table tbody tr:hover th, .custom-table tbody tr:hover td {
+  color: #16a27b;
+	font-size: bold;
+  background: #2e2e36;
+}
+
+.custom-table tbody tr.active th a, .custom-table tbody tr.active td a, .custom-table tbody tr:hover th a, .custom-table tbody tr:hover td a {
+  color: #fff;
+}
+
+/* Custom Checkbox */
+.control {
+  display: block;
+  position: relative;
+  margin-bottom: 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 2px solid #3f3f47;
+  background: transparent;
+}
+
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  border: 2px solid #007bff;
+}
+
+.control input:checked ~ .control__indicator {
+  border: 2px solid #007bff;
+  background: #007bff;
+}
+
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+  border: 2px solid #ccc;
+}
+
+.control__indicator:after {
+  font-family: "icomoon";
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.control input:checked ~ .control__indicator:after {
+  display: block;
+  color: #fff;
+}
+
+.control--checkbox .control__indicator:after {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -52%);
+  transform: translate(-50%, -52%);
+}
+
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+
+.control--checkbox input:disabled:checked ~ .control__indicator {
+  background-color: #007bff;
+  opacity: 0.2;
+  border: 2px solid #007bff;
+}
+
+.table > thead {
+  background: cornflowerblue;
+}
+
+.form-table > tbody > tr {
+  border-top: 1px solid rgba(179, 179, 179, 0.43);
+}
+.form-table > tbody > tr:first-child{
+  border-top: none;
+}
+
+#stsearch-post-status {
+  margin: 4px;
+}
+
+#stsearch-post-status input {
+  margin: 5px;
+}
+
+/************************* /Attributes  ***************************/
+/************************* Style Menu Tabs Setting [page]  ***************************/
+.tabs-menu-settings nav {
+	background: whitesmoke;
+	border: 1px solid #e9e9e9;
+}
+.tabs-menu-settings nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #16a27b;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+/* Move the line For the Settings Page Plugin Filter*/
+.tabs-menu-settings nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(+200%,0,0);
+ transform: translate3d(+100%,0,0); 
+}
+
+.tabs-menu-settings nav li:nth-child(2).tab-current ~ li:last-child::before {
+ /* -webkit-transform: translate3d(+150%,0,0); */
+ transform: translate3d(+100%,0,0);
+}
+.tabs-menu-settings nav a {
+	padding: 1em 0;
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.3s, -webkit-transform 0.3s; 
+	transition: color 0.3s, transform 0.3s;
+}
+
+.tabs-menu-settings nav li.tab-current a {
+	color: #2CC185;
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+.tabs-menu-settings nav a span {
+	font-weight: 700;
+}
+/************************* Style Icore Tabs Setting [page]  ***************************/
+.tabs-icore-settings nav {
+	background: whitesmoke;
+	border: 1px solid #e9e9e9;
+}
+.tabs-icore-settings nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #16a27b;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+/* Move the line For the Settings Page Plugin Filter*/
+.tabs-icore-settings nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(+200%,0,0);
+ transform: translate3d(+100%,0,0); 
+}
+
+.tabs-icore-settings nav li:nth-child(2).tab-current ~ li:last-child::before {
+ /* -webkit-transform: translate3d(+150%,0,0); */
+ transform: translate3d(+100%,0,0);
+}
+.tabs-icore-settings nav a {
+	padding: 1em 0;
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.3s, -webkit-transform 0.3s; 
+	transition: color 0.3s, transform 0.3s;
+}
+
+.tabs-icore-settings nav li.tab-current a {
+	color: #2CC185;
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+.tabs-icore-settings nav a span {
+	font-weight: 700;
+}
+/************************* Style Filter Tabs Setting [page]  ***************************/
+.tabs-style-linemove nav {
+	background: whitesmoke;
+	border: 1px solid #e9e9e9;
+}
+.tabs-style-linemove nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #16a27b;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+/* Move the line For the Settings Page Plugin Filter*/
+.tabs-style-linemove nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(+100%,0,0);
+	transform: translate3d(+100%,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
+ /* -webkit-transform: translate3d(+150%,0,0); */
+ transform: translate3d(+100%,0,0);
+}
+.tabs-style-linemove nav a {
+	padding: 1em 0;
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.3s, -webkit-transform 0.3s; 
+	transition: color 0.3s, transform 0.3s;
+}
+
+.tabs-style-linemove nav li.tab-current a {
+	color: #2CC185;
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+.tabs-style-linemove nav a span {
+	font-weight: 700;
+}
+/** for widget page ***/
+.widget-page-filter nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #16a27b;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+/*************************  START MOVELINE TABS FOR STYLE PAGE [Filter] ***************************/
+.tabs-filter-linemove nav {
+	background: whitesmoke;
+	border: 1px solid #e9e9e9;
+}
+.tabs-filter-linemove nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #16a27b;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+/* Move the line For the Settings Page Plugin Filter*/
+.tabs-filter-linemove nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(+200%,0,0);
+ transform: translate3d(+100%,0,0); 
+}
+
+.tabs-filter-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
+ /* -webkit-transform: translate3d(+150%,0,0); */
+ transform: translate3d(+100%,0,0);
+}
+
+.tabs-filter-linemove nav a {
+	padding: 1em 0;
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.3s, -webkit-transform 0.3s; 
+	transition: color 0.3s, transform 0.3s;
+}
+
+.tabs-filter-linemove nav li.tab-current a {
+	color: #2CC185;
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+.tabs-filter-linemove nav a span {
+	font-weight: 700;
+}
+/*************************  End MOVELINE TABS FOR STYLE PAGE [Filter] ***************************/
+
+/* Move the line For the Settings Page Plugin Filter*/
+.widget-page-filter nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(+100%,0,0);
+ transform: translate3d(+100%,0,0); 
+}
+/** end for widget page ***/
+
+
+
+/*****************************/
+/* Line */
+/*****************************/
+
+.tabs-style-line nav ul {
+	padding: 0 2em;
+	max-width: none;
+	box-shadow: inset 0 -2px #d1d3d2;
+}
+
+.tabs-style-line nav a {
+	padding: 0.7em 0.4em;
+	box-shadow: inset 0 -2px #d1d3d2;
+	color: #74777b;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 0.8em;
+	line-height: 1;
+	-webkit-transition: color 0.3s, box-shadow 0.3s;
+	transition: color 0.3s, box-shadow 0.3s;
+}
+
+.tabs-style-line nav a:hover,
+.tabs-style-line nav a:focus {
+	box-shadow: inset 0 -2px #74777b;
+}
+
+.tabs-style-line nav li.tab-current a {
+	box-shadow: inset 0 -2px #2CC185;
+	color: #2CC185;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs-style-line nav ul {
+		display: block;
+		box-shadow: none;
+	}
+	.tabs-style-line nav ul li {
+		display: block;
+		-webkit-flex: none;
+		flex: none;
+	}
+}
+
+/************************* / Style Header Tabs  ***************************/
+
+/************************* Header Tabs  ***************************/
+/* Default tab style */
+
+.tabs {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: 300;
+	font-size: 1.25em;
+}
+
+/* Nav */
+.tabs nav {
+	text-align: center;
+	direction:rtl;
+}
+
+.tabs nav ul {
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	list-style: none;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.tabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.tabs nav a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 2.5;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.tabs nav a span {
+	vertical-align: middle;
+	font-size: 14px !important;
+
+}
+
+.tabs nav li.tab-current a {
+	color: #74777b;
+	text-decoration: none;
+
+}
+
+.tabs nav a:focus {
+	outline: none;
+
+}
+
+/* Icons */
+.icon::before {
+	z-index: 10;
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1.3em;
+	font-family: 'stroke7pixeden';
+	line-height: 1;
+	speak: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-upload::before {
+	content: "\e68a";
+}
+.icon-tools::before {
+	content: "\e60a";
+}
+.icon-plane::before {
+	content: "\e625";
+}
+.icon-joy::before {
+	content: "\e6a4";
+}
+.icon-plug::before {
+	content: "\e69a";
+}
+.icon-home::before {
+	content: "\e648";
+}
+.icon-gift::before {
+	content: "\e652";
+}
+.icon-display::before {
+	content: "\e65e";
+}
+.icon-date::before {
+	content: "\e660";
+}
+.icon-config::before {
+	content: "\e666";
+}
+.icon-coffee::before {
+	content: "\e669";
+}
+.icon-camera::before {
+	content: "\e66f";
+}
+.icon-box::before {
+	content: "\e674";
+}
+
+/* Content */
+.content-wrap {
+	position: relative;
+}
+
+.content-wrap section {
+	display: none;
+	margin: 0 auto;
+	/* padding: 1em; */
+	max-width: 1200px;
+	text-align: center;
+	
+}
+.section-sobex-container {
+	padding: 1em;
+}
+.content-wrap section.content-current {
+	display: block;
+}
+
+.content-wrap section p {
+	margin: 0;
+	padding: 0.75em 0;
+	color: rgba(40,44,42,0.05);
+	font-weight: 900;
+	font-size: 4em;
+	line-height: 1;
+}
+
+/* Fallback */
+.no-js .content-wrap section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.no-flexbox nav ul {
+	display: block;
+}
+
+.no-flexbox nav ul li {
+	min-width: 15%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs nav a.icon span {
+		display: none;
+	}
+	.tabs nav a:before {
+		margin-right: 0;
+	}
+}
+
+/************************* /Header Tabs  ***************************/
+
+
+/****** WIDGET PAGE*****************/
+.st-search-widget-header-settings-container{
+	height:auto;margin:0 0 0 20px;
+	/* position: relative; */
+}
+.widget-header-positions-controller{
+	/* position: relative; */
+	/* width: 100%; */
+} 
+/* #widget-header-positions-controller{
+	position: relative;
+} */
+.sobex-switch-field {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+
+.sobex-switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.sobex-switch-field label {
+	background-color: #ffffff;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 30px;
+	margin-right: 6px;
+	border: 1px solid rgb(0 0 0 / 20%);
+	box-shadow: inset 0 1px 3px rgb(255 255 255 / 30%), 0 1px rgb(255 255 255 / 10%);
+	transition: all 0.1s ease-in-out;
+}
+
+.sobex-switch-field label:hover {
+	cursor: pointer;
+}
+
+.sobex-switch-field input:checked + label {
+	background-color: #20b98e;
+	box-shadow: none;
+}
+
+.sobex-switch-field label:first-of-type {
+	border-radius: 10px;
+}
+
+.sobex-switch-field label:last-of-type {
+	border-radius: 10px;
+}

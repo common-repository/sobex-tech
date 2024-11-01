@@ -1,0 +1,2055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SOBEX TECH\n"
+"POT-Creation-Date: 2023-02-27 09:14-0800\n"
+"PO-Revision-Date: 2023-02-27 09:15-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sobex-tech.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/classes/functions.php:171 admin/classes/functions.php:182
+#: admin/sobex-tech-admin-ajax.php:138 admin/sobex-tech-admin-ajax.php:587
+#: admin/sobex-tech-admin-ajax.php:673 admin/sobex-tech-admin-ajax.php:722
+#: admin/sobex-tech-admin-ajax.php:753 admin/sobex-tech-admin-ajax.php:799
+#: admin/sobex-tech-admin-ajax.php:827 admin/sobex-tech-admin-ajax.php:1225
+#: admin/sobex-tech-admin-ajax.php:1304 admin/sobex-tech-admin-ajax.php:1355
+#: admin/sobex-tech-admin-ajax.php:1443 admin/sobex-tech-admin-ajax.php:1483
+#: admin/sobex-tech-admin-ajax.php:1527 admin/sobex-tech-admin-ajax.php:1649
+msgid "Successed"
+msgstr "Successed"
+
+#: admin/classes/functions.php:198 admin/load_assets.php:8
+#: admin/load_assets.php:9 admin/load_assets.php:19
+msgid "Sobex Tech"
+msgstr "Sobex Tech"
+
+#: admin/classes/functions.php:199
+msgid "Sobex Tech Plugins Settings"
+msgstr "Sobex Tech Plugins Settings"
+
+#: admin/classes/functions.php:201 admin/page-style.php:3980
+msgid "Version"
+msgstr "Version"
+
+#: admin/classes/functions.php:217
+msgid "All copyrights reserved to (Sobex Tech)"
+msgstr "All copyrights reserved to (Sobex Tech)"
+
+#: admin/classes/functions.php:218
+msgid "Our Products in Jacket"
+msgstr "Our Products in Jacket"
+
+#: admin/load_assets.php:20 admin/load_assets.php:60
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/load_assets.php:28 admin/load_assets.php:29
+#: admin/page-settings.php:1023 admin/page-settings.php:1052
+msgid "Widget Settings"
+msgstr "Widget Settings"
+
+#: admin/load_assets.php:38 admin/load_assets.php:39
+msgid "Style Settings"
+msgstr "Style Settings"
+
+#: admin/load_assets.php:47 admin/load_assets.php:48
+#| msgid "Action"
+msgid "Activation"
+msgstr "Activation"
+
+#: admin/page-activation.php:187
+#| msgid "Activate now"
+msgid "Active Now"
+msgstr "Active Now"
+
+#: admin/page-settings.php:9
+msgid "Welcome to Sobex Tech-filter Plugin, Please Set Up The Options."
+msgstr "Welcome to Sobex Tech-filter Plugin, Please Set Up The Options."
+
+#: admin/page-settings.php:38 admin/page-settings.php:362
+msgid "Select your Menu"
+msgstr "Select your Menu"
+
+#: admin/page-settings.php:52 admin/page-settings.php:402
+msgid "Select Menu Type"
+msgstr "Select Menu Type"
+
+#: admin/page-settings.php:66 admin/page-settings.php:421
+msgid "Display Type"
+msgstr "Display Type"
+
+#: admin/page-settings.php:80
+msgid "Number Of Items In Menu"
+msgstr "Number Of Items In Menu"
+
+#: admin/page-settings.php:94 admin/page-settings.php:458
+msgid "Display Style"
+msgstr "Display Style"
+
+#: admin/page-settings.php:112
+msgid "Plugin Dashboard Language"
+msgstr "Plugin Dashboard Language"
+
+#: admin/page-settings.php:127 admin/page-settings.php:476
+msgid "Filter Mode"
+msgstr "Filter Mode"
+
+#: admin/page-settings.php:142 admin/page-settings.php:493
+#: admin/page-style.php:3436 admin/page-style.php:3696
+#: admin/page-widget-settings.php:22
+msgid "Widget Header"
+msgstr "Widget Header"
+
+#: admin/page-settings.php:157 admin/page-settings.php:510
+msgid "Display Widget Sidebar in Mobile/Tablets"
+msgstr "Display Widget Sidebar in Mobile/Tablets"
+
+#: admin/page-settings.php:172 admin/page-settings.php:529
+msgid "Search Model"
+msgstr "Search Model"
+
+#: admin/page-settings.php:187
+msgid "Wigdet Buttons For (Classic Model)"
+msgstr "Wigdet Buttons For (Classic Model)"
+
+#: admin/page-settings.php:202 admin/page-settings.php:565
+msgid "Post Status"
+msgstr "Post Status"
+
+#: admin/page-settings.php:217 admin/page-settings.php:601
+msgid "Color variation Plugin"
+msgstr "Color variation Plugin"
+
+#: admin/page-settings.php:232 admin/page-settings.php:616
+msgid "Website Multiple Languages"
+msgstr "Website Multiple Languages"
+
+#: admin/page-settings.php:246
+msgid "Product Tags list"
+msgstr "Product Tags list"
+
+#: admin/page-settings.php:260
+msgid "default woocommerce filter list"
+msgstr "default woocommerce filter list"
+
+#: admin/page-settings.php:274
+msgid "Price filter min setting"
+msgstr "Price filter min setting"
+
+#: admin/page-settings.php:288 admin/page-settings.php:676
+msgid "Rest Api Security"
+msgstr "Rest Api Security"
+
+#: admin/page-settings.php:302 admin/page-settings.php:693
+msgid "Timeout seconds"
+msgstr "Timeout seconds"
+
+#: admin/page-settings.php:316 admin/page-settings.php:707
+msgid "Widget Ajax Timeout"
+msgstr "Widget Ajax Timeout"
+
+#: admin/page-settings.php:344
+msgid "Persian"
+msgstr "Persian"
+
+#: admin/page-settings.php:348
+msgid "Arabic"
+msgstr "Arabic"
+
+#: admin/page-settings.php:352
+msgid "English"
+msgstr "English"
+
+#: admin/page-settings.php:369
+msgid "Select menu"
+msgstr "Select menu"
+
+#: admin/page-settings.php:384
+msgid "You Don't Have any menu in Archive."
+msgstr "You Don't Have any menu in Archive."
+
+#: admin/page-settings.php:392
+msgid ""
+"Select your menu that you are created in the archive to display in Menu "
+"Slide Widget."
+msgstr ""
+"Select your menu that you are created in the archive to display in Menu "
+"Slide Widget."
+
+#: admin/page-settings.php:405 admin/page-settings.php:496
+#: admin/page-settings.php:619 admin/page-settings.php:679
+#: admin/page-style.php:2246
+msgid "Turn Off"
+msgstr "Turn Off"
+
+#: admin/page-settings.php:406
+msgid "Use Only Menu"
+msgstr "Use Only Menu"
+
+#: admin/page-settings.php:407
+msgid "Merge menu to Sobex Filter"
+msgstr "Merge menu to Sobex Filter"
+
+#: admin/page-settings.php:411
+msgid ""
+"a-\tThe Menu Type is to merge or unmerge the menu slide with the filter "
+"Widget plugin if you selected to turn off the menu slide plugin the filter "
+"widget plugin will be activated only."
+msgstr ""
+"a-\tThe Menu Type is to merge or unmerge the menu slide with the filter "
+"Widget plugin if you selected to turn off the menu slide plugin the filter "
+"widget plugin will be activated only."
+
+#: admin/page-settings.php:424
+msgid "Hide Category Page"
+msgstr "Hide Category Page"
+
+#: admin/page-settings.php:425
+msgid "Show Category Page"
+msgstr "Show Category Page"
+
+#: admin/page-settings.php:429
+msgid "Menu display type is to hide the category that doesn't has products."
+msgstr "Menu display type is to hide the category that doesn't has products."
+
+#: admin/page-settings.php:439
+msgid "Number Of Items"
+msgstr "Number Of Items"
+
+#: admin/page-settings.php:442
+msgid "3 items in menu"
+msgstr "3 items in menu"
+
+#: admin/page-settings.php:443
+msgid "5 items in menu"
+msgstr "5 items in menu"
+
+#: admin/page-settings.php:444
+msgid "10 items in menu"
+msgstr "10 items in menu"
+
+#: admin/page-settings.php:445
+msgid "(Open) Any items in menu"
+msgstr "(Open) Any items in menu"
+
+#: admin/page-settings.php:448
+msgid ""
+"You can choose the number of items (Categories) that will appear in the "
+"first loop in the menu "
+msgstr ""
+"You can choose the number of items (Categories) that will appear in the "
+"first loop in the menu "
+
+#: admin/page-settings.php:461 admin/page-widget-settings.php:404
+#: admin/page-widget-settings.php:429
+msgid "Checkbox Style"
+msgstr "Checkbox Style"
+
+#: admin/page-settings.php:462 admin/page-widget-settings.php:405
+#: admin/page-widget-settings.php:432
+msgid "Radio Style"
+msgstr "Radio Style"
+
+#: admin/page-settings.php:466
+msgid "Select the filter type for your menu slide."
+msgstr "Select the filter type for your menu slide."
+
+#: admin/page-settings.php:479
+msgid "WooCommerce: Product Filter"
+msgstr "WooCommerce: Product Filter"
+
+#: admin/page-settings.php:480
+msgid "WordPress: Posts Filter"
+msgstr "WordPress: Posts Filter"
+
+#: admin/page-settings.php:484
+msgid ""
+"The WordPress Mode Filter Only Posts, And the WooCommerce Mode Filter Only "
+"Products."
+msgstr ""
+"The WordPress Mode Filter Only Posts, And the WooCommerce Mode Filter Only "
+"Products."
+
+#: admin/page-settings.php:497 admin/page-settings.php:680
+#: admin/page-style.php:2245
+msgid "Turn On"
+msgstr "Turn On"
+
+#: admin/page-settings.php:501
+msgid "This setting display the widget on the header Shop page."
+msgstr "This setting display the widget on the header Shop page."
+
+#: admin/page-settings.php:513
+msgid "Hide widget sidebar"
+msgstr "Hide widget sidebar"
+
+#: admin/page-settings.php:514
+msgid "Show sidebar in Mobile Only"
+msgstr "Show sidebar in Mobile Only"
+
+#: admin/page-settings.php:515
+msgid "Show sidebar in Tablet Only"
+msgstr "Show sidebar in Tablet Only"
+
+#: admin/page-settings.php:516
+msgid "Show sidebar in Mobile & Tablet"
+msgstr "Show sidebar in Mobile & Tablet"
+
+#: admin/page-settings.php:520
+msgid "This setting show & hide the widget sidebar on mobile and tablet users."
+msgstr ""
+"This setting show & hide the widget sidebar on mobile and tablet users."
+
+#: admin/page-settings.php:532
+msgid "Default model (Sobex-Tech)"
+msgstr "Default model (Sobex-Tech)"
+
+#: admin/page-settings.php:533
+msgid "Combo model"
+msgstr "Combo model"
+
+#: admin/page-settings.php:534
+msgid "Classic Model"
+msgstr "Classic Model"
+
+#: admin/page-settings.php:538
+msgid ""
+"We Recommend you to use the default mode in the filter, Please Read the docs "
+"to see the difference between them."
+msgstr ""
+"We Recommend you to use the default mode in the filter, Please Read the docs "
+"to see the difference between them."
+
+#: admin/page-settings.php:547
+msgid "Filter Search Button"
+msgstr "Filter Search Button"
+
+#: admin/page-settings.php:550
+msgid "Show on Top of Widget."
+msgstr "Show on Top of Widget."
+
+#: admin/page-settings.php:551
+msgid "Show on Bottom of Widget."
+msgstr "Show on Bottom of Widget."
+
+#: admin/page-settings.php:552
+msgid "Show on Top & Bottom (both)"
+msgstr "Show on Top & Bottom (both)"
+
+#: admin/page-settings.php:556
+msgid "Widget Buttons (Filter All & Clear All) For (Classic Model) Only."
+msgstr "Widget Buttons (Filter All & Clear All) For (Classic Model) Only."
+
+#: admin/page-settings.php:592
+msgid "Select Which kind of post status you want to filter."
+msgstr "Select Which kind of post status you want to filter."
+
+#: admin/page-settings.php:606
+msgid ""
+"If you are using any color variation plugin that is not supported in our "
+"plugin please add the plugin variation code here."
+msgstr ""
+"If you are using any color variation plugin that is not supported in our "
+"plugin please add the plugin variation code here."
+
+#: admin/page-settings.php:620
+msgid "WPML - The WordPress Multilingual Plugin"
+msgstr "WPML - The WordPress Multilingual Plugin"
+
+#: admin/page-settings.php:624
+msgid ""
+"If you are using a multilingual plugin in your WordPress please select the "
+"supported one in our plugin."
+msgstr ""
+"If you are using a multilingual plugin in your WordPress please select the "
+"supported one in our plugin."
+
+#: admin/page-settings.php:684
+msgid ""
+"If the site server or the client has a weak Internet. You can activate this "
+"feature to set a deadline for the search process and to show an error "
+"message."
+msgstr ""
+"If the site server or the client has a weak Internet. You can activate this "
+"feature to set a deadline for the search process and to show an error "
+"message."
+
+#: admin/page-settings.php:698
+msgid ""
+"The REST API search process will be terminated if the command exceeds the "
+"specified."
+msgstr ""
+"The REST API search process will be terminated if the command exceeds the "
+"specified."
+
+#: admin/page-settings.php:712
+msgid ""
+"The ajax Order will be terminated if the command exceeds the specified "
+"seconds. 1000/1s ."
+msgstr ""
+"The ajax Order will be terminated if the command exceeds the specified "
+"seconds. 1000/1s ."
+
+#: admin/page-settings.php:725 admin/page-settings.php:743
+msgid "WPML"
+msgstr "WPML"
+
+#: admin/page-settings.php:742 admin/page-settings.php:798
+#: admin/page-settings.php:823 admin/page-settings.php:942
+#: admin/page-settings.php:965 admin/page-settings.php:1021
+#: admin/page-settings.php:1050 admin/page-settings.php:1120
+#: admin/page-settings.php:1187 admin/page-settings.php:1212
+#: admin/page-settings.php:1275 admin/page-style.php:2297
+#: admin/page-style.php:3237 admin/page-style.php:3366
+#: admin/page-style.php:3409 admin/page-style.php:3679
+#: admin/page-style.php:3899 admin/page-style.php:3938
+#: admin/page-widget-settings.php:246 admin/page-widget-settings.php:524
+#: admin/page-widget-settings.php:742
+msgid "Home"
+msgstr "Home"
+
+#: admin/page-settings.php:748
+msgid ""
+"Note: We are trying to make the settings easier and more comfortable for "
+"you... While the translation page does not appear, or if working on the "
+"settings here is more difficult for you, please go to"
+msgstr ""
+"Note: We are trying to make the settings easier and more comfortable for "
+"you... While the translation page does not appear, or if working on the "
+"settings here is more difficult for you, please go to"
+
+#: admin/page-settings.php:749
+msgid "WPML -> String Translation -> Please find and select (sobex-front)."
+msgstr "WPML -> String Translation -> Please find and select (sobex-front)."
+
+#: admin/page-settings.php:767
+msgid "You don't have any String To Translate Please click"
+msgstr "You don't have any String To Translate Please click"
+
+#: admin/page-settings.php:769 admin/page-widget-settings.php:67
+#: admin/page-widget-settings.php:114
+msgid "Here"
+msgstr "Here"
+
+#: admin/page-settings.php:770
+msgid "To Add Strings."
+msgstr "To Add Strings."
+
+#: admin/page-settings.php:799 admin/page-settings.php:859
+#: admin/page-settings.php:1128 admin/page-style.php:3215
+msgid "Menu Slide"
+msgstr "Menu Slide"
+
+#: admin/page-settings.php:800 admin/page-settings.php:868
+#: admin/page-settings.php:1022 admin/page-settings.php:1051
+#: admin/page-settings.php:1154
+msgid "Filter Widget"
+msgstr "Filter Widget"
+
+#: admin/page-settings.php:801 admin/page-settings.php:888
+msgid "Attributes Selector"
+msgstr "Attributes Selector"
+
+#: admin/page-settings.php:802
+msgid "Search Api"
+msgstr "Search Api"
+
+#: admin/page-settings.php:803 admin/page-settings.php:1121
+#: admin/page-settings.php:1188
+msgid "ICore Settings"
+msgstr "ICore Settings"
+
+#: admin/page-settings.php:804
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: admin/page-settings.php:805
+msgid "Add-ons"
+msgstr ""
+
+#: admin/page-settings.php:836
+msgid "Welcome, To Sobex Tech Plugins"
+msgstr "Welcome, To Sobex Tech Plugins"
+
+#: admin/page-settings.php:837
+msgid "Let's achieve your Website with best capabilities To be in the Top"
+msgstr "Let's achieve your Website with best capabilities To be in the Top"
+
+#: admin/page-settings.php:850
+msgid "Activated Plugins"
+msgstr "Activated Plugins"
+
+#: admin/page-settings.php:860
+msgid "Menu to Browser and Filter your Website."
+msgstr "Menu to Browser and Filter your Website."
+
+#: admin/page-settings.php:869
+msgid "Advanced Plugin To Filter Products & Posts"
+msgstr "Advanced Plugin To Filter Products & Posts"
+
+#: admin/page-settings.php:878
+msgid "Product Search Api"
+msgstr "Product Search Api"
+
+#: admin/page-settings.php:879
+msgid "Coming soon."
+msgstr "Coming soon."
+
+#: admin/page-settings.php:889 admin/page-settings.php:1229
+#: admin/page-settings.php:1236
+msgid "Coming Soon."
+msgstr "Coming Soon."
+
+#: admin/page-settings.php:899
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: admin/page-settings.php:901
+msgid ""
+"We're here to Help to answer any question or problem you might have, We look "
+"forward to hearing from you."
+msgstr ""
+"We're here to Help to answer any question or problem you might have, We look "
+"forward to hearing from you."
+
+#: admin/page-settings.php:909
+msgid "Report Problem"
+msgstr "Report Problem"
+
+#: admin/page-settings.php:911
+msgid "Your Name"
+msgstr "Your Name"
+
+#: admin/page-settings.php:912
+msgid "Your Email"
+msgstr "Your Email"
+
+#: admin/page-settings.php:913
+msgid "Accepted Files: JPG, ZIP Include JPG'S & Maxsize 1MB."
+msgstr "Accepted Files: JPG, ZIP Include JPG'S & Maxsize 1MB."
+
+#: admin/page-settings.php:916
+msgid "Tell us about your Problem."
+msgstr "Tell us about your Problem."
+
+#: admin/page-settings.php:917
+msgid "Send Now"
+msgstr "Send Now"
+
+#: admin/page-settings.php:932 admin/page-settings.php:967
+msgid "Menu Settings"
+msgstr "Menu Settings"
+
+#: admin/page-settings.php:933 admin/page-settings.php:968
+msgid "Menu Template"
+msgstr "Menu Template"
+
+#: admin/page-settings.php:943
+msgid "Menu Slides"
+msgstr "Menu Slides"
+
+#: admin/page-settings.php:944
+msgid "Widget Menu Settings"
+msgstr "Widget Menu Settings"
+
+#: admin/page-settings.php:956 admin/page-settings.php:1039
+#: admin/page-settings.php:1196 admin/page-style.php:3358
+#: admin/page-style.php:3671 admin/page-style.php:3886
+#: admin/page-style.php:3932
+msgid "Save settings"
+msgstr "Save settings"
+
+#: admin/page-settings.php:966 admin/page-settings.php:986
+#: admin/page-settings.php:1226
+msgid "Sobex Menu"
+msgstr "Sobex Menu"
+
+#: admin/page-settings.php:974 admin/page-settings.php:1060
+msgid "Default Template"
+msgstr "Default Template"
+
+#: admin/page-settings.php:980 admin/page-settings.php:992
+#: admin/page-settings.php:1067 admin/page-settings.php:1078
+msgid "Customize Template"
+msgstr "Customize Template"
+
+#: admin/page-settings.php:989 admin/page-settings.php:1092
+#: admin/page-settings.php:1099 admin/page-style.php:3665
+#: admin/page-style.php:3880
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: admin/page-settings.php:1011
+msgid "Filter Settings"
+msgstr "Filter Settings"
+
+#: admin/page-settings.php:1012 admin/page-settings.php:1053
+msgid "Widget Templates"
+msgstr "Widget Templates"
+
+#: admin/page-settings.php:1072
+msgid "Sobex Template"
+msgstr "Sobex Template"
+
+#: admin/page-settings.php:1075
+msgid "Coming soon"
+msgstr "Coming soon"
+
+#: admin/page-settings.php:1093
+msgid ""
+"Product variation swatches add style to your product presentation. It’s "
+"captivating enough to capture your visitors’ attention,More Details Coming "
+"next Versions..."
+msgstr ""
+"Product variation swatches add style to your product presentation. It’s "
+"captivating enough to capture your visitors’ attention,More Details Coming "
+"next Versions..."
+
+#: admin/page-settings.php:1100
+msgid "More Details Coming next Versions..."
+msgstr "More Details Coming next Versions..."
+
+#: admin/page-settings.php:1110 admin/page-settings.php:1122
+msgid "Reset Settings"
+msgstr "Reset Settings"
+
+#: admin/page-settings.php:1111 admin/page-settings.php:1189
+msgid "Security"
+msgstr "Security"
+
+#: admin/page-settings.php:1126
+msgid ""
+"In the event of the update or reset is done, it will be done only in the "
+"menu or widget template that was previously selected in the Sobex settings."
+msgstr ""
+"In the event of the update or reset is done, it will be done only in the "
+"menu or widget template that was previously selected in the Sobex settings."
+
+#: admin/page-settings.php:1131
+msgid "Update Menu"
+msgstr "Update Menu"
+
+#: admin/page-settings.php:1138
+msgid "Reset Menu Template Style"
+msgstr "Reset Menu Template Style"
+
+#: admin/page-settings.php:1145
+msgid "Reset Menu Icons Style"
+msgstr "Reset Menu Icons Style"
+
+#: admin/page-settings.php:1157
+msgid "Update Attributes"
+msgstr "Update Attributes"
+
+#: admin/page-settings.php:1164
+msgid "Reset Sidebar Style"
+msgstr "Reset Sidebar Style"
+
+#: admin/page-settings.php:1171
+msgid "Reset Header Style"
+msgstr "Reset Header Style"
+
+#: admin/page-settings.php:1213 admin/page-settings.php:1276
+msgid "Export & Emport"
+msgstr "Export & Emport"
+
+#: admin/page-settings.php:1221 sobex-tech.php:331
+msgid "Export"
+msgstr "Export"
+
+#: admin/page-settings.php:1222 admin/page-settings.php:1284
+msgid ""
+"Warning: Please do not change, modify or delete any file that is inside This "
+"may cause the import of your data to fail."
+msgstr ""
+"Warning: Please do not change, modify or delete any file that is inside This "
+"may cause the import of your data to fail."
+
+#: admin/page-settings.php:1233 admin/page-widget-settings.php:224
+#: admin/page-widget-settings.php:247 admin/page-widget-settings.php:525
+#: admin/page-widget-settings.php:743
+msgid "Sobex Filter"
+msgstr "Sobex Filter"
+
+#: admin/page-settings.php:1240
+msgid "All Plugins"
+msgstr "All Plugins"
+
+#: admin/page-settings.php:1242
+msgid "Download Now"
+msgstr "Download Now"
+
+#: admin/page-settings.php:1251 admin/page-settings.php:1283
+msgid "Import"
+msgstr "Import"
+
+#: admin/page-settings.php:1256 admin/page-settings.php:1289
+#: admin/page-style.php:3953
+msgid "Import File"
+msgstr "Import File"
+
+#: admin/page-settings.php:1262 admin/page-settings.php:1295
+#: admin/page-style.php:3959
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/page-style.php:22 admin/page-style.php:471
+msgid "Style Mode"
+msgstr "Style Mode"
+
+#: admin/page-style.php:37 admin/page-style.php:1297
+msgid "Widget Icon"
+msgstr "Widget Icon"
+
+#: admin/page-style.php:51 admin/page-style.php:1311
+msgid "Widget Icon Color"
+msgstr "Widget Icon Color"
+
+#: admin/page-style.php:65 admin/page-style.php:1322
+msgid "Widget Tabel Text Color"
+msgstr "Widget Tabel Text Color"
+
+#: admin/page-style.php:79 admin/page-style.php:1333
+msgid "Widget Tabel Font Size"
+msgstr "Widget Tabel Font Size"
+
+#: admin/page-style.php:93 admin/page-style.php:976 admin/page-style.php:1344
+#: admin/page-style.php:2053
+msgid "Buttons Font Size"
+msgstr "Buttons Font Size"
+
+#: admin/page-style.php:107 admin/page-style.php:1355
+msgid "Widget field Text Color"
+msgstr "Widget field Text Color"
+
+#: admin/page-style.php:121 admin/page-style.php:1366
+msgid "Widget field Font Size"
+msgstr "Widget field Font Size"
+
+#: admin/page-style.php:135 admin/page-style.php:1377
+msgid "Widget Slideup Icon"
+msgstr "Widget Slideup Icon"
+
+#: admin/page-style.php:149
+msgid "Widget Slideup Icon Color"
+msgstr "Widget Slideup Icon Color"
+
+#: admin/page-style.php:163 admin/page-style.php:1402
+msgid "Widget Slidedown Icon"
+msgstr "Widget Slidedown Icon"
+
+#: admin/page-style.php:177 admin/page-style.php:1416
+msgid "Widget Slidedown Icon Color"
+msgstr "Widget Slidedown Icon Color"
+
+#: admin/page-style.php:191 admin/page-style.php:1427
+msgid "Widget Search Background color"
+msgstr "Widget Search Background color"
+
+#: admin/page-style.php:205 admin/page-style.php:1438
+msgid "Widget Search Background hover"
+msgstr "Widget Search Background hover"
+
+#: admin/page-style.php:218 admin/page-style.php:1449
+msgid "Widget Search Title Color"
+msgstr "Widget Search Title Color"
+
+#: admin/page-style.php:232 admin/page-style.php:1460
+msgid "Widget Search Icon"
+msgstr "Widget Search Icon"
+
+#: admin/page-style.php:246 admin/page-style.php:1474
+msgid "Widget Search Icon Color"
+msgstr "Widget Search Icon Color"
+
+#: admin/page-style.php:260
+msgid "Widget clear Icon"
+msgstr "Widget clear Icon"
+
+#: admin/page-style.php:274 admin/page-style.php:1485 admin/page-style.php:1499
+msgid "Widget clear Icon Color"
+msgstr "Widget clear Icon Color"
+
+#: admin/page-style.php:288 admin/page-style.php:1510
+msgid "Widget Table radius"
+msgstr "Widget Table radius"
+
+#: admin/page-style.php:302 admin/page-style.php:1527
+msgid "Widget Table Background Color"
+msgstr "Widget Table Background Color"
+
+#: admin/page-style.php:316 admin/page-style.php:1538
+msgid "Filter All Text Color"
+msgstr "Filter All Text Color"
+
+#: admin/page-style.php:330 admin/page-style.php:906 admin/page-style.php:1549
+#: admin/page-style.php:2127
+msgid "Filter All Icon"
+msgstr "Filter All Icon"
+
+#: admin/page-style.php:344 admin/page-style.php:1563
+msgid "Filter All Icon Color"
+msgstr "Filter All Icon Color"
+
+#: admin/page-style.php:358 admin/page-style.php:1574
+msgid "Clear All Text Color"
+msgstr "Clear All Text Color"
+
+#: admin/page-style.php:372 admin/page-style.php:892 admin/page-style.php:1585
+#: admin/page-style.php:2112
+msgid "Clear All Icon"
+msgstr "Clear All Icon"
+
+#: admin/page-style.php:386 admin/page-style.php:1599
+msgid "Clear All Icon Color"
+msgstr "Clear All Icon Color"
+
+#: admin/page-style.php:400 admin/page-style.php:1614
+msgid "Scroll Type"
+msgstr "Scroll Type"
+
+#: admin/page-style.php:414 admin/page-style.php:1629
+msgid "Scroll Color"
+msgstr "Scroll Color"
+
+#: admin/page-style.php:428
+msgid "Scroll height"
+msgstr "Scroll height"
+
+#: admin/page-style.php:442 admin/page-style.php:1658
+msgid "Hide Sidebar Container background"
+msgstr "Hide Sidebar Container background"
+
+#: admin/page-style.php:456 admin/page-style.php:1672
+msgid "Sidebar Container background color"
+msgstr "Sidebar Container background color"
+
+#: admin/page-style.php:485 admin/page-style.php:1695
+msgid "Header icon"
+msgstr "Header icon"
+
+#: admin/page-style.php:499 admin/page-style.php:1710
+msgid "Header icon color"
+msgstr "Header icon color"
+
+#: admin/page-style.php:513 admin/page-style.php:1721
+msgid "Text Color"
+msgstr "Text Color"
+
+#: admin/page-style.php:527 admin/page-style.php:1732
+msgid "Slide Down Icon"
+msgstr "Slide Down Icon"
+
+#: admin/page-style.php:541 admin/page-style.php:1746
+msgid "Slide up Icon"
+msgstr "Slide up Icon"
+
+#: admin/page-style.php:555 admin/page-style.php:1760
+msgid "Slide Icon Color"
+msgstr "Slide Icon Color"
+
+#: admin/page-style.php:569 admin/page-style.php:1772
+msgid "Table Background Color"
+msgstr "Table Background Color"
+
+#: admin/page-style.php:583 admin/page-style.php:1783
+msgid "Table Radius"
+msgstr "Table Radius"
+
+#: admin/page-style.php:597 admin/page-style.php:1800
+msgid "Header Font Size"
+msgstr "Header Font Size"
+
+#: admin/page-style.php:611 admin/page-style.php:1811
+msgid "buttons Font Size"
+msgstr "buttons Font Size"
+
+#: admin/page-style.php:625 admin/page-style.php:1822
+msgid "Content Font Size"
+msgstr "Content Font Size"
+
+#: admin/page-style.php:639 admin/page-style.php:1833
+msgid "Drop Background color"
+msgstr "Drop Background color"
+
+#: admin/page-style.php:653 admin/page-style.php:1844
+msgid "Drop Background hover"
+msgstr "Drop Background hover"
+
+#: admin/page-style.php:667 admin/page-style.php:1855
+msgid "Drop Title color"
+msgstr "Drop Title color"
+
+#: admin/page-style.php:681 admin/page-style.php:1866
+msgid "Drop Scrollbar color"
+msgstr "Drop Scrollbar color"
+
+#: admin/page-style.php:695 admin/page-style.php:864 admin/page-style.php:1877
+#: admin/page-style.php:2088
+msgid "Buttons Background Color"
+msgstr "Buttons Background Color"
+
+#: admin/page-style.php:709
+msgid "Buttons filter icon"
+msgstr "Buttons filter icon"
+
+#: admin/page-style.php:723
+msgid "Buttons clear icon"
+msgstr "Buttons clear icon"
+
+#: admin/page-style.php:737
+msgid "Buttons icons Color"
+msgstr "Buttons icons Color"
+
+#: admin/page-style.php:751 admin/page-style.php:850 admin/page-style.php:2076
+msgid "Buttons title Color"
+msgstr "Buttons title Color"
+
+#: admin/page-style.php:765 admin/page-style.php:1939 admin/page-style.php:1967
+msgid "Header template in each row"
+msgstr "Header template in each row"
+
+#: admin/page-style.php:779 admin/page-style.php:1956
+msgid "Template mobile media query"
+msgstr "Template mobile media query"
+
+#: admin/page-style.php:793
+msgid "hide header Container background color"
+msgstr "hide header Container background color"
+
+#: admin/page-style.php:807 admin/page-style.php:1981
+msgid "Header Container background color"
+msgstr "Header Container background color"
+
+#: admin/page-style.php:821 admin/page-style.php:1992
+msgid "Show contents( More & Less ) background color"
+msgstr "Show contents( More & Less ) background color"
+
+#: admin/page-style.php:835 admin/page-style.php:2003
+msgid "Show contents( More & Less ) title color"
+msgstr "Show contents( More & Less ) title color"
+
+#: admin/page-style.php:878 admin/page-style.php:2100
+msgid "Buttons Background hover"
+msgstr "Buttons Background hover"
+
+#: admin/page-style.php:920 admin/page-style.php:2142
+msgid "Buttons Icon color"
+msgstr "Buttons Icon color"
+
+#: admin/page-style.php:934 admin/page-style.php:2016
+msgid "Menu Icon Slide"
+msgstr "Menu Icon Slide"
+
+#: admin/page-style.php:948
+msgid "Menu Icon color Slide"
+msgstr "Menu Icon color Slide"
+
+#: admin/page-style.php:962 admin/page-style.php:2042
+msgid "Breadcrumb Font Size"
+msgstr "Breadcrumb Font Size"
+
+#: admin/page-style.php:990 admin/page-style.php:2064
+msgid "Title Font Size"
+msgstr "Title Font Size"
+
+#: admin/page-style.php:1004 admin/page-style.php:2153
+msgid "Menu Title Color"
+msgstr "Menu Title Color"
+
+#: admin/page-style.php:1018 admin/page-style.php:2164
+msgid "Menu Checked Background Color"
+msgstr "Menu Checked Background Color"
+
+#: admin/page-style.php:1032 admin/page-style.php:2175
+msgid "Menu Background Color"
+msgstr "Menu Background Color"
+
+#: admin/page-style.php:1046 admin/page-style.php:2186
+msgid "Menu Hover Color"
+msgstr "Menu Hover Color"
+
+#: admin/page-style.php:1060 admin/page-style.php:2197
+msgid "Menu breadcrumb title color"
+msgstr "Menu breadcrumb title color"
+
+#: admin/page-style.php:1074 admin/page-style.php:2209
+msgid "Menu background title color"
+msgstr "Menu background title color"
+
+#: admin/page-style.php:1088
+msgid "Menu background hover color"
+msgstr "Menu background hover color"
+
+#: admin/page-style.php:1102 admin/page-style.php:2242
+msgid "Menu display shadow"
+msgstr "Menu display shadow"
+
+#: admin/page-style.php:1116 admin/page-style.php:2231
+msgid "Menu Scrollbar color"
+msgstr "Menu Scrollbar color"
+
+#: admin/page-style.php:1130 admin/page-style.php:2256
+msgid "Menu background shadow"
+msgstr "Menu background shadow"
+
+#: admin/page-style.php:1144 admin/page-style.php:2267
+msgid "Menu Border radius"
+msgstr "Menu Border radius"
+
+#: admin/page-style.php:1158 admin/page-style.php:2284
+msgid "Menu z-index"
+msgstr "Menu z-index"
+
+#: admin/page-style.php:1172 admin/page-style.php:1186
+#: admin/page-style.php:2295
+msgid "Menu home title"
+msgstr "Menu home title"
+
+#: admin/page-style.php:1200
+msgid "Css Customize"
+msgstr "Css Customize"
+
+#: admin/page-style.php:1214
+msgid "Header Widget Position"
+msgstr "Header Widget Position"
+
+#: admin/page-style.php:1228 admin/page-style.php:3925
+msgid "Clear Shop Page"
+msgstr "Clear Shop Page"
+
+#: admin/page-style.php:1242
+msgid "save table"
+msgstr "save table"
+
+#: admin/page-style.php:1256
+msgid "Packge Code"
+msgstr "Packge Code"
+
+#: admin/page-style.php:1286 admin/page-style.php:1685
+msgid "All"
+msgstr "All"
+
+#: admin/page-style.php:1288 admin/page-style.php:1687
+msgid "Separted"
+msgstr "Separted"
+
+#: admin/page-style.php:1301 admin/page-style.php:1381
+#: admin/page-style.php:1406 admin/page-style.php:1464
+#: admin/page-style.php:1489 admin/page-style.php:1553
+#: admin/page-style.php:1589 admin/page-style.php:1699
+#: admin/page-style.php:1736 admin/page-style.php:1750
+#: admin/page-style.php:1892 admin/page-style.php:1906
+#: admin/page-style.php:2020 admin/page-style.php:2116
+#: admin/page-style.php:2131 admin/page-style.php:3113
+msgid "Choice Icon"
+msgstr "Choice Icon"
+
+#: admin/page-style.php:1391
+msgid "Widget Icon Slideup Color"
+msgstr "Widget Icon Slideup Color"
+
+#: admin/page-style.php:1513 admin/page-style.php:1786
+#: admin/page-style.php:2270
+msgid "none"
+msgstr "none"
+
+#: admin/page-style.php:1514 admin/page-style.php:1787
+#: admin/page-style.php:2271
+msgid "25%"
+msgstr "25%"
+
+#: admin/page-style.php:1515 admin/page-style.php:1788
+#: admin/page-style.php:2272
+msgid "50%"
+msgstr "50%"
+
+#: admin/page-style.php:1516 admin/page-style.php:1789
+#: admin/page-style.php:2273
+msgid "75%"
+msgstr "75%"
+
+#: admin/page-style.php:1517 admin/page-style.php:1790
+#: admin/page-style.php:2274
+msgid "100%"
+msgstr "100%"
+
+#: admin/page-style.php:1617
+msgid "Scroll Down(Mouse)"
+msgstr "Scroll Down(Mouse)"
+
+#: admin/page-style.php:1618
+msgid "Button: Show(More&less)"
+msgstr "Button: Show(More&less)"
+
+#: admin/page-style.php:1644
+msgid "Scroll Height"
+msgstr "Scroll Height"
+
+#: admin/page-style.php:1661 admin/page-style.php:1970
+msgid "Hide"
+msgstr "Hide"
+
+#: admin/page-style.php:1662 admin/page-style.php:1971
+msgid "Show"
+msgstr "Show"
+
+#: admin/page-style.php:1888
+msgid "filter icon"
+msgstr "filter icon"
+
+#: admin/page-style.php:1902
+msgid "clear icon"
+msgstr "clear icon"
+
+#: admin/page-style.php:1917
+msgid "Icons Color"
+msgstr "Icons Color"
+
+#: admin/page-style.php:1928
+msgid "Title Color"
+msgstr "Title Color"
+
+#: admin/page-style.php:1942
+msgid "1 Group per row"
+msgstr "1 Group per row"
+
+#: admin/page-style.php:1943
+msgid "2 Groups per row"
+msgstr "2 Groups per row"
+
+#: admin/page-style.php:1944
+msgid "3 Groups per row"
+msgstr "3 Groups per row"
+
+#: admin/page-style.php:1945
+msgid "4 Groups per row"
+msgstr "4 Groups per row"
+
+#: admin/page-style.php:1946
+msgid "5 Groups per row"
+msgstr "5 Groups per row"
+
+#: admin/page-style.php:2031
+msgid "Menu Slide Icon Color"
+msgstr "Menu Slide Icon Color"
+
+#: admin/page-style.php:2220
+msgid "Menu background Hover color"
+msgstr "Menu background Hover color"
+
+#: admin/page-style.php:2365
+msgid "14"
+msgstr "14"
+
+#: admin/page-style.php:2475 admin/page-style.php:2715
+msgid "Select Icon"
+msgstr "Select Icon"
+
+#: admin/page-style.php:2480 admin/page-style.php:2720
+msgid "default"
+msgstr "default"
+
+#: admin/page-style.php:2494 admin/page-style.php:2734
+msgid "Clothes"
+msgstr "Clothes"
+
+#: admin/page-style.php:2507 admin/page-style.php:2747
+msgid "accessories"
+msgstr "accessories"
+
+#: admin/page-style.php:2519 admin/page-style.php:2759
+msgid "Computer"
+msgstr "Computer"
+
+#: admin/page-style.php:2531 admin/page-style.php:2771
+msgid "Construction tools"
+msgstr "Construction tools"
+
+#: admin/page-style.php:2543 admin/page-style.php:2783
+msgid "Electrician tools"
+msgstr "Electrician tools"
+
+#: admin/page-style.php:2555 admin/page-style.php:2795
+msgid "Mobile"
+msgstr "Mobile"
+
+#: admin/page-style.php:2567 admin/page-style.php:2807
+msgid "Home electrical appliances"
+msgstr "Home electrical appliances"
+
+#: admin/page-style.php:2579 admin/page-style.php:2819
+msgid "Fruits and Vegetables"
+msgstr "Fruits and Vegetables"
+
+#: admin/page-style.php:2591 admin/page-style.php:2831
+msgid "Home appliances"
+msgstr "Home appliances"
+
+#: admin/page-style.php:2603 admin/page-style.php:2843
+msgid "Kitchen"
+msgstr "Kitchen"
+
+#: admin/page-style.php:2615 admin/page-style.php:2855
+msgid "Mechanics"
+msgstr "Mechanics"
+
+#: admin/page-style.php:2627 admin/page-style.php:2867
+msgid "Make up"
+msgstr "Make up"
+
+#: admin/page-style.php:2639 admin/page-style.php:2879
+msgid "carpentry"
+msgstr "carpentry"
+
+#: admin/page-style.php:2651 admin/page-style.php:2891
+msgid "plumber"
+msgstr "plumber"
+
+#: admin/page-style.php:2663 admin/page-style.php:2903
+msgid "gym"
+msgstr "gym"
+
+#: admin/page-style.php:2675 admin/page-style.php:2915
+msgid "Sport"
+msgstr "Sport"
+
+#: admin/page-style.php:2687 admin/page-style.php:2927
+msgid "Vechiles"
+msgstr "Vechiles"
+
+#: admin/page-style.php:3041
+msgid "Click to Hide."
+msgstr "Click to Hide."
+
+#: admin/page-style.php:3044
+msgid "Click to Show."
+msgstr "Click to Show."
+
+#: admin/page-style.php:3075
+msgid "Choice Icon For All Childern"
+msgstr "Choice Icon For All Childern"
+
+#: admin/page-style.php:3166 admin/page-style.php:3352
+#: admin/sobex-tech-admin-ajax.php:1234 admin/sobex-tech-admin-ajax.php:1338
+msgid "Please Select Menu First."
+msgstr "Please Select Menu First."
+
+#: admin/page-style.php:3175
+msgid "Make all icons the same in Tree level"
+msgstr "Make all icons the same in Tree level"
+
+#: admin/page-style.php:3178
+msgid "Level 2"
+msgstr "Level 2"
+
+#: admin/page-style.php:3179
+msgid "Level 3"
+msgstr "Level 3"
+
+#: admin/page-style.php:3180
+msgid "Level 4"
+msgstr "Level 4"
+
+#: admin/page-style.php:3183
+msgid "Successfully selected."
+msgstr "Successfully selected."
+
+#: admin/page-style.php:3216
+msgid "Widget Filter"
+msgstr "Widget Filter"
+
+#: admin/page-style.php:3217 admin/page-style.php:3900
+msgid "Css Customization"
+msgstr "Css Customization"
+
+#: admin/page-style.php:3218 admin/page-style.php:3939
+msgid "Sobex Icons"
+msgstr "Sobex Icons"
+
+#: admin/page-style.php:3228
+msgid "Widget Menu Style"
+msgstr "Widget Menu Style"
+
+#: admin/page-style.php:3229 admin/page-style.php:3368
+msgid "Widget Menu Icons"
+msgstr "Widget Menu Icons"
+
+#: admin/page-style.php:3238 admin/page-style.php:3367
+msgid "Menu Slide Style"
+msgstr "Menu Slide Style"
+
+#: admin/page-style.php:3264
+msgid "Menu Buttons & Icon"
+msgstr "Menu Buttons & Icon"
+
+#: admin/page-style.php:3283 admin/page-style.php:3715
+msgid "Font Size"
+msgstr "Font Size"
+
+#: admin/page-style.php:3297
+msgid "Menu Title"
+msgstr "Menu Title"
+
+#: admin/page-style.php:3313
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: admin/page-style.php:3328 admin/page-style.php:3503
+msgid "Other Settings"
+msgstr "Other Settings"
+
+#: admin/page-style.php:3379 admin/page-widget-settings.php:454
+#: admin/page-widget-settings.php:507 admin/page-widget-settings.php:670
+#: admin/page-widget-settings.php:720
+msgid "Update"
+msgstr "Update"
+
+#: admin/page-style.php:3400
+msgid "Widget Sibebar Style"
+msgstr "Widget Sibebar Style"
+
+#: admin/page-style.php:3401 admin/page-style.php:3682
+msgid "Widget Header Style"
+msgstr "Widget Header Style"
+
+#: admin/page-style.php:3410 admin/page-style.php:3680
+msgid "Widget Filter Style"
+msgstr "Widget Filter Style"
+
+#: admin/page-style.php:3411 admin/page-style.php:3681
+msgid "Widget Sidebar Style"
+msgstr "Widget Sidebar Style"
+
+#: admin/page-style.php:3451
+msgid "Widget Font Size"
+msgstr "Widget Font Size"
+
+#: admin/page-style.php:3466
+msgid "Widget Slide"
+msgstr "Widget Slide"
+
+#: admin/page-style.php:3482
+msgid "Widget"
+msgstr "Widget"
+
+#: admin/page-style.php:3536
+msgid "Contents loading"
+msgstr "Contents loading"
+
+#: admin/page-style.php:3548 admin/page-style.php:3787
+msgid "Filter By Checkbox"
+msgstr "Filter By Checkbox"
+
+#: admin/page-style.php:3566 admin/page-style.php:3849
+msgid "Filter Now"
+msgstr "Filter Now"
+
+#: admin/page-style.php:3567 admin/page-style.php:3644
+#: admin/page-style.php:3861
+msgid "Clear All"
+msgstr "Clear All"
+
+#: admin/page-style.php:3577 admin/page-style.php:3584
+#: admin/page-style.php:3591 admin/page-style.php:3598
+#: admin/page-style.php:3605 admin/page-style.php:3612
+#: admin/page-widget-settings.php:646
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin/page-style.php:3629
+msgid "Filter All"
+msgstr "Filter All"
+
+#: admin/page-style.php:3666 admin/page-style.php:3881
+msgid "Customize Every Table in Widget"
+msgstr "Customize Every Table in Widget"
+
+#: admin/page-style.php:3729
+msgid "Widget Drop"
+msgstr "Widget Drop"
+
+#: admin/page-style.php:3744
+msgid "Drop button"
+msgstr "Drop button"
+
+#: admin/page-style.php:3764
+msgid "Frontend Header Widget"
+msgstr "Frontend Header Widget"
+
+#: admin/page-style.php:3872
+msgid "Show More & less"
+msgstr "Show More & less"
+
+#: admin/page-style.php:3907
+msgid "Css Customizing"
+msgstr "Css Customizing"
+
+#: admin/page-style.php:3908
+msgid ""
+"If css of widget is not compatible with your template, You can modify the "
+"CSS of the Widget by taking the name of the class Or Id and then adding !"
+"imporant in front of each change."
+msgstr ""
+"If css of widget is not compatible with your template, You can modify the "
+"CSS of the Widget by taking the name of the class Or Id and then adding !"
+"imporant in front of each change."
+
+#: admin/page-style.php:3916
+msgid "Filter Widget (Header)"
+msgstr "Filter Widget (Header)"
+
+#: admin/page-style.php:3917
+msgid ""
+"Header widget are added to the page-title class as Default, If your template "
+"contains a different class, you can add your class here and the header "
+"widget will be added after it."
+msgstr ""
+"Header widget are added to the page-title class as Default, If your template "
+"contains a different class, you can add your class here and the header "
+"widget will be added after it."
+
+#: admin/page-style.php:3926
+msgid ""
+"If you want to hide some of the classes that appear on the shop page, you "
+"can add classes and they will be hidden automatically."
+msgstr ""
+"If you want to hide some of the classes that appear on the shop page, you "
+"can add classes and they will be hidden automatically."
+
+#: admin/page-style.php:3945
+msgid "Sobex Free Icons"
+msgstr "Sobex Free Icons"
+
+#: admin/page-style.php:3947
+#, fuzzy
+#| msgid ""
+#| "If you have purchased the plugin from our official platforms, please send "
+#| "a request to get a license to activate the Sobex icons."
+msgid ""
+"If you have purchased the Icon Add-ons pack from our official platforms, Or "
+"If you have it in the Add-ons file, You can upload it here."
+msgstr ""
+"If you have purchased the plugin from our official platforms, please send a "
+"request to get a license to activate the Sobex icons."
+
+#: admin/page-style.php:3975
+msgid "Package Name"
+msgstr "Package Name"
+
+#: admin/page-style.php:3981
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: admin/page-style.php:4017
+msgid "Sobex premium Icons"
+msgstr "Sobex premium Icons"
+
+#: admin/page-style.php:4019
+msgid "Premium icons is coming soon."
+msgstr "Premium icons is coming soon."
+
+#: admin/page-widget-settings.php:65 admin/page-widget-settings.php:112
+msgid "You Are able now to Translate the strings now in WPML Tab, Please Click"
+msgstr ""
+"You Are able now to Translate the strings now in WPML Tab, Please Click"
+
+#: admin/page-widget-settings.php:76 admin/page-widget-settings.php:123
+msgid ""
+"You don't have any String To Translate Please Compelete Strings Form First."
+msgstr ""
+"You don't have any String To Translate Please Compelete Strings Form First."
+
+#: admin/page-widget-settings.php:150
+msgid "Select Your Product tags to display in widget"
+msgstr "Select Your Product tags to display in widget"
+
+#: admin/page-widget-settings.php:169
+msgid "in stock"
+msgstr "in stock"
+
+#: admin/page-widget-settings.php:170
+msgid "out of stock"
+msgstr "out of stock"
+
+#: admin/page-widget-settings.php:171
+msgid "backorders"
+msgstr "backorders"
+
+#: admin/page-widget-settings.php:172
+msgid "On Sale"
+msgstr "On Sale"
+
+#: admin/page-widget-settings.php:173
+msgid "popularity"
+msgstr "popularity"
+
+#: admin/page-widget-settings.php:174
+msgid "rating"
+msgstr "rating"
+
+#: admin/page-widget-settings.php:175
+msgid "Newest"
+msgstr "Newest"
+
+#: admin/page-widget-settings.php:176
+msgid "Sort By price: low to high"
+msgstr "Sort By price: low to high"
+
+#: admin/page-widget-settings.php:177
+msgid "Sort By price: high to low"
+msgstr "Sort By price: high to low"
+
+#: admin/page-widget-settings.php:184
+msgid "Select Your Woocommerce filter to display in widget"
+msgstr "Select Your Woocommerce filter to display in widget"
+
+#: admin/page-widget-settings.php:236
+msgid "Sidebar Widget Sortable"
+msgstr "Sidebar Widget Sortable"
+
+#: admin/page-widget-settings.php:237 admin/page-widget-settings.php:527
+msgid "Widget Header Sortable"
+msgstr "Widget Header Sortable"
+
+#: admin/page-widget-settings.php:248 admin/page-widget-settings.php:526
+msgid "Widget Sidbar Sortable"
+msgstr "Widget Sidbar Sortable"
+
+#: admin/page-widget-settings.php:256
+msgid "Attributes"
+msgstr "Attributes"
+
+#: admin/page-widget-settings.php:261
+msgid ""
+"Select The attributes that you want to add for widget to filter Products."
+msgstr ""
+"Select The attributes that you want to add for widget to filter Products."
+
+#: admin/page-widget-settings.php:266 admin/page-widget-settings.php:543
+msgid "Run"
+msgstr "Run"
+
+#: admin/page-widget-settings.php:267 admin/page-widget-settings.php:545
+msgid "Attribute Name"
+msgstr "Attribute Name"
+
+#: admin/page-widget-settings.php:268 admin/page-widget-settings.php:546
+msgid "Style"
+msgstr "Style"
+
+#: admin/page-widget-settings.php:269 admin/page-widget-settings.php:547
+msgid "Positions"
+msgstr "Positions"
+
+#: admin/page-widget-settings.php:286 admin/page-widget-settings.php:562
+msgid "You Don't Have Attributes."
+msgstr "You Don't Have Attributes."
+
+#: admin/page-widget-settings.php:297 admin/page-widget-settings.php:306
+#: admin/page-widget-settings.php:598
+msgid "Off"
+msgstr "Off"
+
+#: admin/page-widget-settings.php:298 admin/page-widget-settings.php:599
+msgid "On"
+msgstr "On"
+
+#: admin/page-widget-settings.php:350 admin/page-widget-settings.php:475
+#: admin/page-widget-settings.php:690
+msgid "Categories"
+msgstr "Categories"
+
+#: admin/page-widget-settings.php:352 admin/page-widget-settings.php:477
+#: admin/page-widget-settings.php:692
+msgid "Search Form"
+msgstr "Search Form"
+
+#: admin/page-widget-settings.php:354 admin/page-widget-settings.php:479
+#: admin/page-widget-settings.php:616 admin/page-widget-settings.php:694
+msgid "Price Filter"
+msgstr "Price Filter"
+
+#: admin/page-widget-settings.php:356 admin/page-widget-settings.php:481
+#: admin/page-widget-settings.php:618 admin/page-widget-settings.php:696
+msgid "Tags"
+msgstr "Tags"
+
+#: admin/page-widget-settings.php:358 admin/page-widget-settings.php:483
+#: admin/page-widget-settings.php:620 admin/page-widget-settings.php:698
+msgid "Default Woo Filter"
+msgstr "Default Woo Filter"
+
+#: admin/page-widget-settings.php:365 admin/page-widget-settings.php:369
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/page-widget-settings.php:376
+msgid "Min Price: cheapest product price"
+msgstr "Min Price: cheapest product price"
+
+#: admin/page-widget-settings.php:377
+msgid "Min Price: Starting from Zero"
+msgstr "Min Price: Starting from Zero"
+
+#: admin/page-widget-settings.php:412
+msgid "Style One"
+msgstr "Style One"
+
+#: admin/page-widget-settings.php:413
+msgid "Style Two"
+msgstr "Style Two"
+
+#: admin/page-widget-settings.php:420 admin/page-widget-settings.php:639
+msgid "One Side"
+msgstr "One Side"
+
+#: admin/page-widget-settings.php:421 admin/page-widget-settings.php:640
+msgid "Two Sides"
+msgstr "Two Sides"
+
+#: admin/page-widget-settings.php:428
+msgid "Select Style"
+msgstr "Select Style"
+
+#: admin/page-widget-settings.php:430
+msgid "Checkbox Color Style"
+msgstr "Checkbox Color Style"
+
+#: admin/page-widget-settings.php:431
+msgid "Checkbox label Style"
+msgstr "Checkbox label Style"
+
+#: admin/page-widget-settings.php:433
+msgid "Radio Color Style"
+msgstr "Radio Color Style"
+
+#: admin/page-widget-settings.php:434
+msgid "Radio label Style"
+msgstr "Radio label Style"
+
+#: admin/page-widget-settings.php:467 admin/page-widget-settings.php:682
+msgid "Widget Label Name"
+msgstr "Widget Label Name"
+
+#: admin/page-widget-settings.php:468 admin/page-widget-settings.php:683
+msgid ""
+"In this section, you can add the texts that you want to appear above each "
+"table, but we recommend you write the text in the original site language."
+msgstr ""
+"In this section, you can add the texts that you want to appear above each "
+"table, but we recommend you write the text in the original site language."
+
+#: admin/page-widget-settings.php:494 admin/page-widget-settings.php:709
+msgid "Example: Filter by"
+msgstr "Example: Filter by"
+
+#: admin/page-widget-settings.php:533
+msgid "Attributes Setting"
+msgstr "Attributes Setting"
+
+#: admin/page-widget-settings.php:538
+msgid "We Recommend You To use At least 4 Attributes."
+msgstr "We Recommend You To use At least 4 Attributes."
+
+#: admin/page-widget-settings.php:544
+msgid "Tablet & Mobile Only"
+msgstr "Tablet & Mobile Only"
+
+#: admin/page-widget-settings.php:647
+msgid "Checkbox Color"
+msgstr "Checkbox Color"
+
+#: admin/page-widget-settings.php:648
+msgid "Checkbox Label"
+msgstr "Checkbox Label"
+
+#: admin/page-widget-settings.php:649
+msgid "Radio"
+msgstr "Radio"
+
+#: admin/page-widget-settings.php:650
+msgid "Radio Color"
+msgstr "Radio Color"
+
+#: admin/page-widget-settings.php:651
+msgid "Radio Label"
+msgstr "Radio Label"
+
+#: admin/page-widget-settings.php:738
+msgid "Please Turn on Widget Header in Main Setting First to edit the widget!"
+msgstr "Please Turn on Widget Header in Main Setting First to edit the widget!"
+
+#: admin/page-widget-settings.php:745
+msgid ""
+"You Are Using Only Menu, If you want to use filter widget please select Off/"
+"merger with filter in Menu Slide tab (Settings)."
+msgstr ""
+"You Are Using Only Menu, If you want to use filter widget please select Off/"
+"merger with filter in Menu Slide tab (Settings)."
+
+#: admin/sobex-tech-admin-ajax.php:140
+msgid ""
+"Your zip file was uploaded and unpacked & Settings has been updated "
+"Successfully.!"
+msgstr ""
+"Your zip file was uploaded and unpacked & Settings has been updated "
+"Successfully.!"
+
+#: admin/sobex-tech-admin-ajax.php:148 admin/sobex-tech-admin-ajax.php:579
+#: admin/sobex-tech-admin-ajax.php:665 admin/sobex-tech-admin-ajax.php:714
+#: admin/sobex-tech-admin-ajax.php:745 admin/sobex-tech-admin-ajax.php:791
+#: admin/sobex-tech-admin-ajax.php:819 admin/sobex-tech-admin-ajax.php:1128
+#: admin/sobex-tech-admin-ajax.php:1216 admin/sobex-tech-admin-ajax.php:1233
+#: admin/sobex-tech-admin-ajax.php:1295 admin/sobex-tech-admin-ajax.php:1337
+#: admin/sobex-tech-admin-ajax.php:1346 admin/sobex-tech-admin-ajax.php:1378
+#: admin/sobex-tech-admin-ajax.php:1451 admin/sobex-tech-admin-ajax.php:1495
+#: admin/sobex-tech-admin-ajax.php:1537 admin/sobex-tech-admin-ajax.php:1663
+msgid "Error"
+msgstr "Error"
+
+#: admin/sobex-tech-admin-ajax.php:150 admin/sobex-tech-admin-ajax.php:1539
+msgid "The file you are trying to upload is not a .zip file. Please try again."
+msgstr ""
+"The file you are trying to upload is not a .zip file. Please try again."
+
+#: admin/sobex-tech-admin-ajax.php:152 admin/sobex-tech-admin-ajax.php:1541
+msgid "Error: File is not exists."
+msgstr "Error: File is not exists."
+
+#: admin/sobex-tech-admin-ajax.php:157
+msgid "Failed to add to database wp_sobex_tech_widget_sidebar."
+msgstr "Failed to add to database wp_sobex_tech_widget_sidebar."
+
+#: admin/sobex-tech-admin-ajax.php:159
+msgid "Failed to add to database wp_sobex_tech_widget_header."
+msgstr "Failed to add to database wp_sobex_tech_widget_header."
+
+#: admin/sobex-tech-admin-ajax.php:161
+msgid "Failed to add to database wp_sobex_tech_widget_menu."
+msgstr "Failed to add to database wp_sobex_tech_widget_menu."
+
+#: admin/sobex-tech-admin-ajax.php:163
+msgid "Failed to add to database wp_sobex_tech_user_packages."
+msgstr "Failed to add to database wp_sobex_tech_user_packages."
+
+#: admin/sobex-tech-admin-ajax.php:165
+msgid "Extraced failed."
+msgstr "Extraced failed."
+
+#: admin/sobex-tech-admin-ajax.php:168 admin/sobex-tech-admin-ajax.php:1544
+msgid "There was a problem with the upload. Please try again."
+msgstr "There was a problem with the upload. Please try again."
+
+#: admin/sobex-tech-admin-ajax.php:589 admin/sobex-tech-admin-ajax.php:675
+#: admin/sobex-tech-admin-ajax.php:724 admin/sobex-tech-admin-ajax.php:755
+#: admin/sobex-tech-admin-ajax.php:801 admin/sobex-tech-admin-ajax.php:829
+#: admin/sobex-tech-admin-ajax.php:994 admin/sobex-tech-admin-ajax.php:1067
+#: admin/sobex-tech-admin-ajax.php:1139
+msgid "Your changes are saved successfully.!"
+msgstr "Your changes are saved successfully.!"
+
+#: admin/sobex-tech-admin-ajax.php:984
+msgid "Error: While updating the data."
+msgstr "Error: While updating the data."
+
+#: admin/sobex-tech-admin-ajax.php:992
+msgid "Successed: The data has been updated"
+msgstr "Successed: The data has been updated"
+
+#: admin/sobex-tech-admin-ajax.php:1057
+msgid "Error: While resetting sidebar Style. Or Already has been reset before."
+msgstr ""
+"Error: While resetting sidebar Style. Or Already has been reset before."
+
+#: admin/sobex-tech-admin-ajax.php:1065
+msgid "Successed: Sidebar Style has been reset"
+msgstr "Successed: Sidebar Style has been reset"
+
+#: admin/sobex-tech-admin-ajax.php:1129
+msgid " While resetting header Style. Or Already has been reset before."
+msgstr " While resetting header Style. Or Already has been reset before."
+
+#: admin/sobex-tech-admin-ajax.php:1137
+msgid "Successed: Header Style has been reset"
+msgstr "Successed: Header Style has been reset"
+
+#: admin/sobex-tech-admin-ajax.php:1217
+msgid "While Updating Menu."
+msgstr "While Updating Menu."
+
+#: admin/sobex-tech-admin-ajax.php:1227
+msgid "Your Menu has been Updated!"
+msgstr "Your Menu has been Updated!"
+
+#: admin/sobex-tech-admin-ajax.php:1296
+msgid "While resetting Menu Style. Or Already has been reset before."
+msgstr "While resetting Menu Style. Or Already has been reset before."
+
+#: admin/sobex-tech-admin-ajax.php:1306
+msgid "Your Menu Style has been reset!"
+msgstr "Your Menu Style has been reset!"
+
+#: admin/sobex-tech-admin-ajax.php:1347
+msgid "While resetting Menu Icons. Or Already has been reset before."
+msgstr "While resetting Menu Icons. Or Already has been reset before."
+
+#: admin/sobex-tech-admin-ajax.php:1357
+msgid "Your Menu Icons has been reset!"
+msgstr "Your Menu Icons has been reset!"
+
+#: admin/sobex-tech-admin-ajax.php:1380
+msgid "Please Write your name first.!"
+msgstr "Please Write your name first.!"
+
+#: admin/sobex-tech-admin-ajax.php:1383
+msgid "Please Write your email first.!"
+msgstr "Please Write your email first.!"
+
+#: admin/sobex-tech-admin-ajax.php:1386
+msgid "Please Write your problem first.!"
+msgstr "Please Write your problem first.!"
+
+#: admin/sobex-tech-admin-ajax.php:1445
+msgid "Your Message has been sent."
+msgstr "Your Message has been sent."
+
+#: admin/sobex-tech-admin-ajax.php:1452
+msgid "Message could not be sent."
+msgstr "Message could not be sent."
+
+#: admin/sobex-tech-admin-ajax.php:1485
+#| msgid "Your changes are saved successfully.!"
+msgid "The icon pack has been uninstalled successfully"
+msgstr "The icon pack has been uninstalled successfully"
+
+#: admin/sobex-tech-admin-ajax.php:1496
+msgid "The package does not exist or the uninstallation process failed"
+msgstr ""
+
+#: admin/sobex-tech-admin-ajax.php:1529
+#| msgid ""
+#| "Your zip file was uploaded and unpacked & Settings has been updated "
+#| "Successfully.!"
+msgid ""
+"Your zip file was uploaded and unpacked & Addon has been added Successfully.!"
+msgstr ""
+"Your zip file was uploaded and unpacked & Addon has been added Successfully.!"
+
+#: admin/sobex-tech-admin-ajax.php:1652
+#| msgid "Package has been Activated.!"
+msgid "Plugin has been Activated Successfully.!"
+msgstr "Plugin has been Activated Successfully.!"
+
+#: admin/sobex-tech-admin-ajax.php:1654
+#| msgid "Package Already Activated."
+msgid "Plugin Already been Activated"
+msgstr "Plugin Already been Activated"
+
+#: admin/sobex-tech-admin-ajax.php:1665
+msgid "Couldn't Insert License Code into database.!"
+msgstr "Couldn't Insert License Code into database.!"
+
+#: admin/sobex-tech-admin-ajax.php:1667
+msgid "Your License Code is not in our system.!"
+msgstr "Your License Code is not in our system.!"
+
+#: admin/sobex-tech-admin-ajax.php:1670
+msgid "Your Purchase Code is Not Valid.!"
+msgstr "Your Purchase Code is Not Valid.!"
+
+#: sobex-tech.php:322
+msgid "Zhaket Shop"
+msgstr "Zhaket Shop"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:56
+msgid "View details"
+msgstr "View details"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr "More information about %s"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr "Check for updates"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "The %s plugin is up to date."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "A new version of the %s plugin is available."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Could not determine if updates are available for %s."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Unknown update checker status \"%s\""
+
+#: updater/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "There is no changelog available."
+
+#: views/widgets/sobex-filter-widget.php:9
+#: views/widgets/sobex-filter-widget.php:10
+msgid "Sobex tech Filter"
+msgstr "Sobex tech Filter"
+
+#: views/widgets/sobex-filter-widget.php:31
+msgid "Please Do the Plugin Settings First"
+msgstr "Please Do the Plugin Settings First"
+
+#. Plugin Name of the plugin/theme
+msgid "SOBEX TECH"
+msgstr "SOBEX TECH"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.zhaket.com/store/web/sobextech"
+msgstr "https://www.zhaket.com/store/web/sobextech"
+
+#. Description of the plugin/theme
+msgid ""
+"SOBEX TECH has multiple professional plugins to achieve your Woocommerce & "
+"WordPress with special abilities."
+msgstr ""
+"SOBEX TECH has multiple professional plugins to achieve your Woocommerce & "
+"WordPress with special abilities."
+
+#. Author of the plugin/theme
+msgid "Sobex"
+msgstr "Sobex"
+
+#~ msgid "Product introduction in our Website (Sobex Tech)"
+#~ msgstr "Product introduction in our Website (Sobex Tech)"
+
+#~ msgid "Level 5"
+#~ msgstr "Level 5"
+
+#~ msgid ""
+#~ "Note: When you get the code, you can add it in the next field to activate "
+#~ "it."
+#~ msgstr ""
+#~ "Note: When you get the code, you can add it in the next field to activate "
+#~ "it."
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Expire Date"
+#~ msgstr "Expire Date"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deactivate"
+
+#~| msgid "Deactivate"
+#~ msgid "activated"
+#~ msgstr "activated"
+
+#~ msgid "expired"
+#~ msgstr "expired"
+
+#~| msgid "Deactivate"
+#~ msgid "deactivated"
+#~ msgstr "deactivated"
+
+#~ msgid "days left"
+#~ msgstr "days left"
+
+#~ msgid "Sorry. License may be incorrect."
+#~ msgstr "Sorry. License may be incorrect."
+
+#~ msgid "Did not succeed."
+#~ msgstr "Did not succeed."
+
+#~ msgid "Package has been deactivated.!"
+#~ msgstr "Package has been deactivated.!"
+
+#~ msgid "Package has been removed.!"
+#~ msgstr "Package has been removed.!"
+
+#~ msgid "If you are deleting SOBEX, please take a backup export!"
+#~ msgstr "If you are deleting SOBEX, please take a backup export!"
+
+#~ msgid "https://sobextech.com"
+#~ msgstr "https://sobextech.com"
+
+#~ msgid "Show widget sidebar"
+#~ msgstr "Show widget sidebar"
+
+#~ msgid ""
+#~ "All Attribues and Settings added Auto please go to attribue tab to do the "
+#~ "Settings."
+#~ msgstr ""
+#~ "All Attribues and Settings added Auto please go to attribue tab to do the "
+#~ "Settings."
+
+#~ msgid "Your Domain"
+#~ msgstr "Your Domain"
+
+#~| msgid "Free Icons"
+#~ msgid "Free Icon Packge"
+#~ msgstr "Free Icon Packge"
+
+#~| msgid "Activate now"
+#~ msgid "Active"
+#~ msgstr "Active"
+
+#~ msgid "1 year"
+#~ msgstr "1 year"
+
+#~ msgid "Please Try again."
+#~ msgstr "Please Try again."
+
+#~ msgid "Reset Template Style"
+#~ msgstr "Reset Template Style"
+
+#~ msgid "https://www.sobextech.com/"
+#~ msgstr "https://www.sobextech.com/"
+
+#~ msgid "Select Icon For"
+#~ msgstr "Select Icon For"
+
+#~ msgid "Checkbox Box Style"
+#~ msgstr "Checkbox Box Style"
+
+#~ msgid "Radio Box Style"
+#~ msgstr "Radio Box Style"
+
+#~ msgid "Error: Option File is not JSON."
+#~ msgstr "Error: Option File is not JSON."
+
+#~ msgid "Sort By Newness"
+#~ msgstr "Sort By Newness"

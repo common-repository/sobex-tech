@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 398.627px;
+        filter: url(#filter);
+        fill: #010000;
+        font-family: "Devil Breeze";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="24" y="7" width="79" height="116" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="S" class="cls-1" transform="translate(21.32 122.506) scale(0.385)">S</text>
+</svg>

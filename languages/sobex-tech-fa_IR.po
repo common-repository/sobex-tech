@@ -1,0 +1,2245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SOBEX TECH\n"
+"POT-Creation-Date: 2023-02-27 07:53-0800\n"
+"PO-Revision-Date: 2023-02-27 07:59-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sobex-tech.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/classes/functions.php:171 admin/classes/functions.php:182
+#: admin/sobex-tech-admin-ajax.php:138 admin/sobex-tech-admin-ajax.php:587
+#: admin/sobex-tech-admin-ajax.php:673 admin/sobex-tech-admin-ajax.php:722
+#: admin/sobex-tech-admin-ajax.php:753 admin/sobex-tech-admin-ajax.php:799
+#: admin/sobex-tech-admin-ajax.php:827 admin/sobex-tech-admin-ajax.php:1225
+#: admin/sobex-tech-admin-ajax.php:1304 admin/sobex-tech-admin-ajax.php:1355
+#: admin/sobex-tech-admin-ajax.php:1443 admin/sobex-tech-admin-ajax.php:1483
+#: admin/sobex-tech-admin-ajax.php:1527 admin/sobex-tech-admin-ajax.php:1649
+msgid "Successed"
+msgstr "با موفقیت انجام شد"
+
+#: admin/classes/functions.php:198 admin/load_assets.php:8
+#: admin/load_assets.php:9 admin/load_assets.php:19
+msgid "Sobex Tech"
+msgstr "سابکس ‌تک"
+
+#: admin/classes/functions.php:199
+msgid "Sobex Tech Plugins Settings"
+msgstr "تنظیمات افزونه های سابکس ‌تک"
+
+#: admin/classes/functions.php:201 admin/page-style.php:3980
+msgid "Version"
+msgstr "نسخه"
+
+#: admin/classes/functions.php:217
+msgid "All copyrights reserved to (Sobex Tech)"
+msgstr "تمامی حقوق برای (سابکس ‌تک) محفوظ است"
+
+#: admin/classes/functions.php:218
+msgid "Our Products in Jacket"
+msgstr "محصولات ما در ژاکت"
+
+#: admin/load_assets.php:20 admin/load_assets.php:60
+msgid "Settings"
+msgstr "تنظیمات عمومی"
+
+#: admin/load_assets.php:28 admin/load_assets.php:29 admin/page-settings.php:1023
+#: admin/page-settings.php:1052
+msgid "Widget Settings"
+msgstr "تنظیمات ابزارک"
+
+#: admin/load_assets.php:38 admin/load_assets.php:39
+msgid "Style Settings"
+msgstr "تنظیمات استایل"
+
+#: admin/load_assets.php:47 admin/load_assets.php:48
+msgid "Activation"
+msgstr "اقدام"
+
+#: admin/page-activation.php:187
+msgid "Active Now"
+msgstr "هم اکنون فعال شود"
+
+#: admin/page-settings.php:9
+msgid "Welcome to Sobex Tech-filter Plugin, Please Set Up The Options."
+msgstr "به افزونه سابکس ‌تک خوش آمدید، لطفا تنظیمات افزونه مدیریت کنید."
+
+#: admin/page-settings.php:38 admin/page-settings.php:362
+msgid "Select your Menu"
+msgstr "فهرست خود را انتخاب کنید"
+
+#: admin/page-settings.php:52 admin/page-settings.php:402
+msgid "Select Menu Type"
+msgstr "داینامیک منو"
+
+#: admin/page-settings.php:66 admin/page-settings.php:421
+msgid "Display Type"
+msgstr "دسته های خالی"
+
+#: admin/page-settings.php:80
+msgid "Number Of Items In Menu"
+msgstr "تعداد آیتم های موجود در فهرست کشویی"
+
+#: admin/page-settings.php:94 admin/page-settings.php:458
+msgid "Display Style"
+msgstr "نوع ورودی (منواسلاید)"
+
+#: admin/page-settings.php:112
+msgid "Plugin Dashboard Language"
+msgstr "زبان ادمين افزونه را انتخاب کنید"
+
+#: admin/page-settings.php:127 admin/page-settings.php:476
+msgid "Filter Mode"
+msgstr "نوع فیلتر"
+
+#: admin/page-settings.php:142 admin/page-settings.php:493
+#: admin/page-style.php:3436 admin/page-style.php:3696
+#: admin/page-widget-settings.php:22
+msgid "Widget Header"
+msgstr "ابزارگ سربرگ"
+
+#: admin/page-settings.php:157 admin/page-settings.php:510
+msgid "Display Widget Sidebar in Mobile/Tablets"
+msgstr "نمایش ابزارک نوار کناری در موبایل/تبلت"
+
+#: admin/page-settings.php:172 admin/page-settings.php:529
+msgid "Search Model"
+msgstr "حالت فیلتر"
+
+#: admin/page-settings.php:187
+msgid "Wigdet Buttons For (Classic Model)"
+msgstr "دکمه های ابزارک (مدل کلاسیک)"
+
+#: admin/page-settings.php:202 admin/page-settings.php:565
+msgid "Post Status"
+msgstr "وضعیت پست"
+
+#: admin/page-settings.php:217 admin/page-settings.php:601
+msgid "Color variation Plugin"
+msgstr "افزونه سوییچ رنگ محصولات"
+
+#: admin/page-settings.php:232 admin/page-settings.php:616
+msgid "Website Multiple Languages"
+msgstr "وب سایت چند زبانه"
+
+#: admin/page-settings.php:246
+msgid "Product Tags list"
+msgstr "لیست برچسب های محصولات"
+
+#: admin/page-settings.php:260
+msgid "default woocommerce filter list"
+msgstr "فیلتر پیش فرض ووکامرس"
+
+#: admin/page-settings.php:274
+msgid "Price filter min setting"
+msgstr "تنظیم (حداقل قیمت ) فیلتر قیمت"
+
+#: admin/page-settings.php:288 admin/page-settings.php:676
+msgid "Rest Api Security"
+msgstr "ریست ریکوئست پک"
+
+#: admin/page-settings.php:302 admin/page-settings.php:693
+msgid "Timeout seconds"
+msgstr "استراحت (تایم اوت) ثانیه"
+
+#: admin/page-settings.php:316 admin/page-settings.php:707
+msgid "Widget Ajax Timeout"
+msgstr "استراحت (تایم اوت) ابزارک"
+
+#: admin/page-settings.php:344
+msgid "Persian"
+msgstr "فارسی"
+
+#: admin/page-settings.php:348
+msgid "Arabic"
+msgstr "عربی"
+
+#: admin/page-settings.php:352
+msgid "English"
+msgstr "انگلیسی"
+
+#: admin/page-settings.php:369
+msgid "Select menu"
+msgstr "منوی خود را انتخاب کنید"
+
+#: admin/page-settings.php:384
+msgid "You Don't Have any menu in Archive."
+msgstr "شما هیچ منویی در فهرست وردپرس ندارید."
+
+#: admin/page-settings.php:392
+msgid ""
+"Select your menu that you are created in the archive to display in Menu Slide "
+"Widget."
+msgstr ""
+"منوی خود که در فهرست وردپرس ایجاد کرده اید ، برای نمایش آن در ابزارک فهرست "
+"کشویی (منواسلاید) انتخاب کنید."
+
+#: admin/page-settings.php:405 admin/page-settings.php:496
+#: admin/page-settings.php:619 admin/page-settings.php:679
+#: admin/page-style.php:2246
+msgid "Turn Off"
+msgstr "غیر فعال شود"
+
+#: admin/page-settings.php:406
+msgid "Use Only Menu"
+msgstr "فقط از فهرست کشویی (منواسلاید) استفاده می شود"
+
+#: admin/page-settings.php:407
+msgid "Merge menu to Sobex Filter"
+msgstr "ادغام فهرست کشویی (منواسلاید) با ابزارک فیلتر کناری"
+
+#: admin/page-settings.php:411
+msgid ""
+"a-\tThe Menu Type is to merge or unmerge the menu slide with the filter Widget "
+"plugin if you selected to turn off the menu slide plugin the filter widget "
+"plugin will be activated only."
+msgstr ""
+"نوع منو : برای ادغام یا خارج کردن فهرست کشویی (منواسلاید) از ابزارک فیلتر "
+"کناری است.. در صورتی که افزونه فهرست کشویی (منواسلاید) را غیرفعال کنید، افزونه "
+"ابزارک فیلتر کناری فقط فعال می گردد."
+
+#: admin/page-settings.php:424
+msgid "Hide Category Page"
+msgstr "پنهان"
+
+#: admin/page-settings.php:425
+msgid "Show Category Page"
+msgstr "نمایش"
+
+#: admin/page-settings.php:429
+msgid "Menu display type is to hide the category that doesn't has products."
+msgstr "نوع نمایش منو برای پنهان کردن دسته های که محصولات ندارد."
+
+#: admin/page-settings.php:439
+msgid "Number Of Items"
+msgstr "تعداد آيتم ها"
+
+#: admin/page-settings.php:442
+msgid "3 items in menu"
+msgstr "3 آیتم در منو"
+
+#: admin/page-settings.php:443
+msgid "5 items in menu"
+msgstr "5 آیتم در منو"
+
+#: admin/page-settings.php:444
+msgid "10 items in menu"
+msgstr "10 آیتم در منو"
+
+#: admin/page-settings.php:445
+msgid "(Open) Any items in menu"
+msgstr "همه آیتم ها در منو (باز)"
+
+#: admin/page-settings.php:448
+msgid ""
+"You can choose the number of items (Categories) that will appear in the first "
+"loop in the menu "
+msgstr ""
+"می‌توانید تعداد آیتم‌ها منو (والد) انتخاب کنید.در واقع ارتفاع منو را محدود می "
+"کند "
+
+#: admin/page-settings.php:461 admin/page-widget-settings.php:404
+#: admin/page-widget-settings.php:429
+msgid "Checkbox Style"
+msgstr "جعبه انتخاب"
+
+#: admin/page-settings.php:462 admin/page-widget-settings.php:405
+#: admin/page-widget-settings.php:432
+msgid "Radio Style"
+msgstr "دکمه‌ رادیویی"
+
+#: admin/page-settings.php:466
+msgid "Select the filter type for your menu slide."
+msgstr "نوع ورودی را برای فهرست کشویی (منواسلاید) انتخاب کنید."
+
+#: admin/page-settings.php:479
+msgid "WooCommerce: Product Filter"
+msgstr "ووکامرس: فیلتر محصولات"
+
+#: admin/page-settings.php:480
+msgid "WordPress: Posts Filter"
+msgstr "وردپرس: فیلتر پست ها"
+
+#: admin/page-settings.php:484
+msgid ""
+"The WordPress Mode Filter Only Posts, And the WooCommerce Mode Filter Only "
+"Products."
+msgstr "فیلتر وردپرس فقط پست ها و فیلتر ووکامرس فقط محصولات را فیلتر می کند."
+
+#: admin/page-settings.php:497 admin/page-settings.php:680
+#: admin/page-style.php:2245
+msgid "Turn On"
+msgstr "فعال شود"
+
+#: admin/page-settings.php:501
+msgid "This setting display the widget on the header Shop page."
+msgstr "ابزارک فیلتر سربرگ سابکس جایگزین فیلتر سربرگ پیشفرض ووکامرس می شود."
+
+#: admin/page-settings.php:513
+msgid "Hide widget sidebar"
+msgstr "ابزارک کناری پنهان شود"
+
+#: admin/page-settings.php:514
+msgid "Show sidebar in Mobile Only"
+msgstr "نمایش نوار کناری فقط در موبایل"
+
+#: admin/page-settings.php:515
+msgid "Show sidebar in Tablet Only"
+msgstr "نمایش نوار کناری فقط در تبلت"
+
+#: admin/page-settings.php:516
+msgid "Show sidebar in Mobile & Tablet"
+msgstr "نمایش نوار کناری در موبایل و تبلت"
+
+#: admin/page-settings.php:520
+msgid "This setting show & hide the widget sidebar on mobile and tablet users."
+msgstr ""
+"این تنظیمات ابزارک نوار کناری برای کاربران که توسط موبایل و تبلت وارد شدند ، "
+"نمایش یا پنهان می کند."
+
+#: admin/page-settings.php:532
+msgid "Default model (Sobex-Tech)"
+msgstr "حالت پیش فرض (سابکس تک)"
+
+#: admin/page-settings.php:533
+msgid "Combo model"
+msgstr "حالت ترکیبی"
+
+#: admin/page-settings.php:534
+msgid "Classic Model"
+msgstr "حالت کلاسیک"
+
+#: admin/page-settings.php:538
+msgid ""
+"We Recommend you to use the default mode in the filter, Please Read the docs "
+"to see the difference between them."
+msgstr ""
+"ما به شما توصیه می کنیم از حالت (پیش فرض) سابکس استفاده کنید، لطفا مستندات را "
+"بخوانید تا تفاوت آنها را بدانید."
+
+#: admin/page-settings.php:547
+msgid "Filter Search Button"
+msgstr "جای نمایش دکمه های فیلتر طرح قدیم"
+
+#: admin/page-settings.php:550
+msgid "Show on Top of Widget."
+msgstr "نمایش سر ابزارک ها."
+
+#: admin/page-settings.php:551
+msgid "Show on Bottom of Widget."
+msgstr "نمایش پایین ابزارک ها."
+
+#: admin/page-settings.php:552
+msgid "Show on Top & Bottom (both)"
+msgstr "نمایش در بالا و پایین ابزارک ها"
+
+#: admin/page-settings.php:556
+msgid "Widget Buttons (Filter All & Clear All) For (Classic Model) Only."
+msgstr "دکمه‌های ابزارک (فیلتر همه و پاک کردن همه)، فقط برای (مدل کلاسیک) است."
+
+#: admin/page-settings.php:592
+msgid "Select Which kind of post status you want to filter."
+msgstr "نوع پستی که می خواهید فیلتر شود را انتخاب کنید."
+
+#: admin/page-settings.php:606
+msgid ""
+"If you are using any color variation plugin that is not supported in our "
+"plugin please add the plugin variation code here."
+msgstr ""
+"اگر افزونه سوئیچ ویژگی های محصولات شما در سابکس پشتیبانی نمی شود، می توانید کد "
+"(نامک) افزونه سوئیچ ویژگی ها خود را وارد کنید."
+
+#: admin/page-settings.php:620
+msgid "WPML - The WordPress Multilingual Plugin"
+msgstr "WPML - افزونه چند زبانه وردپرس"
+
+#: admin/page-settings.php:624
+msgid ""
+"If you are using a multilingual plugin in your WordPress please select the "
+"supported one in our plugin."
+msgstr ""
+"اگر از یک افزونه چند زبانه در وردپرس خود استفاده می کنید، لطفا آن را که ما "
+"پشتیبانی می کنیم انتخاب کنید."
+
+#: admin/page-settings.php:684
+msgid ""
+"If the site server or the client has a weak Internet. You can activate this "
+"feature to set a deadline for the search process and to show an error message."
+msgstr ""
+"برای کنترل بهتر ترافیک سرور شما ، می توانید این ویژگی را فعال کنید تا مهلتی "
+"برای فرآیند فیلتر تعیین شود ."
+
+#: admin/page-settings.php:698
+msgid ""
+"The REST API search process will be terminated if the command exceeds the "
+"specified."
+msgstr ""
+"فرآیند ریست API فیلتر و جستجو در صورتی که دستور از مقدار مشخص شده فراتر رود، "
+"خاتمه می یابد."
+
+#: admin/page-settings.php:712
+msgid ""
+"The ajax Order will be terminated if the command exceeds the specified "
+"seconds. 1000/1s ."
+msgstr ""
+"اگر نشست بیش از ثانیه های تعیین شده طولانی تر شود، آجاکس(ajax) جلسه را خاتمه "
+"می دهد. هر (1000) مساوی (1)ثانیه است."
+
+#: admin/page-settings.php:725 admin/page-settings.php:743
+msgid "WPML"
+msgstr "WPML"
+
+#: admin/page-settings.php:742 admin/page-settings.php:798
+#: admin/page-settings.php:823 admin/page-settings.php:942
+#: admin/page-settings.php:965 admin/page-settings.php:1021
+#: admin/page-settings.php:1050 admin/page-settings.php:1120
+#: admin/page-settings.php:1187 admin/page-settings.php:1212
+#: admin/page-settings.php:1275 admin/page-style.php:2297
+#: admin/page-style.php:3237 admin/page-style.php:3366 admin/page-style.php:3409
+#: admin/page-style.php:3679 admin/page-style.php:3899 admin/page-style.php:3938
+#: admin/page-widget-settings.php:246 admin/page-widget-settings.php:524
+#: admin/page-widget-settings.php:742
+msgid "Home"
+msgstr "خانه"
+
+#: admin/page-settings.php:748
+msgid ""
+"Note: We are trying to make the settings easier and more comfortable for "
+"you... While the translation page does not appear, or if working on the "
+"settings here is more difficult for you, please go to"
+msgstr ""
+"توجه: ما سعی می کنیم دسترسی شما به تنظیمات WPML را ساده تر و راحت تر کنیم... "
+"در حالی که صفحه ترجمه ظاهر نمی شود یا اگر کار روی تنظیمات در این صفحه برای شما "
+"دشوارتر است، لطفا قسمت ذکر شده مراجعه فرمایید"
+
+#: admin/page-settings.php:749
+msgid "WPML -> String Translation -> Please find and select (sobex-front)."
+msgstr "String Translation<-WPML ->لطفا(sobex-front) پیدا و انتخاب کنید."
+
+#: admin/page-settings.php:767
+msgid "You don't have any String To Translate Please click"
+msgstr "شما هیچ متن برای ترجمه ندارید لطفا کلیک کنید"
+
+#: admin/page-settings.php:769 admin/page-widget-settings.php:67
+#: admin/page-widget-settings.php:114
+msgid "Here"
+msgstr "اینجا"
+
+#: admin/page-settings.php:770
+msgid "To Add Strings."
+msgstr "برای افزودن رشته ها."
+
+#: admin/page-settings.php:799 admin/page-settings.php:859
+#: admin/page-settings.php:1128 admin/page-style.php:3215
+msgid "Menu Slide"
+msgstr "فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:800 admin/page-settings.php:868
+#: admin/page-settings.php:1022 admin/page-settings.php:1051
+#: admin/page-settings.php:1154
+msgid "Filter Widget"
+msgstr "ابزارک فیلتر"
+
+#: admin/page-settings.php:801 admin/page-settings.php:888
+msgid "Attributes Selector"
+msgstr "انتخاب ویژگی ها"
+
+#: admin/page-settings.php:802
+msgid "Search Api"
+msgstr "API جستجو"
+
+#: admin/page-settings.php:803 admin/page-settings.php:1121
+#: admin/page-settings.php:1188
+msgid "ICore Settings"
+msgstr "تنظیمات هسته سابکس"
+
+#: admin/page-settings.php:804
+msgid "Import/Export"
+msgstr "برون بری & درون ریزی"
+
+#: admin/page-settings.php:805
+msgid "Add-ons"
+msgstr "افزونه ها جانبی"
+
+#: admin/page-settings.php:836
+msgid "Welcome, To Sobex Tech Plugins"
+msgstr "به افزونه های سابکس ‌تک خوش آمدید"
+
+#: admin/page-settings.php:837
+msgid "Let's achieve your Website with best capabilities To be in the Top"
+msgstr "با افزونه‌ی‌ سابکس تک، فروشگاهی هوشمند، حرفه‌ای و کاملا اختصاصی داشته باشید"
+
+#: admin/page-settings.php:850
+msgid "Activated Plugins"
+msgstr "افزونه های فعال"
+
+#: admin/page-settings.php:860
+msgid "Menu to Browser and Filter your Website."
+msgstr "فهرست کشویی (منواسلاید) به عنوان منو و فیلتر سایت شما است."
+
+#: admin/page-settings.php:869
+msgid "Advanced Plugin To Filter Products & Posts"
+msgstr "افزونه پیشرفته برای ابزارک فیلتر محصولات در نوار کناری و سربرگ است"
+
+#: admin/page-settings.php:878
+msgid "Product Search Api"
+msgstr "Api جستجوی محصولات سابکس"
+
+#: admin/page-settings.php:879
+msgid "Coming soon."
+msgstr "به زودی."
+
+#: admin/page-settings.php:889 admin/page-settings.php:1229
+#: admin/page-settings.php:1236
+msgid "Coming Soon."
+msgstr "به زودی."
+
+#: admin/page-settings.php:899
+msgid "Contact Us"
+msgstr "گزارشات اختلالات"
+
+#: admin/page-settings.php:901
+msgid ""
+"We're here to Help to answer any question or problem you might have, We look "
+"forward to hearing from you."
+msgstr ""
+"این بخش به معنی پشتیبانی نمی باشد.. لطفا هر مشکلی با گرفتن (پرینت اسکرین) و "
+"نوشتن (شرح مختصر) برای ما ارسال کنید. اگر مشکل شما روی عملکرد افزونه تاثیر "
+"چندانی ندارد ، در بروزرسانی بعدی رفع خواهد شد و اگر حاد باشد ، قطعا ایمیل از "
+"سوی ما دریافت خواهید کرد و از شما درخواست خواهد شد که از طریق تیکت ژاکت به "
+"پشتیبانی ما پیام بدهید. تا مشکل را به صورت رسمی پیگیری نماییم."
+
+#: admin/page-settings.php:909
+msgid "Report Problem"
+msgstr "فرم گزارشات"
+
+#: admin/page-settings.php:911
+msgid "Your Name"
+msgstr "نام  شما"
+
+#: admin/page-settings.php:912
+msgid "Your Email"
+msgstr "ایمیل شما"
+
+#: admin/page-settings.php:913
+msgid "Accepted Files: JPG, ZIP Include JPG'S & Maxsize 1MB."
+msgstr "فایل های قابل ارسال: JPG یا ZIP شامل تعداد JPG با حد اکثر 1مگابایت است."
+
+#: admin/page-settings.php:916
+msgid "Tell us about your Problem."
+msgstr "مشکل خود را با ما در میان بگذارید."
+
+#: admin/page-settings.php:917
+msgid "Send Now"
+msgstr "ارسال شود"
+
+#: admin/page-settings.php:932 admin/page-settings.php:967
+msgid "Menu Settings"
+msgstr "تنظیمات فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:933 admin/page-settings.php:968
+msgid "Menu Template"
+msgstr "قالب فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:943
+msgid "Menu Slides"
+msgstr "فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:944
+msgid "Widget Menu Settings"
+msgstr "تنظیمات ابزارک فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:956 admin/page-settings.php:1039
+#: admin/page-settings.php:1196 admin/page-style.php:3358
+#: admin/page-style.php:3671 admin/page-style.php:3886 admin/page-style.php:3932
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+#: admin/page-settings.php:966 admin/page-settings.php:986
+#: admin/page-settings.php:1226
+msgid "Sobex Menu"
+msgstr "فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:974 admin/page-settings.php:1060
+msgid "Default Template"
+msgstr "قالب پیش فرض"
+
+#: admin/page-settings.php:980 admin/page-settings.php:992
+#: admin/page-settings.php:1067 admin/page-settings.php:1078
+msgid "Customize Template"
+msgstr "شخصی سازی قالب"
+
+#: admin/page-settings.php:989 admin/page-settings.php:1092
+#: admin/page-settings.php:1099 admin/page-style.php:3665
+#: admin/page-style.php:3880
+msgid "Coming Soon"
+msgstr "به زودی"
+
+#: admin/page-settings.php:1011
+msgid "Filter Settings"
+msgstr "تنظیمات فیلتر"
+
+#: admin/page-settings.php:1012 admin/page-settings.php:1053
+msgid "Widget Templates"
+msgstr "قالب های ابزارک"
+
+#: admin/page-settings.php:1072
+msgid "Sobex Template"
+msgstr "قالب سابکس"
+
+#: admin/page-settings.php:1075
+msgid "Coming soon"
+msgstr "به زودی"
+
+#: admin/page-settings.php:1093
+msgid ""
+"Product variation swatches add style to your product presentation. It’s "
+"captivating enough to capture your visitors’ attention,More Details Coming "
+"next Versions..."
+msgstr ""
+"جذابیت نمایش سوییچ ویژگی های محصولات خود مانند رنگ و سایز وغیره با سبک منحصر "
+"به فرد در فروشگاه خود بیفزایید .بازدیدکنندگان شما را حتما جذب خواهد کرد. به "
+"زودی جزئیات بیشتر درباره (افزونه سلکت ویژگی های محصولات سابکس ) در نسخه های "
+"بعدی منتشر خواهد شود."
+
+#: admin/page-settings.php:1100
+msgid "More Details Coming next Versions..."
+msgstr "جزئیات بیشتر در نسخه های بعدی منتشر خواهد شد..."
+
+#: admin/page-settings.php:1110 admin/page-settings.php:1122
+msgid "Reset Settings"
+msgstr "بازنشانی و به روزرسانی"
+
+#: admin/page-settings.php:1111 admin/page-settings.php:1189
+msgid "Security"
+msgstr "امنیت"
+
+#: admin/page-settings.php:1126
+msgid ""
+"In the event of the update or reset is done, it will be done only in the menu "
+"or widget template that was previously selected in the Sobex settings."
+msgstr ""
+"در صورتی که به‌ روزرسانی یا بازنشانی نیاز دارید، با کلیک روی یکی از گزینه های "
+"موجود روبروی (منو فهرست کشویی) یا (ابزارک فیلتر) عملیات انجام می‌شود."
+
+#: admin/page-settings.php:1131
+msgid "Update Menu"
+msgstr "به روز رسانی منو کشویی (منواسلاید)"
+
+#: admin/page-settings.php:1138
+msgid "Reset Menu Template Style"
+msgstr "بازنشانی قالب فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:1145
+msgid "Reset Menu Icons Style"
+msgstr "بازنشانی آیکون فهرست کشویی (منواسلاید)"
+
+#: admin/page-settings.php:1157
+msgid "Update Attributes"
+msgstr "به روزرسانی ویژگی ها"
+
+#: admin/page-settings.php:1164
+msgid "Reset Sidebar Style"
+msgstr "بازنشانی قالب ابزارک کناری"
+
+#: admin/page-settings.php:1171
+msgid "Reset Header Style"
+msgstr "بازنشانی قالب ابزارک سربرگ"
+
+#: admin/page-settings.php:1213 admin/page-settings.php:1276
+msgid "Export & Emport"
+msgstr "برون بری & درون ریزی"
+
+#: admin/page-settings.php:1221 sobex-tech.php:331
+msgid "Export"
+msgstr "برون بری"
+
+#: admin/page-settings.php:1222 admin/page-settings.php:1284
+msgid ""
+"Warning: Please do not change, modify or delete any file that is inside This "
+"may cause the import of your data to fail."
+msgstr ""
+"اخطار: لطفا به هیچ وجه فایل (ZIP) استخراج نکنید , و یا محتويات داخل أن ویرایش "
+"یا حذف ننمایید . ممکن است باعث شود که عملیات درون ریزی داده های شما با مشکل "
+"روبرو شود."
+
+#: admin/page-settings.php:1233 admin/page-widget-settings.php:224
+#: admin/page-widget-settings.php:247 admin/page-widget-settings.php:525
+#: admin/page-widget-settings.php:743
+msgid "Sobex Filter"
+msgstr "ابزارک نوار کناری و سربرگ"
+
+#: admin/page-settings.php:1240
+msgid "All Plugins"
+msgstr "همه افزونه ها"
+
+#: admin/page-settings.php:1242
+msgid "Download Now"
+msgstr "دانلود شود"
+
+#: admin/page-settings.php:1251 admin/page-settings.php:1283
+msgid "Import"
+msgstr "درون ریزی"
+
+#: admin/page-settings.php:1256 admin/page-settings.php:1289
+#: admin/page-style.php:3953
+msgid "Import File"
+msgstr "فایل درون ریزی"
+
+#: admin/page-settings.php:1262 admin/page-settings.php:1295
+#: admin/page-style.php:3959
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: admin/page-style.php:22 admin/page-style.php:471
+msgid "Style Mode"
+msgstr "استایل  سبک"
+
+#: admin/page-style.php:37 admin/page-style.php:1297
+msgid "Widget Icon"
+msgstr "آیکون عنوان ابزارک کناری"
+
+#: admin/page-style.php:51 admin/page-style.php:1311
+msgid "Widget Icon Color"
+msgstr "رنگ آیکون عنوان ابزارک کناری"
+
+#: admin/page-style.php:65 admin/page-style.php:1322
+msgid "Widget Tabel Text Color"
+msgstr "رنگ متن عنوان ابزارک کناری"
+
+#: admin/page-style.php:79 admin/page-style.php:1333
+msgid "Widget Tabel Font Size"
+msgstr "اندازه فونت عنوان ابزارک کناری"
+
+#: admin/page-style.php:93 admin/page-style.php:976 admin/page-style.php:1344
+#: admin/page-style.php:2053
+msgid "Buttons Font Size"
+msgstr "اندازه فونت دکمه های (حذف فیلتر ها)،(فیلتر شود)"
+
+#: admin/page-style.php:107 admin/page-style.php:1355
+msgid "Widget field Text Color"
+msgstr "رنگ متن محتوای ابزارک کناری"
+
+#: admin/page-style.php:121 admin/page-style.php:1366
+msgid "Widget field Font Size"
+msgstr "اندازه فونت متن داخل ابزارک کناری"
+
+#: admin/page-style.php:135 admin/page-style.php:1377
+msgid "Widget Slideup Icon"
+msgstr "آیکون بستن ابزارک سربرگ"
+
+#: admin/page-style.php:149
+msgid "Widget Slideup Icon Color"
+msgstr "رنگ آیکون بستن ابزارک"
+
+#: admin/page-style.php:163 admin/page-style.php:1402
+msgid "Widget Slidedown Icon"
+msgstr "آیکون باز کردن ابزارک سربرگ"
+
+#: admin/page-style.php:177 admin/page-style.php:1416
+msgid "Widget Slidedown Icon Color"
+msgstr "رنگ آیکون باز کردن ابزارک"
+
+#: admin/page-style.php:191 admin/page-style.php:1427
+msgid "Widget Search Background color"
+msgstr "رنگ پس‌زمینه ابزارک فیلتر"
+
+#: admin/page-style.php:205 admin/page-style.php:1438
+msgid "Widget Search Background hover"
+msgstr "رنگ هاور پس‌زمینه ابزارک فیلتر"
+
+#: admin/page-style.php:218 admin/page-style.php:1449
+msgid "Widget Search Title Color"
+msgstr "رنگ عنوان ابزارک فیلتر"
+
+#: admin/page-style.php:232 admin/page-style.php:1460
+msgid "Widget Search Icon"
+msgstr "آیکون ابزارک فیلتر"
+
+#: admin/page-style.php:246 admin/page-style.php:1474
+msgid "Widget Search Icon Color"
+msgstr "رنگ آیکون ابزارک فیلتر"
+
+#: admin/page-style.php:260
+msgid "Widget clear Icon"
+msgstr "آیکون (حذف فیلتر ) ابزارک فیلتر"
+
+#: admin/page-style.php:274 admin/page-style.php:1485 admin/page-style.php:1499
+msgid "Widget clear Icon Color"
+msgstr "رنگ آیکون (حذف فیلتر ) ابزارک فیلتر"
+
+#: admin/page-style.php:288 admin/page-style.php:1510
+msgid "Widget Table radius"
+msgstr "گردی گوشه ابزارک"
+
+#: admin/page-style.php:302 admin/page-style.php:1527
+msgid "Widget Table Background Color"
+msgstr "رنگ پس‌زمینه ابزارک"
+
+#: admin/page-style.php:316 admin/page-style.php:1538
+msgid "Filter All Text Color"
+msgstr "رنگ متن (فیلتر شود)"
+
+#: admin/page-style.php:330 admin/page-style.php:906 admin/page-style.php:1549
+#: admin/page-style.php:2127
+msgid "Filter All Icon"
+msgstr "آیکون دکمه (فیلتر شود)"
+
+#: admin/page-style.php:344 admin/page-style.php:1563
+msgid "Filter All Icon Color"
+msgstr "رنگ آیکون (فیلتر شود)"
+
+#: admin/page-style.php:358 admin/page-style.php:1574
+msgid "Clear All Text Color"
+msgstr "رنگ متن (حذف فیلترها)"
+
+#: admin/page-style.php:372 admin/page-style.php:892 admin/page-style.php:1585
+#: admin/page-style.php:2112
+msgid "Clear All Icon"
+msgstr "آیکون دکمه (حذف فیلتر ها)"
+
+#: admin/page-style.php:386 admin/page-style.php:1599
+msgid "Clear All Icon Color"
+msgstr "رنگ آیکون (حذف فیلتر ها)"
+
+#: admin/page-style.php:400 admin/page-style.php:1614
+msgid "Scroll Type"
+msgstr "نوع اسکرول"
+
+#: admin/page-style.php:414 admin/page-style.php:1629
+msgid "Scroll Color"
+msgstr "رنگ اسکرول"
+
+#: admin/page-style.php:428
+msgid "Scroll height"
+msgstr "ارتفاع اسکرول (پیکسل)"
+
+#: admin/page-style.php:442 admin/page-style.php:1658
+msgid "Hide Sidebar Container background"
+msgstr "پنهان کردن پس زمینه نوار کناری ابزارک"
+
+#: admin/page-style.php:456 admin/page-style.php:1672
+msgid "Sidebar Container background color"
+msgstr "رنگ پس زمینه نوار کناری ابزارک"
+
+#: admin/page-style.php:485 admin/page-style.php:1695
+msgid "Header icon"
+msgstr "آیکون ابزارک سربرگ"
+
+#: admin/page-style.php:499 admin/page-style.php:1710
+msgid "Header icon color"
+msgstr "رنگ آیکون ابزارک سربرگ"
+
+#: admin/page-style.php:513 admin/page-style.php:1721
+msgid "Text Color"
+msgstr "رنگ متن عنوان سربرگ"
+
+#: admin/page-style.php:527 admin/page-style.php:1732
+msgid "Slide Down Icon"
+msgstr "آیکون باز کردن ابزارک"
+
+#: admin/page-style.php:541 admin/page-style.php:1746
+msgid "Slide up Icon"
+msgstr "آیکون بستن ابزارک"
+
+#: admin/page-style.php:555 admin/page-style.php:1760
+msgid "Slide Icon Color"
+msgstr "رنگ آیکون باز و بستن ابزارک سربرگ"
+
+#: admin/page-style.php:569 admin/page-style.php:1772
+msgid "Table Background Color"
+msgstr "رنگ پس زمینه ابزارک سربرگ"
+
+#: admin/page-style.php:583 admin/page-style.php:1783
+msgid "Table Radius"
+msgstr "گردی قالب ابزارگ سربرگ"
+
+#: admin/page-style.php:597 admin/page-style.php:1800
+msgid "Header Font Size"
+msgstr "اندازه فونت ابزارک سربرگ"
+
+#: admin/page-style.php:611 admin/page-style.php:1811
+msgid "buttons Font Size"
+msgstr "اندازه فونت دکمه ها (باز و بستن) ابزارک"
+
+#: admin/page-style.php:625 admin/page-style.php:1822
+msgid "Content Font Size"
+msgstr "اندازه فونت محتوا"
+
+#: admin/page-style.php:639 admin/page-style.php:1833
+msgid "Drop Background color"
+msgstr "رنگ پس زمینه دراپ سربرگ"
+
+#: admin/page-style.php:653 admin/page-style.php:1844
+msgid "Drop Background hover"
+msgstr "رنگ هاور پس زمینه دراپ سربرگ"
+
+#: admin/page-style.php:667 admin/page-style.php:1855
+msgid "Drop Title color"
+msgstr "رنک متن محتوای دراپ سربرگ"
+
+#: admin/page-style.php:681 admin/page-style.php:1866
+msgid "Drop Scrollbar color"
+msgstr "نگ نوار اسکرول دراپ سربرگ"
+
+#: admin/page-style.php:695 admin/page-style.php:864 admin/page-style.php:1877
+#: admin/page-style.php:2088
+msgid "Buttons Background Color"
+msgstr "رنگ پس زمینه دکمه ها (فیلتر شود) و (حذف فیلتر ها)"
+
+#: admin/page-style.php:709
+msgid "Buttons filter icon"
+msgstr "آیکون دکمه فیلتر"
+
+#: admin/page-style.php:723
+msgid "Buttons clear icon"
+msgstr "آیکون حدف فیلتر ها"
+
+#: admin/page-style.php:737
+msgid "Buttons icons Color"
+msgstr "رنگ آیکون دکمه (فیلتر شود) و (حذف فیلتر ها)"
+
+#: admin/page-style.php:751 admin/page-style.php:850 admin/page-style.php:2076
+msgid "Buttons title Color"
+msgstr "رنک عنوان دکمه ها (فیلتر شود) و (حذف فیلتر ها)"
+
+#: admin/page-style.php:765 admin/page-style.php:1939 admin/page-style.php:1967
+msgid "Header template in each row"
+msgstr "الگوی ابزارک سربرگ در هر ردیف"
+
+#: admin/page-style.php:779 admin/page-style.php:1956
+msgid "Template mobile media query"
+msgstr "مدیا کوئری قالب موبايل"
+
+#: admin/page-style.php:793
+msgid "hide header Container background color"
+msgstr "پنهان کردن رنگ پس‌زمینه ابزارک سربرگ"
+
+#: admin/page-style.php:807 admin/page-style.php:1981
+msgid "Header Container background color"
+msgstr "رنگ پس زمینه ابزارک سربرگ"
+
+#: admin/page-style.php:821 admin/page-style.php:1992
+msgid "Show contents( More & Less ) background color"
+msgstr "رنگ پس زمینه دکمه نمایش (بیشتر و کمتر) سربرگ"
+
+#: admin/page-style.php:835 admin/page-style.php:2003
+msgid "Show contents( More & Less ) title color"
+msgstr "رنگ متن عنوان دکمه نمایش (بیشتر و کمتر) سربرگ"
+
+#: admin/page-style.php:878 admin/page-style.php:2100
+msgid "Buttons Background hover"
+msgstr "رنگ هاور دکمه ها (فیلتر شود) و (حذف فیلتر ها)"
+
+#: admin/page-style.php:920 admin/page-style.php:2142
+msgid "Buttons Icon color"
+msgstr "رنگ آیکون دکمه ها (فیلتر شود) و (حذف فیلتر ها)"
+
+#: admin/page-style.php:934 admin/page-style.php:2016
+msgid "Menu Icon Slide"
+msgstr "آیکون دکمه (کشوی بعدی) منو"
+
+#: admin/page-style.php:948
+msgid "Menu Icon color Slide"
+msgstr "رنگ آیکون فهرست کشویی (منواسلاید)"
+
+#: admin/page-style.php:962 admin/page-style.php:2042
+msgid "Breadcrumb Font Size"
+msgstr "اندازه فونت مسیر راهنمای (بردکرامب)"
+
+#: admin/page-style.php:990 admin/page-style.php:2064
+msgid "Title Font Size"
+msgstr "اندازه فونت منو"
+
+#: admin/page-style.php:1004 admin/page-style.php:2153
+msgid "Menu Title Color"
+msgstr "رنک محتوای منو"
+
+#: admin/page-style.php:1018 admin/page-style.php:2164
+msgid "Menu Checked Background Color"
+msgstr "رنگ پس زمینه منو انتخاب شده"
+
+#: admin/page-style.php:1032 admin/page-style.php:2175
+msgid "Menu Background Color"
+msgstr "رنگ پس زمینه منو"
+
+#: admin/page-style.php:1046 admin/page-style.php:2186
+msgid "Menu Hover Color"
+msgstr "رنگ هاور منو"
+
+#: admin/page-style.php:1060 admin/page-style.php:2197
+msgid "Menu breadcrumb title color"
+msgstr "رنگ عنوان بردکرامب (منواسلاید)"
+
+#: admin/page-style.php:1074 admin/page-style.php:2209
+msgid "Menu background title color"
+msgstr "رنگ پس زمینه عنوان منو (منواسلاید)"
+
+#: admin/page-style.php:1088
+msgid "Menu background hover color"
+msgstr "رنگ هاور پس زمینه منو (منواسلاید)"
+
+#: admin/page-style.php:1102 admin/page-style.php:2242
+msgid "Menu display shadow"
+msgstr "غیر فعال نمایش سایه منو (منواسلاید)"
+
+#: admin/page-style.php:1116 admin/page-style.php:2231
+msgid "Menu Scrollbar color"
+msgstr "رنگ نوار اسکرول منو"
+
+#: admin/page-style.php:1130 admin/page-style.php:2256
+msgid "Menu background shadow"
+msgstr "سایه پس زمینه منو (منواسلاید)"
+
+#: admin/page-style.php:1144 admin/page-style.php:2267
+msgid "Menu Border radius"
+msgstr "دورگرد بوردر منو (منواسلاید)"
+
+#: admin/page-style.php:1158 admin/page-style.php:2284
+msgid "Menu z-index"
+msgstr "(z-index ) فهرست کشویی (منواسلاید)"
+
+#: admin/page-style.php:1172 admin/page-style.php:1186 admin/page-style.php:2295
+msgid "Menu home title"
+msgstr "عنوان خانه بردکرامب"
+
+#: admin/page-style.php:1200
+msgid "Css Customize"
+msgstr "شخصی سازی Css"
+
+#: admin/page-style.php:1214
+msgid "Header Widget Position"
+msgstr "موقعیت ابزارک سربرگ"
+
+#: admin/page-style.php:1228 admin/page-style.php:3925
+msgid "Clear Shop Page"
+msgstr "پاک کردن آیتم ها در صفحه فروشگاه"
+
+#: admin/page-style.php:1242
+msgid "save table"
+msgstr "ذخیره جدول"
+
+#: admin/page-style.php:1256
+msgid "Packge Code"
+msgstr "لایسنس پکیج"
+
+#: admin/page-style.php:1286 admin/page-style.php:1685
+msgid "All"
+msgstr "همه"
+
+#: admin/page-style.php:1288 admin/page-style.php:1687
+msgid "Separted"
+msgstr "جداگانه"
+
+#: admin/page-style.php:1301 admin/page-style.php:1381 admin/page-style.php:1406
+#: admin/page-style.php:1464 admin/page-style.php:1489 admin/page-style.php:1553
+#: admin/page-style.php:1589 admin/page-style.php:1699 admin/page-style.php:1736
+#: admin/page-style.php:1750 admin/page-style.php:1892 admin/page-style.php:1906
+#: admin/page-style.php:2020 admin/page-style.php:2116 admin/page-style.php:2131
+#: admin/page-style.php:3113
+msgid "Choice Icon"
+msgstr "آیکون را انتخاب کنید"
+
+#: admin/page-style.php:1391
+msgid "Widget Icon Slideup Color"
+msgstr "رنگ آیکون بستن ابزارک"
+
+#: admin/page-style.php:1513 admin/page-style.php:1786 admin/page-style.php:2270
+msgid "none"
+msgstr "هیچ کدام"
+
+#: admin/page-style.php:1514 admin/page-style.php:1787 admin/page-style.php:2271
+msgid "25%"
+msgstr "25%"
+
+#: admin/page-style.php:1515 admin/page-style.php:1788 admin/page-style.php:2272
+msgid "50%"
+msgstr "50%"
+
+#: admin/page-style.php:1516 admin/page-style.php:1789 admin/page-style.php:2273
+msgid "75%"
+msgstr "75%"
+
+#: admin/page-style.php:1517 admin/page-style.php:1790 admin/page-style.php:2274
+msgid "100%"
+msgstr "100%"
+
+#: admin/page-style.php:1617
+msgid "Scroll Down(Mouse)"
+msgstr "اسکرول"
+
+#: admin/page-style.php:1618
+msgid "Button: Show(More&less)"
+msgstr "دکمه: نمایش (بیشتر و کمتر)"
+
+#: admin/page-style.php:1644
+msgid "Scroll Height"
+msgstr "ارتفاع اسکرول (پیکسل)"
+
+#: admin/page-style.php:1661 admin/page-style.php:1970
+msgid "Hide"
+msgstr "پنهان"
+
+#: admin/page-style.php:1662 admin/page-style.php:1971
+msgid "Show"
+msgstr "نمایش"
+
+#: admin/page-style.php:1888
+msgid "filter icon"
+msgstr "آیکون دکمه (فیلتر شود)"
+
+#: admin/page-style.php:1902
+msgid "clear icon"
+msgstr "آیکون دکمه (حذف فیلتر)"
+
+#: admin/page-style.php:1917
+msgid "Icons Color"
+msgstr "رنگ آیکون های دکمه (حذف و فیلتر شود)"
+
+#: admin/page-style.php:1928
+msgid "Title Color"
+msgstr "رنگ متن عنوان دکمه (حذف و فیلتر شود)"
+
+#: admin/page-style.php:1942
+msgid "1 Group per row"
+msgstr "یک گروه در هر ردیف"
+
+#: admin/page-style.php:1943
+msgid "2 Groups per row"
+msgstr "دو  گروه در هر ردیف"
+
+#: admin/page-style.php:1944
+msgid "3 Groups per row"
+msgstr "سه گروه در هر ردیف"
+
+#: admin/page-style.php:1945
+msgid "4 Groups per row"
+msgstr "چهار  گروه در هر ردیف"
+
+#: admin/page-style.php:1946
+msgid "5 Groups per row"
+msgstr "پنج گروه در هر ردیف"
+
+#: admin/page-style.php:2031
+msgid "Menu Slide Icon Color"
+msgstr "رنگ آیکون دکمه (کشوی بعدی) منو"
+
+#: admin/page-style.php:2220
+msgid "Menu background Hover color"
+msgstr "رنگ پس‌زمینه هاور منو"
+
+#: admin/page-style.php:2365
+msgid "14"
+msgstr "14"
+
+#: admin/page-style.php:2475 admin/page-style.php:2715
+msgid "Select Icon"
+msgstr "آیکون را انتخاب کنید"
+
+#: admin/page-style.php:2480 admin/page-style.php:2720
+msgid "default"
+msgstr "پیش فرض (سابکس تک)"
+
+#: admin/page-style.php:2494 admin/page-style.php:2734
+msgid "Clothes"
+msgstr "لباس"
+
+#: admin/page-style.php:2507 admin/page-style.php:2747
+msgid "accessories"
+msgstr "اکسسوری"
+
+#: admin/page-style.php:2519 admin/page-style.php:2759
+msgid "Computer"
+msgstr "کامپیوتر"
+
+#: admin/page-style.php:2531 admin/page-style.php:2771
+msgid "Construction tools"
+msgstr "ابزار ساخت و ساز"
+
+#: admin/page-style.php:2543 admin/page-style.php:2783
+msgid "Electrician tools"
+msgstr "ابزار الکتریکی"
+
+#: admin/page-style.php:2555 admin/page-style.php:2795
+msgid "Mobile"
+msgstr "موبایل"
+
+#: admin/page-style.php:2567 admin/page-style.php:2807
+msgid "Home electrical appliances"
+msgstr "لوازم برقی خانگی"
+
+#: admin/page-style.php:2579 admin/page-style.php:2819
+msgid "Fruits and Vegetables"
+msgstr "میوه ها و سبزیجات"
+
+#: admin/page-style.php:2591 admin/page-style.php:2831
+msgid "Home appliances"
+msgstr "لوازم خانگی"
+
+#: admin/page-style.php:2603 admin/page-style.php:2843
+msgid "Kitchen"
+msgstr "آشپزخانه"
+
+#: admin/page-style.php:2615 admin/page-style.php:2855
+msgid "Mechanics"
+msgstr "مکانیک"
+
+#: admin/page-style.php:2627 admin/page-style.php:2867
+msgid "Make up"
+msgstr "آرایش"
+
+#: admin/page-style.php:2639 admin/page-style.php:2879
+msgid "carpentry"
+msgstr "نجاری"
+
+#: admin/page-style.php:2651 admin/page-style.php:2891
+msgid "plumber"
+msgstr "لوله کش"
+
+#: admin/page-style.php:2663 admin/page-style.php:2903
+msgid "gym"
+msgstr "سالن ورزشی"
+
+#: admin/page-style.php:2675 admin/page-style.php:2915
+msgid "Sport"
+msgstr "ورزش"
+
+#: admin/page-style.php:2687 admin/page-style.php:2927
+msgid "Vechiles"
+msgstr "وسایل نقلیه"
+
+#: admin/page-style.php:3041
+msgid "Click to Hide."
+msgstr "برای پنهان کلیک کنید."
+
+#: admin/page-style.php:3044
+msgid "Click to Show."
+msgstr "برای نمایش کلیک کنید."
+
+#: admin/page-style.php:3075
+msgid "Choice Icon For All Childern"
+msgstr "آیکون برای همه منویی فرزند انتخاب کنید"
+
+#: admin/page-style.php:3166 admin/page-style.php:3352
+#: admin/sobex-tech-admin-ajax.php:1234 admin/sobex-tech-admin-ajax.php:1338
+msgid "Please Select Menu First."
+msgstr "لطفا ابتدا منو را انتخاب کنید."
+
+#: admin/page-style.php:3175
+msgid "Make all icons the same in Tree level"
+msgstr "سطح فهرست فرزند را انتخاب کنید"
+
+#: admin/page-style.php:3178
+msgid "Level 2"
+msgstr "سطح 2"
+
+#: admin/page-style.php:3179
+msgid "Level 3"
+msgstr "سطح 3"
+
+#: admin/page-style.php:3180
+msgid "Level 4"
+msgstr "سطح 4"
+
+#: admin/page-style.php:3183
+msgid "Successfully selected."
+msgstr "با موفقیت ذخیره شد."
+
+#: admin/page-style.php:3216
+msgid "Widget Filter"
+msgstr "ابزارک فیلتر"
+
+#: admin/page-style.php:3217 admin/page-style.php:3900
+msgid "Css Customization"
+msgstr "سفارشی سازی Css"
+
+#: admin/page-style.php:3218 admin/page-style.php:3939
+msgid "Sobex Icons"
+msgstr "آیکون سابکس"
+
+#: admin/page-style.php:3228
+msgid "Widget Menu Style"
+msgstr "استایل ابزارک فهرست کشویی (منواسلاید)"
+
+#: admin/page-style.php:3229 admin/page-style.php:3368
+msgid "Widget Menu Icons"
+msgstr "آیکون ابزارک منو"
+
+#: admin/page-style.php:3238 admin/page-style.php:3367
+msgid "Menu Slide Style"
+msgstr "استایل فهرست کشویی (منواسلاید)"
+
+#: admin/page-style.php:3264
+msgid "Menu Buttons & Icon"
+msgstr "(فیلتر شود)،(حذف فیلتر ها)، (کشوی بعدی)"
+
+#: admin/page-style.php:3283 admin/page-style.php:3715
+msgid "Font Size"
+msgstr "اندازه فونت ابزارک سربرگ"
+
+#: admin/page-style.php:3297
+msgid "Menu Title"
+msgstr "عنوان و محتوای منو"
+
+#: admin/page-style.php:3313
+msgid "Breadcrumb"
+msgstr "مسیر راهنمای (بردکرامب)"
+
+#: admin/page-style.php:3328 admin/page-style.php:3503
+msgid "Other Settings"
+msgstr "دکمه بیرونی (فیلتر شود)،(حذف) و اسکرول"
+
+#: admin/page-style.php:3379 admin/page-widget-settings.php:454
+#: admin/page-widget-settings.php:507 admin/page-widget-settings.php:670
+#: admin/page-widget-settings.php:720
+msgid "Update"
+msgstr "به روز رسانی"
+
+#: admin/page-style.php:3400
+msgid "Widget Sibebar Style"
+msgstr "استایل ابزارک کناری"
+
+#: admin/page-style.php:3401 admin/page-style.php:3682
+msgid "Widget Header Style"
+msgstr "استایل ابزارک سربرگ"
+
+#: admin/page-style.php:3410 admin/page-style.php:3680
+msgid "Widget Filter Style"
+msgstr "استایل ابزارک فیلتر"
+
+#: admin/page-style.php:3411 admin/page-style.php:3681
+msgid "Widget Sidebar Style"
+msgstr "استایل ابزارک کناری"
+
+#: admin/page-style.php:3451
+msgid "Widget Font Size"
+msgstr "اندازه فونت ابزارک کناری"
+
+#: admin/page-style.php:3466
+msgid "Widget Slide"
+msgstr "آیکون و رنگ دکمه باز و بستن ابزارک کناری"
+
+#: admin/page-style.php:3482
+msgid "Widget"
+msgstr "ایکون و متن دکمه داخلی (فیلتر شود)،(حذف)"
+
+#: admin/page-style.php:3536
+msgid "Contents loading"
+msgstr "در حال بارگذاری"
+
+#: admin/page-style.php:3548 admin/page-style.php:3787
+msgid "Filter By Checkbox"
+msgstr "فیلتر بر اساس جعبه انتخاب"
+
+#: admin/page-style.php:3566 admin/page-style.php:3849
+msgid "Filter Now"
+msgstr "فیلتر شود"
+
+#: admin/page-style.php:3567 admin/page-style.php:3644 admin/page-style.php:3861
+msgid "Clear All"
+msgstr "حذف فیلتر‌ها"
+
+#: admin/page-style.php:3577 admin/page-style.php:3584 admin/page-style.php:3591
+#: admin/page-style.php:3598 admin/page-style.php:3605 admin/page-style.php:3612
+#: admin/page-widget-settings.php:646
+msgid "Checkbox"
+msgstr "جعبه انتخاب"
+
+#: admin/page-style.php:3629
+msgid "Filter All"
+msgstr "فیلتر کردن همه"
+
+#: admin/page-style.php:3666 admin/page-style.php:3881
+msgid "Customize Every Table in Widget"
+msgstr "سفارشی کردن هر جدول در ابزارک"
+
+#: admin/page-style.php:3729
+msgid "Widget Drop"
+msgstr "دراپ ابزارک سربرگ"
+
+#: admin/page-style.php:3744
+msgid "Drop button"
+msgstr "ویرایش دکمه های (حذف ، فیلتر شود) و اسکرول"
+
+#: admin/page-style.php:3764
+msgid "Frontend Header Widget"
+msgstr "تعداد نمایش در هر ردیف سربرگ"
+
+#: admin/page-style.php:3872
+msgid "Show More & less"
+msgstr "نمایش دکمه (بیشتر و کمتر)"
+
+#: admin/page-style.php:3907
+msgid "Css Customizing"
+msgstr "سفارشی سازی Css"
+
+#: admin/page-style.php:3908
+msgid ""
+"If css of widget is not compatible with your template, You can modify the CSS "
+"of the Widget by taking the name of the class Or Id and then adding !imporant "
+"in front of each change."
+msgstr ""
+"اگر css ابزارک با قالب شما سازگار نیست، می توانید CSS ابزارک را با نام کلاس یا "
+"آی دی خود ادیت کنید . حتما دستور !important فراموش نشود ."
+
+#: admin/page-style.php:3916
+msgid "Filter Widget (Header)"
+msgstr "موقعیت نمایش ابزارک فیلتر ( سربرگ)"
+
+#: admin/page-style.php:3917
+msgid ""
+"Header widget are added to the page-title class as Default, If your template "
+"contains a different class, you can add your class here and the header widget "
+"will be added after it."
+msgstr ""
+"ویجت فیلتر سربرگ سابکس به صورت خودکار جایگزین فیلتر سربرگ ووکامرس می شود .اما "
+"به هر دلیلی اگر عملیات جایگزینی با مشکل مواجه شد، می‌توانید کلاس از سربرگ "
+"فروشگاه خود کپی و اینجا اضافه کنید. فیلتر سربرگ سابکس بعد از کلاس که وارد "
+"نمودید ظاهر می شود."
+
+#: admin/page-style.php:3926
+msgid ""
+"If you want to hide some of the classes that appear on the shop page, you can "
+"add classes and they will be hidden automatically."
+msgstr ""
+"اگر می‌خواهید برخی از آیتم های پیش فرض ووکامرس را مخفی کنید، می‌توانید کلاس آن "
+"را اضافه کنید.. به‌طور خودکار پنهان می‌شوند."
+
+#: admin/page-style.php:3945
+msgid "Sobex Free Icons"
+msgstr "آیکون های رایگان سابکس"
+
+#: admin/page-style.php:3947
+#, fuzzy
+#| msgid ""
+#| "If you have purchased the plugin from our official platforms, please send a "
+#| "request to get a license to activate the Sobex icons."
+msgid ""
+"If you have purchased the Icon Add-ons pack from our official platforms, Or If "
+"you have it in the Add-ons file, You can upload it here."
+msgstr ""
+"اگر افزونه سابکس تک را از پلتفرم‌های رسمی خریداری کرده‌اید، لطفا درخواستی برای "
+"دریافت لایسنس فعال‌سازی آیکون سابکس از طریق تیکت پشتیبانی آن پلتفرم‌ ارسال کنید."
+
+#: admin/page-style.php:3975
+msgid "Package Name"
+msgstr "نام پکیج"
+
+#: admin/page-style.php:3981
+msgid "Uninstall"
+msgstr ""
+
+#: admin/page-style.php:4017
+msgid "Sobex premium Icons"
+msgstr "آیکون های برتر سابکس"
+
+#: admin/page-style.php:4019
+msgid "Premium icons is coming soon."
+msgstr "آیکون های برتر سابکس به زودی ارائه می شود."
+
+#: admin/page-widget-settings.php:65 admin/page-widget-settings.php:112
+msgid "You Are able now to Translate the strings now in WPML Tab, Please Click"
+msgstr "اکنون می توانید رشته ها را در تب WPML ترجمه کنید، لطفا کلیک کنید"
+
+#: admin/page-widget-settings.php:76 admin/page-widget-settings.php:123
+msgid ""
+"You don't have any String To Translate Please Compelete Strings Form First."
+msgstr ""
+"شما هیچ رشته ای برای ترجمه ندارید لطفا ابتدا عناوین ابزارک ها را وارد کنید."
+
+#: admin/page-widget-settings.php:150
+msgid "Select Your Product tags to display in widget"
+msgstr "برچسب محصولات خود را برای نمایش در ابزارک انتخاب کنید"
+
+#: admin/page-widget-settings.php:169
+msgid "in stock"
+msgstr "موجودی دارد"
+
+#: admin/page-widget-settings.php:170
+msgid "out of stock"
+msgstr "موجودی ندارد"
+
+#: admin/page-widget-settings.php:171
+msgid "backorders"
+msgstr "سفارش با تاخیر"
+
+#: admin/page-widget-settings.php:172
+msgid "On Sale"
+msgstr "حراج"
+
+#: admin/page-widget-settings.php:173
+msgid "popularity"
+msgstr "مرتب سازی بر اساس محبوبیت"
+
+#: admin/page-widget-settings.php:174
+msgid "rating"
+msgstr "امتیاز"
+
+#: admin/page-widget-settings.php:175
+msgid "Newest"
+msgstr "جدیدترین"
+
+#: admin/page-widget-settings.php:176
+msgid "Sort By price: low to high"
+msgstr "مرتب سازی بر اساس قیمت: ارزانترین به گرانترین"
+
+#: admin/page-widget-settings.php:177
+msgid "Sort By price: high to low"
+msgstr "مرتب سازی بر اساس قیمت: گرانترین به ارزانترین"
+
+#: admin/page-widget-settings.php:184
+msgid "Select Your Woocommerce filter to display in widget"
+msgstr "فیلتر ووکامرس خود را برای نمایش در ابزارک انتخاب کنید"
+
+#: admin/page-widget-settings.php:236
+msgid "Sidebar Widget Sortable"
+msgstr "تنظیم ابزارک کناری"
+
+#: admin/page-widget-settings.php:237 admin/page-widget-settings.php:527
+msgid "Widget Header Sortable"
+msgstr "تنظیم ابزارک سربرگ"
+
+#: admin/page-widget-settings.php:248 admin/page-widget-settings.php:526
+msgid "Widget Sidbar Sortable"
+msgstr "ابزارک کناری  قابل ترتیب"
+
+#: admin/page-widget-settings.php:256
+msgid "Attributes"
+msgstr "تنظیم ویژگی های ابزارک کناری"
+
+#: admin/page-widget-settings.php:261
+msgid "Select The attributes that you want to add for widget to filter Products."
+msgstr ""
+"در این قسمت می توانید .. هر کدام از ابزارک های کناری را فعال و غیر فعال کنید ، "
+"بالا یا پایین جدول قرار دهید و نوع ورودی آن انتخاب کنید."
+
+#: admin/page-widget-settings.php:266 admin/page-widget-settings.php:543
+msgid "Run"
+msgstr "فعال"
+
+#: admin/page-widget-settings.php:267 admin/page-widget-settings.php:545
+msgid "Attribute Name"
+msgstr "نام ویژگی ها"
+
+#: admin/page-widget-settings.php:268 admin/page-widget-settings.php:546
+msgid "Style"
+msgstr "نوع ورودی"
+
+#: admin/page-widget-settings.php:269 admin/page-widget-settings.php:547
+msgid "Positions"
+msgstr "موقعیت ها"
+
+#: admin/page-widget-settings.php:286 admin/page-widget-settings.php:562
+msgid "You Don't Have Attributes."
+msgstr "شما ویژگی ندارید."
+
+#: admin/page-widget-settings.php:297 admin/page-widget-settings.php:306
+#: admin/page-widget-settings.php:598
+msgid "Off"
+msgstr "غیر فعال"
+
+#: admin/page-widget-settings.php:298 admin/page-widget-settings.php:599
+msgid "On"
+msgstr "فعال"
+
+#: admin/page-widget-settings.php:350 admin/page-widget-settings.php:475
+#: admin/page-widget-settings.php:690
+msgid "Categories"
+msgstr "دسته ها"
+
+#: admin/page-widget-settings.php:352 admin/page-widget-settings.php:477
+#: admin/page-widget-settings.php:692
+msgid "Search Form"
+msgstr "ورودی جستجو"
+
+#: admin/page-widget-settings.php:354 admin/page-widget-settings.php:479
+#: admin/page-widget-settings.php:616 admin/page-widget-settings.php:694
+msgid "Price Filter"
+msgstr "فیلتر قیمت"
+
+#: admin/page-widget-settings.php:356 admin/page-widget-settings.php:481
+#: admin/page-widget-settings.php:618 admin/page-widget-settings.php:696
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: admin/page-widget-settings.php:358 admin/page-widget-settings.php:483
+#: admin/page-widget-settings.php:620 admin/page-widget-settings.php:698
+msgid "Default Woo Filter"
+msgstr "ایتم های پیش فرض ووکامرس"
+
+#: admin/page-widget-settings.php:365 admin/page-widget-settings.php:369
+msgid "Edit"
+msgstr "ویرایش"
+
+#: admin/page-widget-settings.php:376
+msgid "Min Price: cheapest product price"
+msgstr "حداقل قیمت: ارزان ترین قیمت محصول"
+
+#: admin/page-widget-settings.php:377
+msgid "Min Price: Starting from Zero"
+msgstr "حداقل قیمت: شروع از صفر"
+
+#: admin/page-widget-settings.php:412
+msgid "Style One"
+msgstr "اسلاید یک طرف"
+
+#: admin/page-widget-settings.php:413
+msgid "Style Two"
+msgstr "اسلاید دو طرف"
+
+#: admin/page-widget-settings.php:420 admin/page-widget-settings.php:639
+msgid "One Side"
+msgstr "یکطرف"
+
+#: admin/page-widget-settings.php:421 admin/page-widget-settings.php:640
+msgid "Two Sides"
+msgstr "دو طرف"
+
+#: admin/page-widget-settings.php:428
+msgid "Select Style"
+msgstr "جعبه گزینش"
+
+#: admin/page-widget-settings.php:430
+msgid "Checkbox Color Style"
+msgstr "جعبه انتخاب(رنگ)"
+
+#: admin/page-widget-settings.php:431
+msgid "Checkbox label Style"
+msgstr "برچسب جعبه انتخاب"
+
+#: admin/page-widget-settings.php:433
+msgid "Radio Color Style"
+msgstr "دکمه‌ رادیویی(رنگ)"
+
+#: admin/page-widget-settings.php:434
+msgid "Radio label Style"
+msgstr "برچسب دکمه‌ رادیویی"
+
+#: admin/page-widget-settings.php:467 admin/page-widget-settings.php:682
+msgid "Widget Label Name"
+msgstr "عناون ابزارک"
+
+#: admin/page-widget-settings.php:468 admin/page-widget-settings.php:683
+msgid ""
+"In this section, you can add the texts that you want to appear above each "
+"table, but we recommend you write the text in the original site language."
+msgstr ""
+"در این بخش می‌توانید عناوین ابزارک ها اضافه کنید، توصیه می‌کنیم متن را به زبان "
+"اصلی سایت بنویسید."
+
+#: admin/page-widget-settings.php:494 admin/page-widget-settings.php:709
+msgid "Example: Filter by"
+msgstr "مثال: فیلتر بر اساس"
+
+#: admin/page-widget-settings.php:533
+msgid "Attributes Setting"
+msgstr "تنظیم ویژگی ها ابزارک سربرگ"
+
+#: admin/page-widget-settings.php:538
+msgid "We Recommend You To use At least 4 Attributes."
+msgstr ""
+"اگر می خواهید هر کدام از ابزارک ها زیر فقط در تبلت و موبایل فعال باشد ، حتما "
+"گزینه (فعال) در قسمت (تبلت و موبایل) انتخاب کنید. غیر این صورت ، در دسکتاپ و "
+"سایر گوشی ها همزمان نمایش خواهند شد."
+
+#: admin/page-widget-settings.php:544
+msgid "Tablet & Mobile Only"
+msgstr "فقط تبلت و موبایل"
+
+#: admin/page-widget-settings.php:647
+msgid "Checkbox Color"
+msgstr "جعبه انتخاب (رنگ)"
+
+#: admin/page-widget-settings.php:648
+msgid "Checkbox Label"
+msgstr "جعبه انتخاب (برچسب)"
+
+#: admin/page-widget-settings.php:649
+msgid "Radio"
+msgstr "دکمه‌ رادیویی"
+
+#: admin/page-widget-settings.php:650
+msgid "Radio Color"
+msgstr "دکمه‌ رادیویی(رنگ)"
+
+#: admin/page-widget-settings.php:651
+msgid "Radio Label"
+msgstr "برچسب دکمه‌ رادیویی"
+
+#: admin/page-widget-settings.php:738
+msgid "Please Turn on Widget Header in Main Setting First to edit the widget!"
+msgstr ""
+"برای ویرایش، لطفا ابتدا ابزارک سربرگ را از تنظیمات فعال نمایید بعد ابزارک "
+"سربرگ سابکس ویرایش کنید!"
+
+#: admin/page-widget-settings.php:745
+msgid ""
+"You Are Using Only Menu, If you want to use filter widget please select Off/"
+"merger with filter in Menu Slide tab (Settings)."
+msgstr ""
+"شما فقط از فهرست کشویی (منواسلاید) استفاده می کنید، اگر می خواهید به تنهایی از "
+"ابزارک فیلتر کناری استفاده کنید، لطفا (منواسلاید) را غیر فعال کنید . و اگر می "
+"خواهید همزمان منو با ابزارک کناری استفاده کنید. لطفا گزینه (ادغام) را از بخش "
+"(تنظیمات) فهرست کشویی (منواسلاید) فعال کنید."
+
+#: admin/sobex-tech-admin-ajax.php:140
+msgid ""
+"Your zip file was uploaded and unpacked & Settings has been updated "
+"Successfully.!"
+msgstr ""
+"فایل فشرده zip شما آپلود و از بسته بندی خارج شد .. تنظیمات شما با موفقیت به "
+"روز شد.!"
+
+#: admin/sobex-tech-admin-ajax.php:148 admin/sobex-tech-admin-ajax.php:579
+#: admin/sobex-tech-admin-ajax.php:665 admin/sobex-tech-admin-ajax.php:714
+#: admin/sobex-tech-admin-ajax.php:745 admin/sobex-tech-admin-ajax.php:791
+#: admin/sobex-tech-admin-ajax.php:819 admin/sobex-tech-admin-ajax.php:1128
+#: admin/sobex-tech-admin-ajax.php:1216 admin/sobex-tech-admin-ajax.php:1233
+#: admin/sobex-tech-admin-ajax.php:1295 admin/sobex-tech-admin-ajax.php:1337
+#: admin/sobex-tech-admin-ajax.php:1346 admin/sobex-tech-admin-ajax.php:1378
+#: admin/sobex-tech-admin-ajax.php:1451 admin/sobex-tech-admin-ajax.php:1495
+#: admin/sobex-tech-admin-ajax.php:1537 admin/sobex-tech-admin-ajax.php:1663
+msgid "Error"
+msgstr "خطا"
+
+#: admin/sobex-tech-admin-ajax.php:150 admin/sobex-tech-admin-ajax.php:1539
+msgid "The file you are trying to upload is not a .zip file. Please try again."
+msgstr ""
+"فایلی که می‌خواهید آپلود کنید ، فایل فشرده zip نمی باشد. لطفا دوباره تلاش کنید."
+
+#: admin/sobex-tech-admin-ajax.php:152 admin/sobex-tech-admin-ajax.php:1541
+msgid "Error: File is not exists."
+msgstr "خطا: فایل وجود ندارد."
+
+#: admin/sobex-tech-admin-ajax.php:157
+msgid "Failed to add to database wp_sobex_tech_widget_sidebar."
+msgstr ""
+"خطا: افزودن پایگاه داده ها به wp_sobex_tech_widget_sidebar ناموفق می باشد."
+
+#: admin/sobex-tech-admin-ajax.php:159
+msgid "Failed to add to database wp_sobex_tech_widget_header."
+msgstr ""
+"خطا: افزودن پایگاه داده ها به wp_sobex_tech_widget_header ناموفق می باشد."
+
+#: admin/sobex-tech-admin-ajax.php:161
+msgid "Failed to add to database wp_sobex_tech_widget_menu."
+msgstr "خطا: افزودن پایگاه داده ها به wp_sobex_tech_widget_menu ناموفق می باشد."
+
+#: admin/sobex-tech-admin-ajax.php:163
+msgid "Failed to add to database wp_sobex_tech_user_packages."
+msgstr ""
+"خطا: افزودن پایگاه داده ها به wp_sobex_tech_user_packages ناموفق می باشد."
+
+#: admin/sobex-tech-admin-ajax.php:165
+msgid "Extraced failed."
+msgstr "استخراج انجام نشد."
+
+#: admin/sobex-tech-admin-ajax.php:168 admin/sobex-tech-admin-ajax.php:1544
+msgid "There was a problem with the upload. Please try again."
+msgstr "مشکلی در آپلود بوجود امد. لطفا دوباره تلاش کنید."
+
+#: admin/sobex-tech-admin-ajax.php:589 admin/sobex-tech-admin-ajax.php:675
+#: admin/sobex-tech-admin-ajax.php:724 admin/sobex-tech-admin-ajax.php:755
+#: admin/sobex-tech-admin-ajax.php:801 admin/sobex-tech-admin-ajax.php:829
+#: admin/sobex-tech-admin-ajax.php:994 admin/sobex-tech-admin-ajax.php:1067
+#: admin/sobex-tech-admin-ajax.php:1139
+msgid "Your changes are saved successfully.!"
+msgstr "تغییرات شما با موفقیت ذخیره شد.!"
+
+#: admin/sobex-tech-admin-ajax.php:984
+msgid "Error: While updating the data."
+msgstr "خطا: هنگام به روز رسانی داده ها خطایی روی داد."
+
+#: admin/sobex-tech-admin-ajax.php:992
+msgid "Successed: The data has been updated"
+msgstr "موفقیت: داده ها به روز شده است"
+
+#: admin/sobex-tech-admin-ajax.php:1057
+msgid "Error: While resetting sidebar Style. Or Already has been reset before."
+msgstr ""
+"خطا: هنگام بازنشانی سبک نوار کناری خطا رخ داد و یا قبلا بازنشانی شده است."
+
+#: admin/sobex-tech-admin-ajax.php:1065
+msgid "Successed: Sidebar Style has been reset"
+msgstr "موفقیت : سبک نوار کناری با موفقیت بازنشانی شده است"
+
+#: admin/sobex-tech-admin-ajax.php:1129
+msgid " While resetting header Style. Or Already has been reset before."
+msgstr ""
+" خطا: هنگام بازنشانی مجدد سبک سربرگ خطا رخ داد و یا قبلا بازنشانی شده است."
+
+#: admin/sobex-tech-admin-ajax.php:1137
+msgid "Successed: Header Style has been reset"
+msgstr "موفقیت : سبک سربرگ با موفقیت بازنشانی شده است"
+
+#: admin/sobex-tech-admin-ajax.php:1217
+msgid "While Updating Menu."
+msgstr "در حالی به روزرسانی منو فهرست کشویی (منواسلاید)"
+
+#: admin/sobex-tech-admin-ajax.php:1227
+msgid "Your Menu has been Updated!"
+msgstr "فهرست کشویی شما به روز شده است!"
+
+#: admin/sobex-tech-admin-ajax.php:1296
+msgid "While resetting Menu Style. Or Already has been reset before."
+msgstr ""
+"هنگام تنظیم مجدد سبک منو (منواسلاید) خطا رخ داد و یا قبلا بازنشانی شده است."
+
+#: admin/sobex-tech-admin-ajax.php:1306
+msgid "Your Menu Style has been reset!"
+msgstr "سبک منو (منواسلاید) شما بازنشانی شده است!"
+
+#: admin/sobex-tech-admin-ajax.php:1347
+msgid "While resetting Menu Icons. Or Already has been reset before."
+msgstr ""
+"خطا: هنگام بازنشانی آیکون های منو (منواسلاید) خطا رخ داد و یا قبلا بازنشانی "
+"شده است."
+
+#: admin/sobex-tech-admin-ajax.php:1357
+msgid "Your Menu Icons has been reset!"
+msgstr "آیکون های منو (منواسلاید) شما بازنشانی شده است!"
+
+#: admin/sobex-tech-admin-ajax.php:1380
+msgid "Please Write your name first.!"
+msgstr "لطفا اول نام خود را بنویسید.!"
+
+#: admin/sobex-tech-admin-ajax.php:1383
+msgid "Please Write your email first.!"
+msgstr "لطفا ابتدا ایمیل خود را بنویسید.!"
+
+#: admin/sobex-tech-admin-ajax.php:1386
+msgid "Please Write your problem first.!"
+msgstr "لطفا ابتدا شرح مشکل خود را بنویسید.!"
+
+#: admin/sobex-tech-admin-ajax.php:1445
+msgid "Your Message has been sent."
+msgstr "پیام شما ارسال شد."
+
+#: admin/sobex-tech-admin-ajax.php:1452
+msgid "Message could not be sent."
+msgstr "پیام ارسال نشد."
+
+#: admin/sobex-tech-admin-ajax.php:1485
+msgid "The icon pack has been uninstalled successfully"
+msgstr "تغییرات شما با موفقیت ذخیره شد"
+
+#: admin/sobex-tech-admin-ajax.php:1496
+msgid "The package does not exist or the uninstallation process failed"
+msgstr "بسته وجود ندارد یا فرآیند حذف نصب انجام نشد"
+
+#: admin/sobex-tech-admin-ajax.php:1529
+msgid ""
+"Your zip file was uploaded and unpacked & Addon has been added Successfully.!"
+msgstr "فایل فشرده شما آپلود شد و بسته بندی شد و افزونه با موفقیت اضافه شد.!"
+
+#: admin/sobex-tech-admin-ajax.php:1652
+msgid "Plugin has been Activated Successfully.!"
+msgstr "افزونه با موفقیت فعال شد.!"
+
+#: admin/sobex-tech-admin-ajax.php:1654
+msgid "Plugin Already been Activated"
+msgstr "بسته قبلا فعال شده است"
+
+#: admin/sobex-tech-admin-ajax.php:1665
+msgid "Couldn't Insert License Code into database.!"
+msgstr "کد لایسنس در پایگاه داده وارد نشد.!"
+
+#: admin/sobex-tech-admin-ajax.php:1667
+msgid "Your License Code is not in our system.!"
+msgstr "کد لایسنس شما در سیستم ما نیست.!"
+
+#: admin/sobex-tech-admin-ajax.php:1670
+msgid "Your Purchase Code is Not Valid.!"
+msgstr "کد خرید شما معتبر نیست.!"
+
+#: sobex-tech.php:322
+msgid "Zhaket Shop"
+msgstr "فروشگاه ژاکت"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:56
+msgid "View details"
+msgstr "جزئیات"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr "اطلاعات بیشتر در مورد %s"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr "بررسی روز رسانی"
+
+#: updater/Puc/v5p0/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "افزونه %s به روز است."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "نسخه جدیدی از افزونه %s در دسترس است."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "نمی توان تعیین کرد که آیا به روز رسانی برای %s موجود است یا خیر."
+
+#: updater/Puc/v5p0/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "وضعیت جستجوگر به‌روزرسانی ناشناخته \"%s\""
+
+#: updater/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "هیچ تغییری در دسترس نیست."
+
+#: views/widgets/sobex-filter-widget.php:9
+#: views/widgets/sobex-filter-widget.php:10
+msgid "Sobex tech Filter"
+msgstr "سابکس تک"
+
+#: views/widgets/sobex-filter-widget.php:31
+msgid "Please Do the Plugin Settings First"
+msgstr "لطفا ابتدا تنظیمات افزونه را انجام دهید"
+
+#. Plugin Name of the plugin/theme
+msgid "SOBEX TECH"
+msgstr "سابکس ‌تک"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.zhaket.com/store/web/sobextech"
+msgstr "https://www.zhaket.com/store/web/sobextech"
+
+#. Description of the plugin/theme
+msgid ""
+"SOBEX TECH has multiple professional plugins to achieve your Woocommerce & "
+"WordPress with special abilities."
+msgstr ""
+"سابکس ‌تک دارای چندین افزونه حرفه ای برای دست یافتن به توانایی های ویژه به "
+"ووکامرس و وردپرس است."
+
+#. Author of the plugin/theme
+msgid "Sobex"
+msgstr "سابکس"
+
+#~ msgid "Product introduction in our Website (Sobex Tech)"
+#~ msgstr "معرفی محصولات در وب سایت (سابکس ‌تک)"
+
+#~ msgid "Level 5"
+#~ msgstr "سطح 5"
+
+#~ msgid ""
+#~ "Note: When you get the code, you can add it in the next field to activate "
+#~ "it."
+#~ msgstr ""
+#~ "توجه: وقتی لایسنس را دریافت کردید، می توانید آن را در قسمت زیر اضافه کنید "
+#~ "تا فعال شود."
+
+#~ msgid "Status"
+#~ msgstr "وضعیت پکیج"
+
+#~ msgid "Expire Date"
+#~ msgstr "تاریخ انقضا"
+
+#~ msgid "Date"
+#~ msgstr "مدت اعتبار"
+
+#~ msgid "Code"
+#~ msgstr "لایسنس"
+
+#~ msgid "Deactivate"
+#~ msgstr "غیر فعال"
+
+#~ msgid "activated"
+#~ msgstr "فعال"
+
+#~ msgid "expired"
+#~ msgstr "منقضی"
+
+#~ msgid "deactivated"
+#~ msgstr "غیر فعال"
+
+#~ msgid "days left"
+#~ msgstr "روز مانده"
+
+#~ msgid "Sorry. License may be incorrect."
+#~ msgstr "متاسفانه.. مجوز ممکن است نادرست باشد."
+
+#~ msgid "Did not succeed."
+#~ msgstr "با موفقیت انحام نشد."
+
+#, fuzzy
+#~| msgid "Package has been Activated.!"
+#~ msgid "Package has been deactivated.!"
+#~ msgstr "بسته فعال شد.!"
+
+#~ msgid "Package has been removed.!"
+#~ msgstr "بسته حذف شده است.!"
+
+#~ msgid "https://sobextech.com"
+#~ msgstr "https://sobextech.com/fa"
+
+#~ msgid "If you are deleting SOBEX, please take a backup export!"
+#~ msgstr "اگر قصد دارید ، افزونه سایکس را حذف کنید، لطفا بکاپ بگیرید!"
+
+#~ msgid "Show widget sidebar"
+#~ msgstr "ابزارک کناری نمایش داده شود"
+
+#~ msgid "Your Domain"
+#~ msgstr "دامنه شما"
+
+#~ msgid "Free Icon Packge"
+#~ msgstr "آیکن های رایگان"
+
+#~ msgid "Active"
+#~ msgstr "فعال"
+
+#~ msgid "1 year"
+#~ msgstr "یک سال"
+
+#~ msgid "Please Try again."
+#~ msgstr "لطفا مجددا تلاش کنید."
+
+#~ msgid ""
+#~ "All Attribues and Settings added Auto please go to attribue tab to do the "
+#~ "Settings."
+#~ msgstr ""
+#~ "توجه: در صورت مشاهده این پیام ، یعنی ووکامرس شما دارای ویژگی ها از قبل است. "
+#~ "ویرایش ویژگی ها ، صرفا در ووکامرس انجام می شود."
+
+#~ msgid "No thanks."
+#~ msgstr "نه، ممنون."
+
+#~ msgid "https://www.sobextech.com/"
+#~ msgstr "https://sobextech.com/fa/"
+
+#~ msgid "Select Icon For"
+#~ msgstr "انتخاب آیکون برای"
+
+#~ msgid "Checkbox Box Style"
+#~ msgstr "جعبه انتخاب(برچسب)"
+
+#~ msgid "Radio Box Style"
+#~ msgstr "دکمه‌ رادیویی(برچسب)"
+
+#~ msgid "Sort By Rating"
+#~ msgstr "مرتب سازی بر اساس امتیاز"
+
+#~ msgid "Sort By Newness"
+#~ msgstr "مرتب سازی بر اساس جدیدترین"
+
+#~ msgid "Close Icon"
+#~ msgstr "بستن آیکون"
+
+#~ msgid "Menu Icons"
+#~ msgstr "آیکون منو"
+
+#~ msgid "Error: Option File is not JSON."
+#~ msgstr "خطا: فایل با پسوند JSON نیست."
+
+#~ msgid "Shop"
+#~ msgstr "فروشگاه"
+
+#~ msgid "You are using Header Filter, Wait for the content to load first."
+#~ msgstr ""
+#~ "شما از فیلتر سربرگ استفاده می کنید، ابتدا صبر کنید تا محتوا بارگیری شود."
+
+#~ msgid "Select"
+#~ msgstr "انتخاب"
+
+#~ msgid "Error: Server Timeout, Please Try Again."
+#~ msgstr "توجه: سرور مشغول است لطفا مجددا امتحان کنید."
+
+#~ msgid "Filtering Now"
+#~ msgstr "در حال فیلتر است"
+
+#~ msgid "You are using Sidebar Filter, Wait for the content to load first."
+#~ msgstr ""
+#~ "شما از فیلتر ابزارک کناری استفاده می کنید، ابتدا صبر کنید تا محتوا بارگیری "
+#~ "شود."
+
+#~ msgid "Quick Search"
+#~ msgstr "جستجوی سریع"
+
+#~ msgid "Clear Search"
+#~ msgstr "پاک کردن جستجو"
+
+#~ msgid "Click to Filter mode"
+#~ msgstr "طرح قدیم"
+
+#~ msgid ""
+#~ "A Filter All Button to filter Products, Only Displayed in (Click to Filter "
+#~ "Mode)."
+#~ msgstr "نمایش دکمه های (همه فیلتر شوند) ، (حذف فیلتر‌ها) در طرح قدیم ."
+
+#~ msgid "Clear Search Button"
+#~ msgstr "دکمه حذف فیلتر‌ها"
+
+#~ msgid "A Clear All Button to Clear widget fields."
+#~ msgstr "یک دکمه پاک کردن همه برای فیلدهای ویجت."
+
+#~ msgid "Menu Parent Icon Color"
+#~ msgstr "رنگ آیکون منو پدر"
+
+#~ msgid "Menu child Icon"
+#~ msgstr "آیکون منو فرزند"
+
+#~ msgid "Menu Child Icon Color"
+#~ msgstr "رنگ آیکون منو فرزند"
+
+#~ msgid "Filter By"
+#~ msgstr "فیلتر بر اساس"
+
+#~ msgid "Loading Contents"
+#~ msgstr "در حال بارگذاری"
+
+#~ msgid "Your changes are saved successfully.!!"
+#~ msgstr "تغییرات شما با موفقیت ذخیره شد.!!"
+
+#~ msgid ""
+#~ "An Widget Style, The Classic is an Original widget style to filter, Modern "
+#~ "is an Attractive Widget Style for filter"
+#~ msgstr ""
+#~ "سبک ویجت : کلاسیک یک سبک ویجت اصلی برای فیلتر است، مدرن یک سبک ویجت جذاب "
+#~ "برای فیلتر است"
+
+#~ msgid "One Full Widget Section"
+#~ msgstr "یک بخش کامل ویجت"
+
+#~ msgid "The Full widget is a one part, and other is many part"
+#~ msgstr "The Full widget is a one part, and other is many part"
+
+#~ msgid "Filter Without Click"
+#~ msgstr "فیلتر بدون کلیک"
+
+#~ msgid "Filter button before widget"
+#~ msgstr "دکمه پاک کردن فیلتر بالای ویجت"
+
+#~ msgid "Filter button after widget"
+#~ msgstr "دکمه پاک کردن فیلتر پایین ویجت"
+
+#~ msgid ""
+#~ "If your Customers are lazy to click a button to filter we suggest you to "
+#~ "use this."
+#~ msgstr ""
+#~ "اگر مشتریان شما کم حوصله هستند و  روی دکمه فیلتر کردن کلیک نمی کنند، ما به "
+#~ "شما پیشنهاد می کنیم از آن استفاده کنید."
+
+#~ msgid "No Clear"
+#~ msgstr "پاک نشود"
+
+#~ msgid "Clear button before widget"
+#~ msgstr "دکمه پاک کردن فیلتر بالای ویجت"
+
+#~ msgid "This Future is to clear the used widget."
+#~ msgstr "این ایتم  برای پاک کردن ویجت استفاده شده است."
+
+#~ msgid ""
+#~ "The post status is is for proudct status that displaying for customers "
+#~ "after filter ."
+#~ msgstr ""
+#~ "وضعیت پست مربوط به وضعیت محصول است که پس از فیلتر برای مشتریان نمایش داده "
+#~ "می شود."
+
+#~ msgid "Sobex Filter Managment"
+#~ msgstr "مدیریت فیلتر سابکس"
+
+#~ msgid "Sobex Swatches"
+#~ msgstr "سواچ سوابکس"
+
+#~ msgid "Our Plugins"
+#~ msgstr "افزونه های ما"
+
+#~ msgid ""
+#~ "Product variation swatches add style to your product presentation. It's "
+#~ "captivating enough to capture your visitors attention."
+#~ msgstr ""
+#~ "جذابیت نمایش ویژگی های محصولات خود مانند رنگ و سایز وغیره با سبک منحصر به "
+#~ "فرد در فروشگاه خود بیفزایید .بازدیدکنندگان شما را حتما جذب خواهد کرد."
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "Fixing Issues"
+#~ msgstr "رفع مشکلات"
+
+#~ msgid "Design"
+#~ msgstr "طراحی"
+
+#~ msgid "Send Request"
+#~ msgstr "ارسال  درخواست"
+
+#~ msgid "Mange Settings"
+#~ msgstr "مدیریت تنظیمات"
+
+#~ msgid "Export Type"
+#~ msgstr "نوع برون بری"
+
+#~ msgid "Import By Copy & Past"
+#~ msgstr "درون ریزی با کپی پیست"
+
+#~ msgid "Sobex Filter Style"
+#~ msgstr "استایل فیلتر سابکس"
+
+#~ msgid ""
+#~ "Please Select Only 4 Widget That you want to display before loop Products"
+#~ msgstr ""
+#~ "لطفا حد اقل 1 ویجت هدر و استاندارد 4   ویجت هدر  را انتخاب کنید تا در قسمت "
+#~ "بالای محصولات برگه فروشگاه نمایش داده شود"
+
+#~ msgid "Saving..."
+#~ msgstr "ذخیره..."
+
+#~ msgid "Color Checkbox"
+#~ msgstr "رنگ چک باکس"
+
+#~ msgid "Color Radio"
+#~ msgstr "رنگ رادیو باکس"
+
+#~ msgid "Inctive"
+#~ msgstr "غیر فعال"
+
+#~ msgid "Filter By Radio"
+#~ msgstr "فیلتر با رادیو باتن"
+
+#~ msgid "Filter By "
+#~ msgstr "فیلتر بر  اساس "
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "Stock"
+#~ msgstr "موجودی"
+
+#~ msgid "Sale"
+#~ msgstr "حراج"
+
+#~ msgid "DAP Sobex Tech-filter"
+#~ msgstr "فیلتر سابکس ‌تک"
+
+#~ msgid "On Services"
+#~ msgstr "خدمات ما"
+
+#~ msgid "We are adding more futures to the Menu Plugin..."
+#~ msgstr "ما در حال اضافه کردن ویژگی های چذاب به افزونه منواسلاید هستیم..."
+
+#~ msgid "DAP Sobex-Filter"
+#~ msgstr "فیلتر سابکس"
